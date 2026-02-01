@@ -21,7 +21,17 @@ CRN 32738
   * Markdown [1](https://guides.github.com/features/mastering-markdown/), [2](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
   * [The Missing Semester of Your CS Education](https://missing.csail.mit.edu/)
   * [Class slides](https://docs.google.com/presentation/d/1w_90xM9p4Kz7Q7b-kUWCr9Gcl93u1rIQdw1YQANsoF8/edit) 
-* Week 02: Feb 2 Academic Presence, Research Careers 
+* Week 02: Feb 2 Academic Presence, Tools
+  * LaTeX
+    * Example doc with images and tables, https://www.overleaf.com/read/wdpmbwqbrzpm
+    * Free online introduction to LaTeX (HW1), https://www.overleaf.com/learn/latex/Free_online_introduction_to_LaTeX_(part_1) 
+    * Learn LaTeX in 30 minutes, https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes 
+    * Learn LaTeX, https://www.learnlatex.org/en/ 
+  * BibTeX
+    * Format, http://www.bibtex.org/Format/ 
+    * Entry types, https://www.bibtex.com/e/entry-types/ 
+    * Example document at Overleaf using BibTeX, https://www.overleaf.com/project/5e4bfe2d474903000194980d 
+  * [Class slides](https://docs.google.com/presentation/d/1e5ny5Ar2u4q6edq3HfcbXDgX-jEvEPN8NbPf6Yk1bMk/edit)
 * Week 03:	Feb 9	Reading Academic Papers  
 * Week 04: Feb 16 Academic Publishing and Reviewing 
 * Week 05:	Feb 23 Academic Communication - Writing  
@@ -40,5 +50,7 @@ CRN 32738
 
 * Weekly review of current events: https://groups.google.com/g/cs800-s26
 
-* Assignment 1: Course Setup and RCR
+* Assignment 1: Course Setup
    * [Due: Feb 2](/assignments/assignment-01.md)
+* Assignment 2: Academic Presence, RCR
+   * [Due: Feb 9](/assignments/assignment-02.md)

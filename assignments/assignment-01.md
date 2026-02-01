@@ -1,4 +1,4 @@
-# Assignment 1, Course Setup and RCR
+# Assignment 1, Course Setup
 ## CS 800 Research Methods, Spring 2026
 
 Due: 2026-02-02
