@@ -45,10 +45,17 @@ I will update this website as I continue learning and working at ODU
 
 Here is the example latex project
 
-- 'latex_example\example_project.pdf
+- [Latex document](latex_example/example_project.pdf)
 
 ## Responsible Conduct of Research (RCR)'
 
 I completed the RCR
 
-- 'RCR\RCR_proof.png'
+- [RCR completion](RCR/RCR_proof.png)
+
+## Youtube link
+
+Here is the youtube link of me going over everything I did
+
+
+https://youtu.be/HuRCdPi74M8
