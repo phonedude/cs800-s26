@@ -37,17 +37,25 @@ This repository contains:
 - Dr. Vikas G. Ashok  
 - Dr. Ravi Mukkamala
 
+![Google Scholar](googleScholar.png)
 ---
 
 ### ORCID
 **ORCID link:** [https://orcid.org/0009-0005-6179-5403]
 
+![ORCID](orcid.png)
+
 ### LinkedIn
 **Profile link:** [https://www.linkedin.com/in/chameli-dommanige-90b94615a/]
+
+![LinkedIn account](linkedin.png)
+
 
 ## Academic Webpage
 **Webpage link:** [https://chamelid.github.io/]  
 **ODU redirect link:** [https://www.cs.odu.edu/~cs_cdomm001/]
+
+![Academic Webpage](AcademicWebpage.png)
 
 **Description:**
 - Updated the existing professional academic webpage  
