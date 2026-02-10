@@ -105,7 +105,7 @@ Completed **“Responsible Conduct of Research for Engineers”** modules at Old
 ## 6. Walkthrough Video
 
 **YouTube Link:**  
-[Assignment 2 Walkthrough Video](PASTE_YOUTUBE_LINK_HERE)
+https://youtu.be/eNcpnhtHoS4  
 
 **Notes:**  
 Demonstrates all accounts, RCR completion, and academic webpage.
@@ -117,3 +117,5 @@ Demonstrates all accounts, RCR completion, and academic webpage.
 - All accounts include profile pictures and filled bios  
 - Repository structure is organized for easy navigation  
 - Links are bi-directional where applicable  
+
+_Last updated: February 9, 2026_
