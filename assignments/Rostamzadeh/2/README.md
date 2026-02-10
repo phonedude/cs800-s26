@@ -146,3 +146,8 @@ The latex/ directory contains:
 The compiled PDF generated from Overleaf, demonstrating successful use of LaTeX and completion of the required template customization.
 
 This PDF was downloaded directly from Overleaf and is included here as part of the Assignment 2 submission.
+
+
+
+## Completion Video URL
+YouTube Video: https://www.youtube.com/watch?v=v8Vr0rC8Oy4
