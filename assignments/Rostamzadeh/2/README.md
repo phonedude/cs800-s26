@@ -84,8 +84,8 @@ URL for my ORCID:
 https://orcid.org/0000-0003-0977-6510
 
 #### ORCID Profile
-
-![ORCID profile](ORCID/orcid.png)
+A screenshot of my ORCID profile:
+[ORCID profile](ORCID/orcid.png)
 
 - ORCID URL
   https://orcid.org/0000-0003-0977-6510
@@ -108,6 +108,12 @@ A screenshot of the main LinkedIn profile page showing my name, headline, and pr
 - **LinkedIn profile:**  
 https://www.linkedin.com/in/mehrdad-rostamzadeh-513b11ab 
 
+Linkedin profile
+
+[![LinkedIn Profile](linkedin/profile.png)](linkedin/profile.png)
+
+[![LinkedIn Linked Websites](linkedin/linked_websites.png)](linkedin/linked_websites.png)
+
 
 ## Academic Webpage
 
@@ -115,7 +121,7 @@ I have created a professional academic webpage that serves as the central hub fo
 The webpage includes my role as a PhD student in the Computer Science Department at Old Dominion University, my email address, and links to my Google Scholar, ORCID, LinkedIn, and GitHub profiles.
 
 Academic webpage:
-https://YOUR-https://student.wp.odu.edu/mrost004/
+https://student.wp.odu.edu/mrost004/
 -WEBPAGE-URL
 
 ODU CS redirect:
@@ -134,7 +140,9 @@ I created an Overleaf account and completed Part 1 of the LaTeX introduction as 
 
 The latex/ directory contains:
 
-latex_basics.pdf
+[LaTeX Basics (PDF)](latex/latex_basics.pdf)
+
+
 The compiled PDF generated from Overleaf, demonstrating successful use of LaTeX and completion of the required template customization.
 
 This PDF was downloaded directly from Overleaf and is included here as part of the Assignment 2 submission.
