@@ -161,7 +161,7 @@ H. Bastani, O. Bastani, A. Sungu, H. Ge, Ö. Kabakcı, and R. Mariman, "Generati
 }
 ```
 
-**Problem:** While generative AI improves task performance, it is unclear whether it helps or harms the acquisition of new skills — a critical question for education where long-term learning matters more than short-term performance, and where AI is unreliable enough that users need their own skills to catch errors.
+**Problem:** While generative AI improves task performance, it is unclear whether it helps or harms the acquisition of new skills. This is a critical question for education where long-term learning matters more than short-term performance, and where AI is unreliable enough that users need their own skills to catch errors.
 
 **Approach:** Pre-registered, large-scale randomized controlled trial with ~1,000 high school math students in Turkey, comparing three conditions across four 90-minute sessions: GPT Base (standard ChatGPT-like interface), GPT Tutor (with teacher-designed hints, solutions in the prompt, and safeguards against giving away answers), and a no-AI control group.
 
@@ -217,4 +217,4 @@ My research focuses on building an intelligent teaching assistant for quantum co
 | Wang et al. (2025) | Directly related multi-agent ITS architecture; my system uses a similar dual-agent approach with specialized roles for different tutoring functions |
 | LeCun (2022) | Identifies fundamental LLM limitations (planning, reasoning, world models) that motivate my separation of concerns and structured agent architecture beyond raw LLM generation |
 | Bastani et al. (2025) | Provides RCT evidence that unguarded AI harms learning; motivates the pedagogical guardrails and scaffolding in my agent design to prevent over-reliance |
-| Hughes et al. (2022) | Establishes the quantum workforce gap — the range of jobs, skills, and degrees needed — that my educational platform aims to help address |
+| Hughes et al. (2022) | Establishes the quantum workforce gap, which comprises the range of jobs, skills, and degrees needed, which my educational platform aims to help address |
