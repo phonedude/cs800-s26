@@ -46,7 +46,7 @@ Mahanama, B., Ashok, V., & Jayarathna, S. (2024, August). Multi-eyes: A framewor
   - Designed a three-step multi-user eye-tracking framework using commodity webcams.
   - Demonstrated feasibility through a joint attention case study with results comparable to state-of-the-art conventional eye-tracking setups.
 
-**Marked-up PDF:** [Papers/1. Multi-Eyes_ A Framework for Multi-User Eye-Tracking using Webcameras.pdf](Papers/1.%20Multi-Eyes_%20A%20Framework%20for%20Multi-User%20Eye-Tracking%20using%20Webcameras.pdf)
+**Marked-up PDF:** [1. Multi-Eyes_ A Framework for Multi-User Eye-Tracking using Webcameras.pdf](papers/1.%20Multi-Eyes_%20A%20Framework%20for%20Multi-User%20Eye-Tracking%20using%20Webcameras.pdf)
 
 ---
 
@@ -81,7 +81,7 @@ Mahanama, B., Ashok, V., & Jayarathna, S. (2025, August). Unsupervised Domain Ad
   - Proposed an unsupervised domain adaptation approach using adversarial discriminative classification.
   - Demonstrated improved generalizability and domain adaptability across five publicly available datasets with varying input/output domains.
 
-**Marked-up PDF:** [Papers/2. Unsupervised Domain Adaptation for Appearance-Based Gaze Estimation.pdf](Papers/2.%20Unsupervised%20Domain%20Adaptation%20for%20Appearance-Based%20Gaze%20Estimation.pdf)
+**Marked-up PDF:** [2. Unsupervised Domain Adaptation for Appearance-Based Gaze Estimation.pdf](papers/2.%20Unsupervised%20Domain%20Adaptation%20for%20Appearance-Based%20Gaze%20Estimation.pdf)
 
 ---
 
@@ -115,7 +115,7 @@ Wisiecka, K., Krejtz, K., Krejtz, I., Sromek, D., Cellary, A., Lewandowska, B., 
   - Provided the first study examining dynamics of ambient/focal visual attention recorded via a webcam eye tracker.
   - Validated a protocol integrating webcam software with a remote eye tracker within a single web-based interface.
 
-**Marked-up PDF:** [Papers/3. Comparison of Webcam and Remote Eye Tracking.pdf](Papers/3.%20Comparison%20of%20Webcam%20and%20Remote%20Eye%20Tracking.pdf)
+**Marked-up PDF:** [3. Comparison of Webcam and Remote Eye Tracking.pdf](papers/3.%20Comparison%20of%20Webcam%20and%20Remote%20Eye%20Tracking.pdf)
 
 ---
 
@@ -148,7 +148,7 @@ Papoutsaki, A., Laskey, J., & Huang, J. (2017, March). Searchgazer: Webcam eye t
   - Developed and released SearchGazer, an open-source real-time webcam eye tracking library embeddable in any search page.
   - Demonstrated its validity by replicating key findings from three seminal web search eye tracking studies using remote crowd-workers at a fraction of the cost and time.
 
-**Marked-up PDF:** [Papers/4. Searchgazer.pdf](Papers/4.%20Searchgazer.pdf)
+**Marked-up PDF:** [4. Searchgazer.pdf](papers/4.%20Searchgazer.pdf)
 
 ---
 
@@ -182,7 +182,7 @@ Zhang, H., Wu, S., Chen, W., Gao, Z., & Wan, Z. (2023). Self-calibrating gaze es
   - Built a pupil-contour-based 3D gaze estimation model using the OAP with fewer unknown parameters and simpler hardware than prior methods.
   - Proposed a scene-independent implicit calibration method using natural gaze patterns that outperforms state-of-the-art head-mounted methods requiring explicit calibration or known scene saliency. 
 
-**Marked-up PDF:** [Papers/5. Self-Calibrating_Gaze_Estimation_With_Optical_Axes_Projection_for_Head-Mounted_Eye_Tracking.pdf](Papers/5.%20Self-Calibrating_Gaze_Estimation_With_Optical_Axes_Projection_for_Head-Mounted_Eye_Tracking.pdf)
+**Marked-up PDF:** [5. Self-Calibrating_Gaze_Estimation_With_Optical_Axes_Projection_for_Head-Mounted_Eye_Tracking.pdf](papers/5.%20Self-Calibrating_Gaze_Estimation_With_Optical_Axes_Projection_for_Head-Mounted_Eye_Tracking.pdf)
 
 ---
 
