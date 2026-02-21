@@ -35,7 +35,7 @@ Barceló, Pablo, Floris Geerts, Juan Reutter, and Maksimilian Ryschkov. "Graph N
 
 **Page 1 Screenshot:**
 
-![Paper 1 Page 1](imgs/paper1-p1.png)
+![Paper 1 Page 1](imgs/2106.06707v1_page1.png)
 
 ---
 
@@ -57,7 +57,7 @@ Zhang, Bohang, Jingchu Gai, Yiheng Du, Qiwei Ye, Di He, and Liwei Wang. "Beyond 
 
 **Page 1 Screenshot:**
 
-![Paper 2 Page 1](imgs/paper2-p1.png)
+![Paper 2 Page 1](imgs/2401.085514v1_page1.png)
 
 ---
 
@@ -79,7 +79,7 @@ Li, Shouheng, Dongwoo Kim, and Qing Wang. "Generalization of Graph Neural Networ
 
 **Page 1 Screenshot:**
 
-![Paper 3 Page 1](imgs/paper3-p1.png)
+![Paper 3 Page 1](imgs/2403.06079V2_page1.png)
 
 ---
 
@@ -101,7 +101,7 @@ Li, Shouheng, Floris Geerts, Dongwoo Kim, and Qing Wang. "Towards Bridging Gener
 
 **Page 1 Screenshot:**
 
-![Paper 4 Page 1](imgs/paper4-p1.png)
+![Paper 4 Page 1](imgs/8440_Towards_Bridging_Generalization_page1.png)
 
 ---
 
@@ -127,7 +127,7 @@ Zhang, Yifan, Shaoyi Du, Yifan Feng, Shihui Ying, and Yue Gao. "Reinterpreting H
 
 **Page 1 Screenshot:**
 
-![Paper 5 Page 1](imgs/paper5-p1.png)
+![Paper 5 Page 1](imgs/Reinterpreting_Hypergraph_page1.png)
 
 ---
 
