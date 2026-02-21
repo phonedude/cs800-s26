@@ -133,9 +133,9 @@ Zhang, Yifan, Shaoyi Du, Yifan Feng, Shihui Ying, and Yue Gao. "Reinterpreting H
 
 ## YouTube Video Walkthrough
 
-A narrated walkthrough of each paper's 1st pass (problem, approach, contributions) is available at:
+A walkthrough of each paper's 1st pass (problem, approach, contributions) is available at:
 
-**Video Link:** *(to be added)*
+**Video Link:** (https://www.youtube.com/watch?v=U_VYyjLbiEE)
 
 The video covers:
 
