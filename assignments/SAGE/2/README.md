@@ -29,7 +29,7 @@ I am currently following the following professors:
 
 I will continue to follow more researchers throughout the semester.
 
-<img src="screenshot/alert.png" alt="Alert Image" width="200"/>
+<img src="screenshot/alerts.png" alt="Alert Image" width="200"/>
 
 ## ORCID
 
