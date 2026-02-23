@@ -14,6 +14,8 @@
 
 My Google Scholar profile.
 
+<img src="/screenshot/scholar.png" alt="Scholar Image" width="200"/>
+
 ### Faculty and Scholars Followed
 
 I am currently following the following professors:
@@ -27,19 +29,26 @@ I am currently following the following professors:
 
 I will continue to follow more researchers throughout the semester.
 
+<img src="/screenshot/alert.png" alt="Alert Image" width="200"/>
+
 ## ORCID
 
 https://orcid.org/0009-0001-9493-0668
+
+<img src="/screenshot/orcid.png" alt="Orcid Image" width="200"/>
 
 ## LinkedIn
 
 www.linkedin.com/in/nathan-sage-294401303
 
+<img src="/screenshot/linkedin.png" alt="linkedin Image" width="200"/>
 ## Website
 
 I created this website https://spartansold.github.io/#
 
 I will update this website as I continue learning and working at ODU
+
+<img src="/screenshot/Screenshot.png" alt="Website Image" width="200"/>
 
 ## Overleaf
 
@@ -47,11 +56,15 @@ Here is the example latex project
 
 - [Latex document](latex_example/example_project.pdf)
 
+<img src="/paper_example/paper_example.png" alt="Paper Image" width="200"/>
+
 ## Responsible Conduct of Research (RCR)'
 
 I completed the RCR
 
 - [RCR completion](RCR/RCR_proof.png)
+
+<img src="/RCR/RCR_proof.png" alt="RCR Image" width="200"/>
 
 ## Youtube link
 
