@@ -42,7 +42,7 @@ Below are the five papers on which **Keshav’s 1st Pass** has been performed.
 }
 ```
 
-**DOI:* https://doi.org/10.1038/s42256-022-00534-z
+**DOI:** https://doi.org/10.1038/s42256-022-00534-z
 
 **Keshav’s 1st Pass:**
 
@@ -78,7 +78,7 @@ Below are the five papers on which **Keshav’s 1st Pass** has been performed.
 }
 ```
 
-**DOI:* https://doi.org/10.1038/s41586-023-06139-9
+**DOI:** https://doi.org/10.1038/s41586-023-06139-9
 
 **Keshav’s 1st Pass:**
 
@@ -115,7 +115,7 @@ Below are the five papers on which **Keshav’s 1st Pass** has been performed.
 }
 ```
 
-**DOI:* https://doi.org/10.1038/s41592-024-02201-0
+**DOI:** https://doi.org/10.1038/s41592-024-02201-0
 
 **Keshav’s 1st Pass:**
 
@@ -151,7 +151,7 @@ Below are the five papers on which **Keshav’s 1st Pass** has been performed.
 }
 ```
 
-**DOI:* https://doi.org/10.1038/s41467-023-44103-3
+**DOI:** https://doi.org/10.1038/s41467-023-44103-3
 
 **Keshav’s 1st Pass:**
 
@@ -183,7 +183,7 @@ Below are the five papers on which **Keshav’s 1st Pass** has been performed.
 }
 ```
 
-**DOI:* https://doi.org/10.48550/arXiv.2502.19429
+**DOI:** https://doi.org/10.48550/arXiv.2502.19429
 
 **Keshav’s 1st Pass:**
 
