@@ -108,7 +108,7 @@ The survey adopts a systematic approach to address these challenges:
 - **Mathematical Modeling:** A general mathematical model is proposed to analyze honeynets, enabling comparison of different deception techniques and strategies. 
 - **Simulation Experiments:** Python-based simulations are conducted to evaluate the effectiveness of key deception techniques in various network scenarios. 
 - **Evaluation Metrics:** A set of metrics is proposed to measure honeypot performance, including intrusion detection rate, engagement rate, time to compromise, and more.
-- ** Recommendations for Future Research:** The paper identifies open issues and suggests areas for further investigation, such as SDN-based honeypots, 5G-specific honeypots, and machine learning-based honeynet optimization.
+- **Recommendations for Future Research:** The paper identifies open issues and suggests areas for further investigation, such as SDN-based honeypots, 5G-specific honeypots, and machine learning-based honeynet optimization.
 
 
 ## Contributions:
@@ -288,4 +288,5 @@ The study provides several key contributions to the field of deceptive security:
 ![Paper 1 Page 1](screenshots/paper5_page1.png)
 
 ## Marked-up PDF : [View Marked-up PDF](papers/paper5_Deceptive_honeynet.pdf)
+
 
