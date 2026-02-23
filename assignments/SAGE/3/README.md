@@ -5,6 +5,7 @@ Papers
 [aerosol ocean retrieval](papers/areosol_ocean_retrieval.pdf)
 [Transformers](papers/transformer_paper)
 [Generative data assimiliation](papers/NVIDIA_Paper)
+[BibTeX References](references/bibtec.pdf)
 
 ------
 Paper 1 Elucidated Rolling Diffusion Models
@@ -14,21 +15,13 @@ First Page
 <img src="screenshots/Paper_1.png" alt="Paper 1" width="400" />
 Reference
 
-Cachay, S. R., Aittala, M., Kreis, K., Brenowitz, N., Vahdat, A., Mardani, M., & Yu, R. (2025). Elucidated Rolling Diffusion Models for Probabilistic Forecasting of Complex Dynamics. {ArXiv}.
+ Salva R¨uhling Cachay, Miika Aittala, Karsten Kreis, Noah Brenowitz, Arash Vahdat,
+Morteza Mardani, and Rose Yu. Elucidated rolling diffusion models for probabilistic fore-
+casting of complex dynamics. ArXiv preprint ArXiv:2506.20024, 2025.
 
 DOI
 
 https://doi.org/10.48550/arXiv.2506.20024
-
-BibTeX
-
-@article{cachay2025elucidated,
-  title={Elucidated Rolling Diffusion Models for Probabilistic Forecasting of Complex Dynamics},
-  author={Cachay, Salva R{\"u}hling and Aittala, Miika and Kreis, Karsten and Brenowitz, Noah and Vahdat, Arash and Mardani, Morteza and Yu, Rose},
-  journal={{ArXiv} preprint {ArXiv}:2506.20024},
-  year={2025},
-  doi={10.48550/arXiv.2506.20024}
-}
 
 
 Problem:
@@ -56,20 +49,13 @@ First Page
 
 Reference
 
-Huang, L., Gianinazzi, L., Yu, Y., Düben, P. D., & Hoefler, T. (2024). DiffDA: A Diffusion Model for Weather-scale Data Assimilation. {ArXiv}.
+Langwen Huang, Lukas Gianinazzi, Yuejiang Yu, Peter D. D¨uben, and Torsten Hoe-
+fler. DiffDA: A diffusion model for weather-scale data assimilation. ArXiv preprint
+ArXiv:2401.05932, 2024.
 
 DOI
 https://doi.org/10.48550/arXiv.2401.05932
 
-BibTeX
-
-@article{huang2024diffda,
-  title={{DiffDA}: A Diffusion Model for Weather-scale Data Assimilation},
-  author={Huang, Langwen and Gianinazzi, Lukas and Yu, Yuejiang and D{\"u}ben, Peter D. and Hoefler, Torsten},
-  journal={{ArXiv} preprint {ArXiv}:2401.05932},
-  year={2024},
-  doi={10.48550/arXiv.2401.05932}
-}
 
 Problem
 
@@ -95,21 +81,10 @@ First Page
 <img src="screenshots/Paper_3.png" alt="Paper 3" width="400" />
 Reference
 
-Wang, L., Stamnes, S., Hassan, S., Isiani, A., Sturdivant, C., Le, H. M., & Mahmud, K. R. (2025). Deep Learning-Based Aerosol and Ocean Data Retrieval from Satellite Polarimeter Measurements. IEEE SoutheastCon 2025.
-
-DOI
-https://doi.org/10.1109/SoutheastCon56624.2025.10971488
-
-BibTeX
-
-@inproceedings{wang2025aerosol,
-  title={Deep Learning-Based Aerosol and Ocean Data Retrieval from Satellite Polarimeter Measurements},
-  author={Wang, Lingxiao and Stamnes, Snorre and Hassan, Sunzid and Isiani, Alexander and Sturdivant, Cheston and Le, Hoang My and Mahmud, Khan Raqib},
-  booktitle={{IEEE} SoutheastCon},
-  year={2025},
-  pages={1542--1547},
-  doi={10.1109/SoutheastCon56624.2025.10971488}
-}
+Lingxiao Wang, Snorre Stamnes, Sunzid Hassan, Alexander Isiani, Cheston Sturdivant,
+Hoang My Le, and Khan Raqib Mahmud. Deep learning-based aerosol and ocean data
+retrieval from satellite polarimeter measurements. In IEEE SoutheastCon, pages 1542–
+1547, 2025
 
 Problem
 
@@ -135,20 +110,15 @@ First Page
 <img src="screenshots/Paper_4.png" alt="Paper 4" width="400" />
 Reference
 
-Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., Kaiser, Ł., & Polosukhin, I. (2017). Attention Is All You Need. {ArXiv} / NeurIPS 2017.
+Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N.
+Gomez, Lukasz Kaiser, and Illia Polosukhin. Attention is all you need. ArXiv preprint
+ArXiv:1706.03762, 2017.
 
 DOI
 
 https://doi.org/10.48550/arXiv.1706.03762
 
-BibTeX
-@article{vaswani2017attention,
-  title={Attention Is All You Need},
-  author={Vaswani, Ashish and Shazeer, Noam and Parmar, Niki and Uszkoreit, Jakob and Jones, Llion and Gomez, Aidan N. and Kaiser, {\L}ukasz and Polosukhin, Illia},
-  journal={{ArXiv} preprint {ArXiv}:1706.03762},
-  year={2017},
-  doi={10.48550/arXiv.1706.03762}
-}
+
 
 Problem
 
@@ -175,24 +145,14 @@ First Page
 
 Reference
 
-Manshausen, P., Cohen, Y., Harrington, P., Pathak, J., Pritchard, M., Garg, P., Mardani, M., Kashinath, K., Byrne, S., & Brenowitz, N. (2025). Generative Data Assimilation of Sparse Weather Station Observations at Kilometer Scales. Journal of Advances in Modeling Earth Systems.
+Peter Manshausen, Yair Cohen, Peter Harrington, Jaideep Pathak, Mike S. Pritchard,
+Piyush Garg, Morteza Mardani, Karthik Kashinath, Simon Byrne, and Noah D. Brenowitz.
+Generative data assimilation of sparse weather station observations at kilometer scales.
+Journal of Advances in Modeling Earth Systems, 17(10):e2024MS004505, 2025
 
 DOI
 
 https://doi.org/10.1029/2024MS004505
-
-BibTeX
-
-@article{manshausen2025generative,
-  title={Generative Data Assimilation of Sparse Weather Station Observations at Kilometer Scales},
-  author={Manshausen, Peter and Cohen, Yair and Harrington, Peter and Pathak, Jaideep and Pritchard, Mike S. and Garg, Piyush and Mardani, Morteza and Kashinath, Karthik and Byrne, Simon and Brenowitz, Noah D.},
-  journal={Journal of Advances in Modeling Earth Systems},
-  volume={17},
-  number={10},
-  pages={e2024MS004505},
-  year={2025},
-  doi={10.1029/2024MS004505}
-}
 
 Problem
 
