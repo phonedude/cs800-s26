@@ -145,3 +145,62 @@ The survey adopts a systematic approach to address these challenges:
 ![Paper 1 Page 1](screenshots/paper2_page1.png)
 
 ## Marked-up PDF : [View Marked-up PDF](papers/paper2_deception_techniques.pdf)
+
+## Paper 3: *Honeypots: concepts, approaches, and challenges*
+
+**Reference:**  
+
+- Know Your Enemy: Honeynets. http://www.honeynet.org/papers/kye.html.
+- SANS Institiute GIAC Certification GSEC Assignment#1.4: Honey Pots-Strategic Considerations, 2002.
+
+**Link:** https://dl.acm.org/doi/10.1145/1233341.1233399   
+**DOI** 10.1145/1233341.1233399
+
+```bibtex
+@inproceedings{10.1145/1233341.1233399,
+author = {Mokube, Iyatiti and Adams, Michele},
+title = {Honeypots: concepts, approaches, and challenges},
+year = {2007},
+isbn = {9781595936295},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/1233341.1233399},
+doi = {10.1145/1233341.1233399},
+abstract = {Information security is a growing concern today for organizations and individuals alike. This has led to growing interest in more aggressive forms of defense to supplement the existing methods. One of these methods involves the use of honeypots. A honeypot is a security resource whose value lies in being probed, attacked or compromised. In this paper we present an overview of honeypots and provide a starting point for persons who are interested in this technology. We examine different kinds of honeypots, honeypot concepts, and approaches to their implementation.},
+booktitle = {Proceedings of the 45th Annual ACM Southeast Conference},
+pages = {321–326},
+numpages = {6},
+keywords = {honeypots, legal issues, types of honeypots},
+location = {Winston-Salem, North Carolina},
+series = {ACMSE '07}
+}
+```
+
+# 1st Pass (Keshav)
+
+## Problem
+The paper addresses the increasing concern of information security for organizations and individuals.  Traditional security methods are primarily defensive, which may not be sufficient to combat evolving cyber threats.  The problem lies in the need for more proactive and effective security measures to detect, prevent, and analyze cyberattacks.  Honeypots are proposed as a solution to address these challenges.
+
+## Approach
+The authors explore the concept of honeypots as a flexible security tool that can be used for prevention, detection, and information gathering. They classify honeypots based on their purpose (research, production, and honeytokens) and level of interaction (low, medium, and high).  The paper also discusses strategic considerations for implementing honeypots, such as data management, preventing liability, and deciding between building or purchasing honeypots. Additionally, it examines legal issues like entrapment, privacy concerns, and liability risks. 
+
+## Contributions:
+### 1.Comprehensive Overview: 
+The paper provides a detailed survey of honeypots, serving as a starting point for individuals interested in the technology. 
+### 2.Classification Framework: 
+It categorizes honeypots by purpose and interaction level, offering a structured understanding of their types and applications. 
+### 3.Implementation Insights:
+Practical guidelines are provided for deploying honeypots, including considerations for data, location, and legal compliance.
+### 4.Legal Analysis:
+The paper highlights key legal challenges (entrapment, privacy, liability) and offers strategies to mitigate risks. 
+### 5.Evaluation of Pros and Cons:
+It identifies the advantages (e.g., simplicity, minimal resources, discovery of new tools) and disadvantages (e.g., limited vision, risk of takeover, fingerprinting) of honeypots.
+### 6.Future Outlook:
+The authors emphasize the potential of honeypots in cybersecurity and digital forensics, predicting their increased adoption as commercial solutions become more accessible. 
+
+
+## Screenshot (Page 1)
+![Paper 1 Page 1](screenshots/paper3_pag1.png)
+
+## Marked-up PDF : [View Marked-up PDF](papers/paper3_honeypots.pdf)
+
