@@ -37,8 +37,9 @@ CRN 32738
   * [Class slides](https://docs.google.com/presentation/d/1Sj1vgQ_8m0WVEi45PX7fexI0hjmLlGUVVpJIvCk1hg8/edit)
 * Week 04: Feb 16 Related Work and Ethics
   * [Class slides](https://docs.google.com/presentation/d/1iplY-NFOtmETeDL0HUKEdZptg72iRb62J4P6q55sEds/edit)
-* Week 05:	Feb 23 Academic Communication - Writing  
-* Week 06: Mar 2	Academic Communication - Presenting 
+* Week 05:	Feb 23 Academic Communication - Presenting
+  * [Class slides](https://docs.google.com/presentation/d/1NjMX8GJvPWLJng7IHXr-sB9nA2PcKFZrbxh585pq0b0/edit)
+* Week 06: Mar 2	Academic Communication - Writing 
 * Week 07:	Mar 9	Visualization Basics, Intro to R  
 * Week 08:	Mar 16	**NO CLASS - Spring Break**  
 * Week 09:	Mar 23	ODU-CS Faculty Presentations  
