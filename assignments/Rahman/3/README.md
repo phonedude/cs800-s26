@@ -1,7 +1,7 @@
 ### Assignment 3: Reading Papers
-CS 800 Research Methods, Spring 2026
-Submitted by: Md Habibur Rahman
-Date: February 22, 2026
+CS 800 Research Methods, Spring 2026 \
+Submitted by: Md Habibur Rahman \
+Date: February 22, 2026 \
 
 ### Description
 In this assignment I am going to read five different paper in my research area of AI security. For reading each paper I will use Keshav's first pass technique to identify the problem, approach and contribution. Additionally, I will include the paper references with DOIs and the marked-up PDFs.
@@ -31,10 +31,10 @@ Rahman
 ```
 
 ### Papers Detail
-1. The Automation Advantage in AI Red Teaming
-Rob Mulla, Ads Dawson, Vincent Abruzzon, Brian Greunke, Nick Landers, Brad Palm, Will Pearce
-DOI: [https://doi.org/10.48550/arXiv.2504.19855](https://doi.org/10.48550/arXiv.2504.19855)
-PDF: [Red Teaming](../3/pdfs/adv_ai_2504.19855v2.pdf)
+1. The Automation Advantage in AI Red Teaming \
+Rob Mulla, Ads Dawson, Vincent Abruzzon, Brian Greunke, Nick Landers, Brad Palm, Will Pearce \
+DOI: [https://doi.org/10.48550/arXiv.2504.19855](https://doi.org/10.48550/arXiv.2504.19855) \
+PDF: [Red Teaming](../3/pdfs/adv_ai_2504.19855v2.pdf) \
 ![Red Teaming](../3/imgs/adv_ai.png)
 
 ```
@@ -46,9 +46,9 @@ PDF: [Red Teaming](../3/pdfs/adv_ai_2504.19855v2.pdf)
 }
 ```
 
-2. Cybersecurity AI: Evaluating Agentic Cybersecurity in Attack/Defense CTFs
-DOI: [https://doi.org/10.48550/arXiv.2510.17521](https://doi.org/10.48550/arXiv.2510.17521)
-PDF: [CAI](../3/pdfs/cai_2510.17521v1.pdf)
+2. Cybersecurity AI: Evaluating Agentic Cybersecurity in Attack/Defense CTFs \
+DOI: [https://doi.org/10.48550/arXiv.2510.17521](https://doi.org/10.48550/arXiv.2510.17521) \
+PDF: [CAI](../3/pdfs/cai_2510.17521v1.pdf) \
 ![CAI](../3/imgs/cai.png)
 
 ```
@@ -60,9 +60,9 @@ PDF: [CAI](../3/pdfs/cai_2510.17521v1.pdf)
 }
 ```
 
-3. D-CIPHER: Dynamic Collaborative Intelligent Multi-Agent System with Planner and Heterogeneous Executors for Offensive Security
-DOI: [https://doi.org/10.48550/arXiv.2502.10931](https://doi.org/10.48550/arXiv.2502.10931)
-PDF: [D Cipher](../3/pdfs/D_cypher_2502.10931v2.pdf)
+3. D-CIPHER: Dynamic Collaborative Intelligent Multi-Agent System with Planner and Heterogeneous Executors for Offensive Security \
+DOI: [https://doi.org/10.48550/arXiv.2502.10931](https://doi.org/10.48550/arXiv.2502.10931) \
+PDF: [D Cipher](../3/pdfs/D_cypher_2502.10931v2.pdf) \
 ![D Cipher](../3/imgs/d_cipher.png)
 
 ```
@@ -74,10 +74,9 @@ PDF: [D Cipher](../3/pdfs/D_cypher_2502.10931v2.pdf)
 }
 ```
 
-4. PENTESTGPT: Evaluating and Harnessing Large Language Models for Automated
-Penetration Testing
-DOI: [https://doi.org/10.48550/arXiv.2308.06782](https://doi.org/10.48550/arXiv.2308.06782)
-PDF: [PentestGPT](../3/pdfs/p_gpt_2308.06782v2.pdf)
+4. PENTESTGPT: Evaluating and Harnessing Large Language Models for Automated Penetration Testing \
+DOI: [https://doi.org/10.48550/arXiv.2308.06782](https://doi.org/10.48550/arXiv.2308.06782) \
+PDF: [PentestGPT](../3/pdfs/p_gpt_2308.06782v2.pdf) \
 ![PentestGPT](../3/imgs/p_gpt.png)
 
 ```
@@ -96,9 +95,9 @@ month = aug
 ```
 
 
-5. Cybersecurity AI: Hacking the AI Hackers via Prompt Injection
-DOI: [https://doi.org/10.48550/arXiv.2508.21669](https://doi.org/10.48550/arXiv.2508.21669)
-PDF: [Prompt Injection](../3/pdfs/p_inj_2508.21669v2.pdf)
+5. Cybersecurity AI: Hacking the AI Hackers via Prompt Injection \
+DOI: [https://doi.org/10.48550/arXiv.2508.21669](https://doi.org/10.48550/arXiv.2508.21669) \
+PDF: [Prompt Injection](../3/pdfs/p_inj_2508.21669v2.pdf) \
 ![Prompt Injection](../3/imgs/p_inj.png)
 
 ```
