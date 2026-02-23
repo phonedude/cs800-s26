@@ -58,16 +58,11 @@ My research focuses on Honeypots, honeynets, and deception-based defense mechani
 - Data is collected and analyzed using tools like Wireshark and KFSensor to understand attack patterns and trace attacker origins. 
 
 ## Contributions:
-### 1. Hybrid Security Model: 
-- The study introduces a three-layer security system combining honeypots, honeynets, and firewalls to provide advanced protection for production networks.
-### 2. Proactive Threat Analysis: 
-- The honeypots and honeynets are used to mislead attackers, collect their footprints, and analyze their behavior, providing valuable insights into attack patterns and vulnerabilities.
-### 3. Real-Time Simulation: 
-- The paper demonstrates the effectiveness of the proposed model through a virtual lab setup using GNS3 and VMWare, simulating real-world attack scenarios.
-### 4. Enhanced Security Measures: 
-- The study highlights the importance of integrating honeypots and honeynets with firewalls to provide additional layers of security, allowing security engineers to prepare for potential attacks.
-### 5. Future Work: 
-- The paper outlines plans to improve honeypot functionality, implement intrusion protection systems, and automate the integration of honeynets with production networks for enhanced security. 
+- **Hybrid Security Model:** The study introduces a three-layer security system combining honeypots, honeynets, and firewalls to provide advanced protection for production networks.
+- **Proactive Threat Analysis:** The honeypots and honeynets are used to mislead attackers, collect their footprints, and analyze their behavior, providing valuable insights into attack patterns and vulnerabilities.
+- **Real-Time Simulation:** The paper demonstrates the effectiveness of the proposed model through a virtual lab setup using GNS3 and VMWare, simulating real-world attack scenarios.
+- **Enhanced Security Measures:** The study highlights the importance of integrating honeypots and honeynets with firewalls to provide additional layers of security, allowing security engineers to prepare for potential attacks.
+- **Future Work:** The paper outlines plans to improve honeypot functionality, implement intrusion protection systems, and automate the integration of honeynets with production networks for enhanced security. 
    
 
 ## Screenshot (Page 1)
@@ -101,44 +96,28 @@ Autonomous Cyber Deception, Springer (2019), pp. 3-19
 
 ## Problem
 The document identifies several challenges in the field of honeypots and honeynets:
-### 1. Evolving Cyber Threats: 
-- Attackers are constantly developing new techniques to detect and bypass honeypots, making it difficult to maintain their effectiveness. 
-### 2. Lack of Comprehensive Evaluation: 
-- Existing research lacks a standardized framework for evaluating honeypot performance and deception techniques. 
-### 3. Limited Focus on Emerging Technologies: 
-- Current honeypot research often overlooks specific vulnerabilities and services in modern environments like Software-Defined Networking (SDN), cloud computing, and 5G networks. 
-### Research Gaps: 
-- There is insufficient exploration of advanced deception techniques, botnet-specific honeypots, distributed honeypots, and the impact of vulnerability types on honeynet effectiveness. 
+- **Evolving Cyber Threats:** Attackers are constantly developing new techniques to detect and bypass honeypots, making it difficult to maintain their effectiveness. 
+- **Lack of Comprehensive Evaluation:** Existing research lacks a standardized framework for evaluating honeypot performance and deception techniques. 
+- **Limited Focus on Emerging Technologies:** Current honeypot research often overlooks specific vulnerabilities and services in modern environments like Software-Defined Networking (SDN), cloud computing, and 5G networks. 
+- **Research Gaps:** There is insufficient exploration of advanced deception techniques, botnet-specific honeypots, distributed honeypots, and the impact of vulnerability types on honeynet effectiveness. 
 
 ## Approach
 The survey adopts a systematic approach to address these challenges:
-### 1. Categorization of Honeypots: 
-- Honeypots are classified based on their purpose, interaction level, implementation, activity, operation, and uniformity. 
-### 2. Deception Techniques: 
-- The paper explores and categorizes various deception techniques for single honeypots and honeynets, including advanced mimicking, fake cooperation, deceptive databases, subtle interruptions, honeytoken baiting, and traffic redirection. 
-### 3. Mathematical Modeling: 
-- A general mathematical model is proposed to analyze honeynets, enabling comparison of different deception techniques and strategies. 
-### 4. Simulation Experiments: 
-- Python-based simulations are conducted to evaluate the effectiveness of key deception techniques in various network scenarios. 
-### 5. Evaluation Metrics: 
-- A set of metrics is proposed to measure honeypot performance, including intrusion detection rate, engagement rate, time to compromise, and more.
-### 6. Recommendations for Future Research: 
-- The paper identifies open issues and suggests areas for further investigation, such as SDN-based honeypots, 5G-specific honeypots, and machine learning-based honeynet optimization.
+- **Categorization of Honeypots:** Honeypots are classified based on their purpose, interaction level, implementation, activity, operation, and uniformity. 
+- **Deception Techniques:** The paper explores and categorizes various deception techniques for single honeypots and honeynets, including advanced mimicking, fake cooperation, deceptive databases, subtle interruptions, honeytoken baiting, and traffic redirection. 
+- **Mathematical Modeling:** A general mathematical model is proposed to analyze honeynets, enabling comparison of different deception techniques and strategies. 
+- **Simulation Experiments:** Python-based simulations are conducted to evaluate the effectiveness of key deception techniques in various network scenarios. 
+- **Evaluation Metrics:** A set of metrics is proposed to measure honeypot performance, including intrusion detection rate, engagement rate, time to compromise, and more.
+- ** Recommendations for Future Research:** The paper identifies open issues and suggests areas for further investigation, such as SDN-based honeypots, 5G-specific honeypots, and machine learning-based honeynet optimization.
 
 
 ## Contributions:
-### 1. Comprehensive Survey: 
-- The paper provides a detailed review of honeypot research over the past two decades, categorizing honeypots and honeynets based on various criteria.
-### 2. Deception Techniques: 
-- It introduces and categorizes six deception techniques for single honeypots and five for honeynets, offering insights into their implementation and effectiveness.
-### 3. Mathematical Model:
-- A novel general mathematical model is proposed to analyze honeynets and compare different deception techniques. 
-### 4. Simulation Results:
-- Empirical simulations are conducted to evaluate the performance of key deception techniques, providing actionable insights for researchers and practitioners. 
-### 5. Evaluation Framework: 
-- The paper suggests robust metrics and methodologies, including red-teaming experiments, to assess honeypot effectiveness comprehensively. 
-### 6. Future Research Directions: 
-- It identifies research gaps and provides recommendations for improving honeypot technologies, including the use of machine learning, addressing SDN and 5G vulnerabilities, and enhancing honeypot dynamization and topology shaping.
+- **Comprehensive Survey:**  The paper provides a detailed review of honeypot research over the past two decades, categorizing honeypots and honeynets based on various criteria.
+- **Deception Techniques:**  It introduces and categorizes six deception techniques for single honeypots and five for honeynets, offering insights into their implementation and effectiveness.
+- **Mathematical Model:** A novel general mathematical model is proposed to analyze honeynets and compare different deception techniques. 
+- **Simulation Results:** Empirical simulations are conducted to evaluate the performance of key deception techniques, providing actionable insights for researchers and practitioners. 
+- **Evaluation Framework:** The paper suggests robust metrics and methodologies, including red-teaming experiments, to assess honeypot effectiveness comprehensively. 
+- **Future Research Directions:**  It identifies research gaps and provides recommendations for improving honeypot technologies, including the use of machine learning, addressing SDN and 5G vulnerabilities, and enhancing honeypot dynamization and topology shaping.
 
 
 ## Screenshot (Page 1)
@@ -185,22 +164,72 @@ The paper addresses the increasing concern of information security for organizat
 The authors explore the concept of honeypots as a flexible security tool that can be used for prevention, detection, and information gathering. They classify honeypots based on their purpose (research, production, and honeytokens) and level of interaction (low, medium, and high).  The paper also discusses strategic considerations for implementing honeypots, such as data management, preventing liability, and deciding between building or purchasing honeypots. Additionally, it examines legal issues like entrapment, privacy concerns, and liability risks. 
 
 ## Contributions:
-### 1.Comprehensive Overview: 
-The paper provides a detailed survey of honeypots, serving as a starting point for individuals interested in the technology. 
-### 2.Classification Framework: 
-It categorizes honeypots by purpose and interaction level, offering a structured understanding of their types and applications. 
-### 3.Implementation Insights:
-Practical guidelines are provided for deploying honeypots, including considerations for data, location, and legal compliance.
-### 4.Legal Analysis:
-The paper highlights key legal challenges (entrapment, privacy, liability) and offers strategies to mitigate risks. 
-### 5.Evaluation of Pros and Cons:
-It identifies the advantages (e.g., simplicity, minimal resources, discovery of new tools) and disadvantages (e.g., limited vision, risk of takeover, fingerprinting) of honeypots.
-### 6.Future Outlook:
-The authors emphasize the potential of honeypots in cybersecurity and digital forensics, predicting their increased adoption as commercial solutions become more accessible. 
+- **Comprehensive Overview:** The paper provides a detailed survey of honeypots, serving as a starting point for individuals interested in the technology. 
+- **Classification Framework:** It categorizes honeypots by purpose and interaction level, offering a structured understanding of their types and applications. 
+- **Implementation Insights:** Practical guidelines are provided for deploying honeypots, including considerations for data, location, and legal compliance.
+- **Legal Analysis:** The paper highlights key legal challenges (entrapment, privacy, liability) and offers strategies to mitigate risks. 
+- **Evaluation of Pros and Cons:** It identifies the advantages (e.g., simplicity, minimal resources, discovery of new tools) and disadvantages (e.g., limited vision, risk of takeover, fingerprinting) of honeypots.
+- **Future Outlook:** The authors emphasize the potential of honeypots in cybersecurity and digital forensics, predicting their increased adoption as commercial solutions become more accessible. 
 
 
 ## Screenshot (Page 1)
 ![Paper 1 Page 1](screenshots/paper3_pag1.png)
 
 ## Marked-up PDF : [View Marked-up PDF](papers/paper3_honeypots.pdf)
+
+## Paper 4: *DDoS Protection Using a Honeynet Implementation with Offensive Capabilities*
+
+**Reference:**  
+
+- A. K. M. Habib, A. Imtiaz, D. Tripura, Md. Faruk, A. Hossain, I. Ara, S. Sarker and A. F. Y. Xiang, “Distributed denial-of-service attack detection short review: issues, challenges, and recommendations,” in Bulletin of Electrical Engineering and Informatics, vol. 14, pp. 438–446, 2025, doi: 10.11591/eei.v14i1.8377.
+- J. Xue, J. Ren, L. Feng and L. Wang, “An Analysis of Worm Dynamics with Honeypot Feedback in Scale-Free Networks,” vol. 52, issue 1, pp. 90–102, 2025.
+- O. El Kouari, S. Lazaar and T. Achoughi, “Fortifying industrial cybersecurity: a novel industrial internet of things architecture enhanced by honeypot integration,” in International Journal of Electrical and Computer Engineering (IJECE), vol. 15, no. 1, pp. 1089–1098, ISSN 2088-8708, 2025, doi: 10.11591/ijece.v15i1.pp1089-1098.
+
+**Link:** https://ieeexplore.ieee.org/document/11280733  
+**DOI:** 10.1109/ASIANCON66527.2025.11280733
+
+```bibtex
+@INPROCEEDINGS{11280733,
+  author={Patil, Sonali and Pattewar, Nikhil and Bhadale, Swarnim and Shaikh, Ramiz and Mule, Bhargav},
+  booktitle={2025 5th Asian Conference on Innovation in Technology (ASIANCON)}, 
+  title={DDoS Protection Using a Honeynet Implementation with Offensive Capabilities}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={1-8},
+  keywords={Adaptation models;Technological innovation;Prevention and mitigation;Denial-of-service attack;Vectors;Servers;Security;Computer crime;Protection;Load modeling;DDoS attacks;honeynet;DDoS protection;threat intelligence;offensive capabilities;attacker behavior;malicious activity;defense strategies},
+  doi={10.1109/ASIANCON66527.2025.11280733}}
+
+```
+
+# 1st Pass (Keshav)
+
+## Problem
+The paper addresses the critical vulnerability of modern networks to Distributed Denial of Service (DDoS) attacks.
+- **Reactive Failure:** Conventional security measures are often reactive, meaning they only trigger after an attack has already impacted the production environment.
+- **Attacker Anonymity:** Attackers often hide their true identities and tactics, making it difficult for defenders to learn and adapt to new threat vectors in real-time.
+  - **Resource Exhaustion:** Standard firewalls and IDS can become overwhelmed by the sheer volume of DDoS traffic, leading to service outages for legitimate users.
+
+
+## Approach
+The researchers propose a proactive defense framework centered on a specialized honeynet architecture.
+- **Multi-Tiered Honeynet:** The system uses a series of decoy hosts designed to appear as high-value targets to lure attackers away from the real production servers.
+- **Redirection and Isolation:** Malicious traffic is dynamically rerouted into the honeynet environment, where it can be safely isolated and monitored without affecting operational integrity.
+- **Offensive Capabilities:** Unlike standard honeypots that only record data, this implementation includes "offensive" or active components designed to disrupt the attacker’s tools and gather deeper intelligence on their backend infrastructure.
+
+
+## Contributions:
+The paper provides several significant contributions to the field of cybersecurity:
+- **Active Defense Model:** It successfully demonstrates a shift from passive observation to an active defense model where the honeynet interacts with and mitigates the threat.
+- **DDoS Telemetry Dataset:** The study contributes a methodology for capturing high-fidelity telemetry data on DDoS attack patterns, which can be used to train better detection algorithms.
+- **Integration Framework:** It provides a technical blueprint for how deceptive infrastructure can be integrated with existing network security layers (like firewalls) to create a more resilient "defense-in-depth" posture.
+- **Proof of Concept:** The paper offers empirical evidence that offensive honeynets can effectively stall or neutralize sophisticated DDoS campaigns without risking the primary network.
+
+
+
+## Screenshot (Page 1)
+![Paper 1 Page 1](screenshots/paper4_page1.png)
+
+## Marked-up PDF : [View Marked-up PDF](papers/paper4_DDoS_protection.pdf)
+
 
