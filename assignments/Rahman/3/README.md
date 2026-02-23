@@ -31,7 +31,7 @@ Rahman
 ```
 
 ### Papers Detail
-1. The Automation Advantage in AI Red Teaming \
+1. The Automation Advantage in AI Red Teaming 
 ```
 @article{mulla2025automation,
   title={The Automation Advantage in AI Red Teaming},
@@ -45,7 +45,7 @@ PDF: [Red Teaming](../3/pdfs/adv_ai_2504.19855v2.pdf) \
 ![Red Teaming](../3/imgs/adv_ai.png)
 
 
-2. Cybersecurity AI: Evaluating Agentic Cybersecurity in Attack/Defense CTFs \
+2. Cybersecurity AI: Evaluating Agentic Cybersecurity in Attack/Defense CTFs 
 ```
 @article{balassone2025cybersecurity,
   title={Cybersecurity ai: Evaluating agentic cybersecurity in attack/defense ctfs},
@@ -60,7 +60,7 @@ PDF: [CAI](../3/pdfs/cai_2510.17521v1.pdf) \
 
 
 
-3. D-CIPHER: Dynamic Collaborative Intelligent Multi-Agent System with Planner and Heterogeneous Executors for Offensive Security \
+3. D-CIPHER: Dynamic Collaborative Intelligent Multi-Agent System with Planner and Heterogeneous Executors for Offensive Security 
 ```
 @article{udeshi2025d,
   title={D-cipher: Dynamic collaborative intelligent multi-agent system with planner and heterogeneous executors for offensive security},
@@ -73,7 +73,7 @@ DOI: [https://doi.org/10.48550/arXiv.2502.10931](https://doi.org/10.48550/arXiv.
 PDF: [D Cipher](../3/pdfs/D_cypher_2502.10931v2.pdf) \
 ![D Cipher](../3/imgs/d_cipher.png)
 
-4. PENTESTGPT: Evaluating and Harnessing Large Language Models for Automated Penetration Testing \
+4. PENTESTGPT: Evaluating and Harnessing Large Language Models for Automated Penetration Testing 
 ```
 @inproceedings {299699,
 author = {Gelei Deng and Yi Liu and V{\'\i}ctor Mayoral-Vilches and Peng Liu and Yuekang Li and Yuan Xu and Tianwei Zhang and Yang Liu and Martin Pinzger and Stefan Rass},
@@ -93,7 +93,7 @@ PDF: [PentestGPT](../3/pdfs/p_gpt_2308.06782v2.pdf) \
 ![PentestGPT](../3/imgs/p_gpt.png)
 
 
-5. Cybersecurity AI: Hacking the AI Hackers via Prompt Injection \
+5. Cybersecurity AI: Hacking the AI Hackers via Prompt Injection 
 ```
 @inproceedings {299699,
 author = {Gelei Deng and Yi Liu and V{\'\i}ctor Mayoral-Vilches and Peng Liu and Yuekang Li and Yuan Xu and Tianwei Zhang and Yang Liu and Martin Pinzger and Stefan Rass},
