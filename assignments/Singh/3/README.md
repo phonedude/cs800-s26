@@ -233,3 +233,59 @@ The paper provides several significant contributions to the field of cybersecuri
 ## Marked-up PDF : [View Marked-up PDF](papers/paper4_DDoS_protection.pdf)
 
 
+## Paper 5: *A Dynamic Deceptive Honeynet System with A Hybrid of Virtual and Real Devices*
+
+**Reference:**  
+
+- Park B, DANG S P, NOH S, : Dynamic virtual network honeypot[C] In: Proceedings of the 2019 International Conference on Information and Communication Technology Convergence (ICTC). pp. 375–377 ( 2019 ).
+- Shi L Y, Cui Y W, Han X, Mimicry honeypot: An evolutionary decoy system[J]. International Journal of High Performance Computing and Networking. 14 ( 2 ), 157–164 ( 2019 ).
+- Lian Z, Yin X, Xi X I, : SDN Virtual Honeynet Based on Mimic Defense Mechanism[J]. Computer Engineering and Applications ( 2019 ).
+
+**Link:** https://ieeexplore.ieee.org/document/10080304   
+**DOI:** 10.1109/ICCBD56965.2022.10080304
+
+```bibtex
+@INPROCEEDINGS{10080304,
+  author={Minjiao, Zheng and Yufeng, Ma and Bo, Wu and Zhang, Qian},
+  booktitle={2022 5th International Conference on Computing and Big Data (ICCBD)}, 
+  title={A Dynamic Deceptive Honeynet System with A Hybrid of Virtual and Real Devices}, 
+  year={2022},
+  volume={},
+  number={},
+  pages={113-117},
+  keywords={Network topology;Computational modeling;Prototypes;Systems architecture;Containers;Big Data;Hybrid power systems;SDN;Docker;traffic migration;honeynet generation;Multi-type Honeypot},
+  doi={10.1109/ICCBD56965.2022.10080304}}
+
+```
+
+# 1st Pass (Keshav)
+
+## Problem
+The paper identifies significant limitations in current honeynet implementations that hinder their effectiveness against advanced persistent threats:
+- **Static Environments:** Existing honeynets often lack the capability to construct network scenes dynamically, making them predictable to sophisticated attackers.
+- **Insufficient Inductivity:** Traditional systems often fail to lead or "induce" attackers deeper into the trap because the environment does not evolve based on the attacker's specific interests or behaviors.
+- **Fixed Resource Allocation:** There is a noted difficulty in generating realistic network scenarios that adapt in real-time to the changing cyber situation.
+
+
+## Approach
+The researchers propose a system that combines virtualization with physical hardware to create a more convincing and adaptive trap:
+- **Virtual-Real Hybrid:** The architecture integrates both virtual honeypots and real physical devices to increase the realism of the network environment.
+- **Dynamic Scene Construction:** The system is designed to dynamically generate a network scene that reflects the current cyber situation and the specific behaviors of the attacker.
+- **Intelligent Redirection:** It utilizes behavioral analysis to redirect advanced attackers toward specific environments they find most "interesting," ensuring longer engagement and better data capture.
+- **Prototype Development:** The authors developed a functional prototype to test the system's ability to capture and analyze attacker movements in a controlled, hybrid setting.
+
+
+## Contributions:
+The study provides several key contributions to the field of deceptive security:
+- **Enhanced Inductivity:** By tailoring the environment to the attacker, the system demonstrates a higher degree of intelligence and "strong inductivity" compared to static models.
+- **Adaptive Network Generation:** The paper introduces a methodology for generating a "real" network environment on the fly based on real-time attack telemetry.
+- **Hybrid Integration Model:** It successfully proves that combining virtual and real devices creates a more effective capture environment for further forensic analysis.
+- **Experimental Validation:** Through the setup of an experimental environment, the paper validates that this hybrid approach effectively addresses the lack of dynamic capabilities in existing honeynets.
+
+
+
+## Screenshot (Page 1)
+![Paper 1 Page 1](screenshots/paper5_page1.png)
+
+## Marked-up PDF : [View Marked-up PDF](papers/paper5_Deceptive_honeynet.pdf)
+
