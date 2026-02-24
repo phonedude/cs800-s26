@@ -21,7 +21,6 @@ My research focuses on Honeypots, honeynets, and deception-based defense mechani
 **Reference:**  
 - Evan, N.A., Uddin, M.R.: Implementation of Honeynet and Honeypot in Network Infrastructure in Production Network (2025). https://arxiv.org/abs/2512.07180
 
-**Link:** http://arxiv.org/abs/2512.07180  
 **DOI:** 10.48550/arXiv.2512.07180
 
 ```bibtex
@@ -125,8 +124,7 @@ The survey adopts a systematic approach to address these challenges:
 
 **Reference:**  
 - Mokube, I., Adams, M.: Honeypots: concepts, approaches, and challenges. In: Proceedings of the 45th Annual ACM Southeast Conference. ACMSE ’07, pp. 321–326. Association for Computing Machinery, New York, NY, USA (2007). https://doi.org/10.1145/1233341.1233399 . https://doi.org/10.1145/1233341.1233399
-
-**Link:** https://dl.acm.org/doi/10.1145/1233341.1233399   
+  
 **DOI** 10.1145/1233341.1233399
 
 ```bibtex
@@ -175,8 +173,7 @@ The authors explore the concept of honeypots as a flexible security tool that ca
 
 **Reference:**  
 - Patil, S., Pattewar, N., Bhadale, S., Shaikh, R., Mule, B.: Ddos protection using a honeynet implementation with offensive capabilities. In: 2025 5th Asian Conference on Innovation in Technology (ASIANCON), pp. 1–8 (2025). https://doi.org/10.1109/ASIANCON66527.2025.11280733
-
-**Link:** https://ieeexplore.ieee.org/document/11280733  
+ 
 **DOI:** 10.1109/ASIANCON66527.2025.11280733
 
 ```bibtex
@@ -228,8 +225,7 @@ The paper provides several significant contributions to the field of cybersecuri
 
 **Reference:**  
 -  Minjiao, Z., Yufeng, M., Bo, W., Zhang, Q.: A dynamic deceptive honeynet system with a hybrid of virtual and real devices. In: 2022 5th International Conference on Computing and Big Data (ICCBD), pp. 113–117 (2022). https://doi.org/10.1109/ICCBD56965.2022.10080304
-
-**Link:** https://ieeexplore.ieee.org/document/10080304   
+  
 **DOI:** 10.1109/ICCBD56965.2022.10080304
 
 ```bibtex
@@ -278,5 +274,6 @@ The study provides several key contributions to the field of deceptive security:
 ## Marked-up PDF : [View Marked-up PDF](papers/paper5_Deceptive_honeynet.pdf)
 
 # YouTube Video Link: 
+
 
 
