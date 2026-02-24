@@ -26,11 +26,11 @@ https://doi.org/10.48550/arXiv.2506.20024
 
 Problem:
 
-Traditional diffusion models are powerful for generative tasks but are not well-suited for probabilistic forecasting of complex time-evolving systems such as weather or climate dynamics. Existing forecasting models often struggle with uncertainty estimation and long-range temporal dependencies.
+Traditional diffusion models are powerful for generative tasks but are not well suited for probabilistic forecasting of complex time evolving systems such as weather or climate dynamics. Existing forecasting models often struggle with uncertainty estimation and long range temporal dependencies.
 
 Approach:
 
-The authors introduce Rolling Diffusion Models (RDMs) combined with the Elucidated Diffusion Model (EDM) framework. The model generates forecasts step-by-step over time by rolling the diffusion process forward while maintaining stable training and sampling procedures.
+The authors introduce Rolling Diffusion Models (RDMs) combined with the Elucidated Diffusion Model (EDM) framework. The model generates forecasts step by step over time by rolling the diffusion process forward while maintaining stable training and sampling procedures.
 
 Contributions:
 
@@ -67,14 +67,14 @@ The authors propose DiffDA, a diffusion-model-based approach for data assimilati
 
 Contributions
 
-Introduces a diffusion-based data assimilation framework.
+Introduces a diffusion based data assimilation framework.
 
-Demonstrates the ability to handle weather-scale systems efficiently.
+Demonstrates the ability to handle weather scale systems efficiently.
 
 Shows improved reconstruction of atmospheric states from sparse observations.
 
 ----
-Paper 3 Deep Learning-Based Aerosol and Ocean Data Retrieval
+Paper 3 Deep Learning Based Aerosol and Ocean Data Retrieval
 
 First Page
 
@@ -96,11 +96,11 @@ The paper applies deep learning models to estimate aerosol and ocean parameters 
 
 Contributions
 
-Develops a deep learning-based retrieval method for satellite polarimeter data.
+Develops a deep learning based retrieval method for satellite polarimeter data.
 
 Improves accuracy and efficiency compared to traditional retrieval methods.
 
-Demonstrates the feasibility of AI-driven remote sensing data analysis.
+Demonstrates the feasibility of AI driven remote sensing data analysis.
 
 ----
 Paper 4 Attention Is All You Need
@@ -126,7 +126,7 @@ Sequence modeling methods such as recurrent neural networks (RNNs) and convoluti
 
 Approach
 
-The authors introduce the Transformer architecture, which relies entirely on self-attention mechanisms instead of recurrence or convolution to model relationships between tokens in a sequence.
+The authors introduce the Transformer architecture, which relies entirely on self attention mechanisms instead of recurrence or convolution to model relationships between tokens in a sequence.
 
 Contributions
 
@@ -137,7 +137,7 @@ Introduces self-attention as the core mechanism for sequence modeling.
 Significantly improves performance and training efficiency in machine translation and other NLP tasks.
 
 -----
-Paper 5 Generative Data Assimilation of Sparse Weather Station Observations at Kilometer Scales
+Paper 5 Generative Data Assimilation of Sparse Weather Station Observations
 
 First Page
 
@@ -156,11 +156,11 @@ https://doi.org/10.1029/2024MS004505
 
 Problem
 
-Weather prediction systems often rely on dense observation networks, but many regions only have sparse weather station data, making high-resolution forecasting difficult.
+Weather prediction systems often rely on dense observation networks, but many regions only have sparse weather station data, making high resolution forecasting difficult.
 
 Approach
 
-The authors propose a generative data assimilation framework that uses machine learning to combine sparse observations with atmospheric models to reconstruct high-resolution weather fields.
+The authors propose a generative data assimilation framework that uses machine learning to combine sparse observations with atmospheric models to reconstruct high resolution weather fields.
 
 Contributions
 
