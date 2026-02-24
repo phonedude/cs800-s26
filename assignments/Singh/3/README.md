@@ -123,9 +123,9 @@ The survey adopts a systematic approach to address these challenges:
 ## Paper 3: *Honeypots: concepts, approaches, and challenges*
 
 **Reference:**  
-- Mokube, I., Adams, M.: Honeypots: concepts, approaches, and challenges. In: Proceedings of the 45th Annual ACM Southeast Conference. ACMSE ’07, pp. 321–326. Association for Computing Machinery, New York, NY, USA (2007). https://doi.org/10.1145/1233341.1233399 . https://doi.org/10.1145/1233341.1233399
+- Mokube, I., Adams, M.: Honeypots: concepts, approaches, and challenges. In: Proceedings of the 45th Annual ACM Southeast Conference. ACMSE ’07, pp. 321–326. Association for Computing Machinery, New York, NY, USA (2007). https://doi.org/10.1145/1233341.1233399
   
-**DOI** 10.1145/1233341.1233399
+**DOI:** 10.1145/1233341.1233399
 
 ```bibtex
 @inproceedings{10.1145/1233341.1233399,
@@ -274,6 +274,7 @@ The study provides several key contributions to the field of deceptive security:
 ## Marked-up PDF : [View Marked-up PDF](papers/paper5_Deceptive_honeynet.pdf)
 
 # YouTube Video Link: 
+
 
 
 
