@@ -24,8 +24,9 @@
 
 
 ## Paper 1 — MCP-SafetyBench
-#### MCP Safety Bench
-![MCP Safety Bench](./3/Screenshots/MCP-Safetybench.png)
+### MCP Safety Bench
+
+![MCP Safety Bench](3/Screenshots/MCP-Safetybench.png)
 
 ### Reference
 Zong, X., Shen, Z., Wang, L., Lan, Y. and Yang, C., 2025. MCP-SafetyBench:
@@ -201,6 +202,9 @@ plan generation) have primarily been studied as separate topics.
 4. **Scalability & Fine-tuning**: Limitations within prompting setups are identified, and initial fine-tuning experiments are conducted to showcase ReAct's potential for improvement with additional training data.
 
 ## Paper 5 -- MCPTox: A Benchmark for Tool Poisoning Attack on Real-World MCP Servers
+
+### MCPTOX
+![MCPTOX](./3/Screenshots/MCPTOX.png)
 
 ### Reference
 Wang, Z., Gao, Y., Wang, Y., Liu, S., Sun, H., Cheng, H., Shi, G., Du, H. and Li, X., 2025. 
