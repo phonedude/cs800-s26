@@ -58,7 +58,7 @@ The authors propose GuardAgent, a separate LLM-based guard agent that converts s
 ![](paper_images/paper%201.png)
 
 **Marked-up PDF:**  
-A3_papers_marked/paper1_GuardAgent_marked.pdf
+[A3_papers_marked/paper1_GuardAgent_marked.pdf](A3_papers_marked/paper1_GuardAgent_marked.pdf)
 
 ---
 
@@ -95,7 +95,7 @@ The authors design a hidden-state reconstruction attack that recovers user promp
 ![](paper_images/paper%202.png)
 
 **Marked-up PDF:**  
-A3_papers_marked/paper2_HiddenNoMore_marked.pdf
+[A3_papers_marked/paper2_HiddenNoMore_marked.pdf](A3_papers_marked/paper2_HiddenNoMore_marked.pdf)
 
 ---
 
@@ -132,7 +132,7 @@ The authors conduct a systematic adversarial audit using realistic prompt pertur
 ![](paper_images/paper%203.png)
 
 **Marked-up PDF:**  
-A3_papers_marked/paper3_SecureCodeGen_marked.pdf
+[A3_papers_marked/paper3_SecureCodeGen_marked.pdf](A3_papers_marked/paper3_SecureCodeGen_marked.pdf)
 
 ---
 
@@ -170,7 +170,7 @@ The paper systematically surveys backdoor attacks and defenses across training a
 ![](paper_images/paper%204.png)
 
 **Marked-up PDF:**  
-A3_papers_marked/paper4_BackdoorSurvey_marked.pdf
+[A3_papers_marked/paper4_BackdoorSurvey_marked.pdf](A3_papers_marked/paper4_BackdoorSurvey_marked.pdf)
 
 ---
 
@@ -208,7 +208,7 @@ The authors propose NEXUS, a modular framework that builds semantic attack netwo
 ![](paper_images/paper%205.png)
 
 **Marked-up PDF:**  
-A3_papers_marked/paper5_NEXUS_marked.pdf
+[A3_papers_marked/paper5_NEXUS_marked.pdf](A3_papers_marked/paper5_NEXUS_marked.pdf)
 
 ---
 
