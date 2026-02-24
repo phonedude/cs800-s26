@@ -19,9 +19,7 @@ My research focuses on Honeypots, honeynets, and deception-based defense mechani
 ## Paper 1: *Implementation of Honeynet and Honeypot in Network Infrastructure in Production Network*
 
 **Reference:**  
-
-- S. Rathore, P. K. Sharma, V. Loia, Y.-S. Jeong, and J. H. Park, “Social network security: Issues, challenges, threats, and solutions,” Information sciences, vol. 421, pp. 43–69, 2017.
-- H. Lin, Z. Yan, Y. Chen, and L. Zhang, “A survey on network securityrelated data collection technologies,” IEEe Access, vol. 6, pp. 18 34518 365, 2018.
+- Evan, N.A., Uddin, M.R.: Implementation of Honeynet and Honeypot in Network Infrastructure in Production Network (2025). https://arxiv.org/abs/2512.07180
 
 **Link:** http://arxiv.org/abs/2512.07180  
 **DOI:** 10.48550/arXiv.2512.07180
@@ -74,9 +72,7 @@ My research focuses on Honeypots, honeynets, and deception-based defense mechani
 
 **Reference:**  
 
-- N.C. Abay, C.G. Akcora, Y. Zhou, M. Kantarcioglu, B. Thuraisingham
-Using deep learning to generate relational honeydata
-Autonomous Cyber Deception, Springer (2019), pp. 3-19
+- Javadpour, A., Ja’fari, F., Taleb, T., Shojafar, M., Benza¨ıd, C.: A comprehensive survey on cyber deception techniques to improve honeypot performance.Computers & Security 140, 103792 (2024)
 
 **Link:** https://doi.org/10.1016/j.cose.2024.103792  
 
@@ -128,9 +124,7 @@ The survey adopts a systematic approach to address these challenges:
 ## Paper 3: *Honeypots: concepts, approaches, and challenges*
 
 **Reference:**  
-
-- Know Your Enemy: Honeynets. http://www.honeynet.org/papers/kye.html.
-- SANS Institiute GIAC Certification GSEC Assignment#1.4: Honey Pots-Strategic Considerations, 2002.
+- Mokube, I., Adams, M.: Honeypots: concepts, approaches, and challenges. In: Proceedings of the 45th Annual ACM Southeast Conference. ACMSE ’07, pp. 321–326. Association for Computing Machinery, New York, NY, USA (2007). https://doi.org/10.1145/1233341.1233399 . https://doi.org/10.1145/1233341.1233399
 
 **Link:** https://dl.acm.org/doi/10.1145/1233341.1233399   
 **DOI** 10.1145/1233341.1233399
@@ -180,10 +174,7 @@ The authors explore the concept of honeypots as a flexible security tool that ca
 ## Paper 4: *DDoS Protection Using a Honeynet Implementation with Offensive Capabilities*
 
 **Reference:**  
-
-- A. K. M. Habib, A. Imtiaz, D. Tripura, Md. Faruk, A. Hossain, I. Ara, S. Sarker and A. F. Y. Xiang, “Distributed denial-of-service attack detection short review: issues, challenges, and recommendations,” in Bulletin of Electrical Engineering and Informatics, vol. 14, pp. 438–446, 2025, doi: 10.11591/eei.v14i1.8377.
-- J. Xue, J. Ren, L. Feng and L. Wang, “An Analysis of Worm Dynamics with Honeypot Feedback in Scale-Free Networks,” vol. 52, issue 1, pp. 90–102, 2025.
-- O. El Kouari, S. Lazaar and T. Achoughi, “Fortifying industrial cybersecurity: a novel industrial internet of things architecture enhanced by honeypot integration,” in International Journal of Electrical and Computer Engineering (IJECE), vol. 15, no. 1, pp. 1089–1098, ISSN 2088-8708, 2025, doi: 10.11591/ijece.v15i1.pp1089-1098.
+- Patil, S., Pattewar, N., Bhadale, S., Shaikh, R., Mule, B.: Ddos protection using a honeynet implementation with offensive capabilities. In: 2025 5th Asian Conference on Innovation in Technology (ASIANCON), pp. 1–8 (2025). https://doi.org/10.1109/ASIANCON66527.2025.11280733
 
 **Link:** https://ieeexplore.ieee.org/document/11280733  
 **DOI:** 10.1109/ASIANCON66527.2025.11280733
@@ -236,10 +227,7 @@ The paper provides several significant contributions to the field of cybersecuri
 ## Paper 5: *A Dynamic Deceptive Honeynet System with A Hybrid of Virtual and Real Devices*
 
 **Reference:**  
-
-- Park B, DANG S P, NOH S, : Dynamic virtual network honeypot[C] In: Proceedings of the 2019 International Conference on Information and Communication Technology Convergence (ICTC). pp. 375–377 ( 2019 ).
-- Shi L Y, Cui Y W, Han X, Mimicry honeypot: An evolutionary decoy system[J]. International Journal of High Performance Computing and Networking. 14 ( 2 ), 157–164 ( 2019 ).
-- Lian Z, Yin X, Xi X I, : SDN Virtual Honeynet Based on Mimic Defense Mechanism[J]. Computer Engineering and Applications ( 2019 ).
+-  Minjiao, Z., Yufeng, M., Bo, W., Zhang, Q.: A dynamic deceptive honeynet system with a hybrid of virtual and real devices. In: 2022 5th International Conference on Computing and Big Data (ICCBD), pp. 113–117 (2022). https://doi.org/10.1109/ICCBD56965.2022.10080304
 
 **Link:** https://ieeexplore.ieee.org/document/10080304   
 **DOI:** 10.1109/ICCBD56965.2022.10080304
@@ -290,4 +278,5 @@ The study provides several key contributions to the field of deceptive security:
 ## Marked-up PDF : [View Marked-up PDF](papers/paper5_Deceptive_honeynet.pdf)
 
 # YouTube Video Link: 
+
 
