@@ -4,11 +4,11 @@
 ## Files
 
 ### Marked_up pdf files
-- [MCP-Ssafetybench.pdf](3/Marked-up_pdfs/MCP-Safetybench.pdf)
-- [mcp-universe.pdf](3/Marked-up_pdfs/mcp-universe.pdf)
-- [MCPTox: A Benchmark for Tool Poisoning.pdf](3/Marked-up_pdfs/MCPTox:%20A%20Benchmark%20for%20Tool%20Poisoning.pdf)
-- [ReAct.pdf](3/Marked-up_pdfs/ReAct.pdf)
-- [Security foundation.pdf](3/Marked-up_pdfs/Security%20foundation.pdf)
+- [MCP-Ssafetybench.pdf](../3/Marked-up_pdfs/MCP-Safetybench.pdf)
+- [mcp-universe.pdf](../3/Marked-up_pdfs/mcp-universe.pdf)
+- [MCPTox: A Benchmark for Tool Poisoning.pdf](../3/Marked-up_pdfs/MCPTox:%20A%20Benchmark%20for%20Tool%20Poisoning.pdf)
+- [ReAct.pdf](../3/Marked-up_pdfs/ReAct.pdf)
+- [Security foundation.pdf](../3/Marked-up_pdfs/Security%20foundation.pdf)
 
 ### Screenshots
 - [MCP-Safetybench.png](3/Screenshots/MCP-Safetybench.png)
@@ -26,7 +26,7 @@
 ## Paper 1 — MCP-SafetyBench
 ### MCP Safety Bench
 
-![MCP Safety Bench](3/Screenshots/MCP-Safetybench.png)
+![MCP Safety Bench](../3/Screenshots/MCP-Safetybench.png)
 
 ### Reference
 Zong, X., Shen, Z., Wang, L., Lan, Y. and Yang, C., 2025. MCP-SafetyBench:
@@ -67,6 +67,10 @@ attack types across five domains.
 
 
 ## Paper 2 -- Systems Security Foundations for Agentic Computing
+### Security Foundation
+![Security Foundation](../3/Screenshots/Security_Foundation.png)
+
+
 
 ### Reference
 Christodorescu, M., Fernandes, E., Hooda, A., Jha, S., Rehberger, J. and Shams, K., 2025. Systems Security Foundations for Agentic Computing.
@@ -121,6 +125,11 @@ least-privilege control, and information-flow arithmetic.
 
 ## Paper 3 -- MCP-Universe: Benchmarking Large Language Models with Real-World Model Context Protocol Servers
 
+
+### MCP Universe
+![MCP Universe](../3/Screenshots/MCP-Universe.png)
+
+
 ### Reference
 Luo, Z., Shen, Z., Yang, W., Zhao, Z., Jwalapuram, P., Saha, A., Sahoo, D., Savarese, S., Xiong,
 C. and Li, J., 2025. Mcp-universe: Benchmarking large language models with real-world model
@@ -167,6 +176,10 @@ The authors propose MCP-Universe, a benchmark with:
 
 ## Paper 4 -- ReAct: Synergizing and acting in language models
 
+### ReAct
+![ReAct](../3/Screenshots/ReAct.png)
+
+
 ### Reference
 Yao, S., Zhao, J., Yu, D., Du, N., Shafran, I., Narasimhan, K.R. and Cao, Y., 2022, October.
 React: Synergizing reasoning and acting in language models. 
@@ -204,7 +217,7 @@ plan generation) have primarily been studied as separate topics.
 ## Paper 5 -- MCPTox: A Benchmark for Tool Poisoning Attack on Real-World MCP Servers
 
 ### MCPTOX
-![MCPTOX](./3/Screenshots/MCPTOX.png)
+![MCPTOX](../3/Screenshots/MCPTOX.png)
 
 ### Reference
 Wang, Z., Gao, Y., Wang, Y., Liu, S., Sun, H., Cheng, H., Shi, G., Du, H. and Li, X., 2025. 
@@ -242,3 +255,4 @@ with 1,312 malicious test cases generated using three attack templates covering 
 
 
 ## YouTube Link
+
