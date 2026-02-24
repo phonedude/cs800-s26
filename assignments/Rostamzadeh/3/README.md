@@ -21,6 +21,25 @@
 ```
 
 
+### Marked_up pdf files
+- [MCP-Ssafetybench.pdf](../3/Marked-up_pdfs/MCP-Safetybench.pdf)
+- [mcp-universe.pdf](../3/Marked-up_pdfs/mcp-universe.pdf)
+- [MCPTox: A Benchmark for Tool Poisoning.pdf](../3/Marked-up_pdfs/MCPTox:%20A%20Benchmark%20for%20Tool%20Poisoning.pdf)
+- [ReAct.pdf](../3/Marked-up_pdfs/ReAct.pdf)
+- [Security foundation.pdf](../3/Marked-up_pdfs/Security%20foundation.pdf)
+
+### Screenshots
+- [MCP-Safetybench.png](../3/Screenshots/MCP-Safetybench.png)
+- [MCP-Universe.png](../3/Screenshots/MCP-Universe.png)
+- [MCPTOX.png](../3/Screenshots/MCPTOX.png)
+- [ReAct.png](../3/Screenshots/ReAct.png)
+- [SecurityAgentic.png](../3/Screenshots/Security_Foundation.png)
+
+### README
+- [README.md](README.md)
+
+
+
 
 ## Paper 1 — MCP-SafetyBench
 ### MCP Safety Bench
