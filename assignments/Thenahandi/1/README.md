@@ -2,7 +2,11 @@
 
 This is my submission for Assignment 1.
 
-## Folder Structure
+## Description
+
+This assignment involves using npm to install `learnyouhtml` globally and completing a series of HTML exercises to demonstrate mastery of fundamental HTML concepts. Each exercise creates a file that is verified by the workshop tool.
+
+## Directory Structure
 
 * [html](html) - Contains all HTML exercise files
   * [index.html](html/index.html) - Exercise 1: Hello World

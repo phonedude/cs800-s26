@@ -2,6 +2,25 @@
 
 This is my submission for Assignment 2.
 
+## Description
+
+This assignment focuses on establishing a professional online presence as a graduate student. It involves creating and linking multiple professional accounts including Google Scholar, ORCID, and LinkedIn. The assignment also requires building an academic webpage hosted at ODU, completing the Responsible Conduct of Research (RCR) training required for all graduate students, and learning LaTeX basics through Overleaf.
+
+## Directory Structure
+
+```
+2/
+├── README.md                           # This file - assignment documentation
+├── CS800_LaTeX_basics_01307992.pdf     # LaTeX exercise PDF from Overleaf
+└── images/                             # Screenshots of accounts and certificates
+    ├── Google_scholar.PNG
+    ├── ORCID.PNG
+    ├── LinkedIn.PNG
+    ├── webpage.PNG
+    ├── RCR_Certificate.PNG
+    └── RCR_Milestone.PNG
+```
+
 ## Google Scholar
 [https://scholar.google.com/citations?user=QKP5tuwAAAAJ](https://scholar.google.com/citations?user=QKP5tuwAAAAJ)
 
