@@ -2,7 +2,7 @@
 CS 800 Research Methods, Spring 2026  
 **Name:** Protiva Das
 
-This submission contains five papers from my research area (**LLM security, privacy, and adversarial robustness**), each with **Keshav’s 1st-pass summary** (problem, approach, contributions), **reference**, **DOI link**, **BibTeX entry**, and a **marked-up PDF** highlighting the relevant sections.
+This submission contains five papers from my research area (**LLM security, privacy, and adversarial robustness**), each with **Keshav’s 1st-pass summary** (**problem, approach, contributions**), **reference**, **DOI link**, **BibTeX entry**, and a **marked-up PDF** highlighting the relevant sections.
 
 ---
 
@@ -28,7 +28,7 @@ assignments/Das/3/
 ## **Paper 1: GuardAgent – Safeguard LLM Agents via Knowledge-Enabled Reasoning**
 
 **Reference:**  
-Xiang, Z., Zheng, L., Li, Y., Hong, J., Li, Q., Xie, H., ... & Li, B. (2025, July). *GuardAgent: Safeguard LLM Agents via Knowledge-Enabled Reasoning.* In ICML 2025 Workshop on Computer Use Agents.
+Xiang, Z., Zheng, L., Li, Y., Hong, J., Li, Q., Xie, H., ... & Li, B. (2025, July). Guardagent: safeguard LLM agents via knowledge-enabled reasoning. In ICML 2025 workshop on computer use agents.
 
 **DOI:**  
 https://arxiv.org/abs/2406.09187
@@ -65,7 +65,7 @@ A3_papers_marked/paper1_GuardAgent_marked.pdf
 ## **Paper 2: Hidden No More – Attacking and Defending Private Third-Party LLM Inference**
 
 **Reference:**  
-Pal, A., Thomas, R. K., Zahran, L., Choi, E., Potti, A., & Goldblum, M. (2025). *Hidden No More: Attacking and Defending Private Third-Party LLM Inference.* In ICLR 2025 Workshop on Building Trust in Language Models and Applications.
+Pal, A., Thomas, R. K., Zahran, L., Choi, E., Potti, A., & Goldblum, M. (2025). Hidden no more: attacking and defending private third-party LLM inference. In ICLR 2025 workshop on building trust in language models and applications.
 
 **DOI:**  
 https://openreview.net/forum?id=QfD9P9IIoz
@@ -102,7 +102,7 @@ A3_papers_marked/paper2_HiddenNoMore_marked.pdf
 ## **Paper 3: How Secure is Secure Code Generation? Adversarial Prompts Put LLM Defenses to the Test**
 
 **Reference:**  
-Tessa, M., Olatunji, I. E., War, A., Klein, J., & Bissyandé, T. F. (2026). *How Secure is Secure Code Generation? Adversarial Prompts Put LLM Defenses to the Test.* arXiv preprint arXiv:2601.07084.
+Tessa, M., Olatunji, I. E., War, A., Klein, J., & Bissyandé, T. F. (2026). How Secure is Secure Code Generation? Adversarial Prompts Put LLM Defenses to the Test. arXiv preprint arXiv:2601.07084.
 
 **DOI:**  
 https://arxiv.org/abs/2601.07084
@@ -136,10 +136,10 @@ A3_papers_marked/paper3_SecureCodeGen_marked.pdf
 
 ---
 
-## **Paper 4: Backdoor Attacks and Countermeasures in NLP Models – A Comprehensive Security Review**
+## **Paper 4: Backdoor Attacks and Countermeasures in Natural Language Processing Models: A Comprehensive Security Review**
 
 **Reference:**  
-Cheng, P., Wu, Z., Du, W., Zhao, H., Lu, W., & Liu, G. (2025). *Backdoor Attacks and Countermeasures in Natural Language Processing Models: A Comprehensive Security Review.* IEEE Transactions on Neural Networks and Learning Systems.
+Cheng, P., Wu, Z., Du, W., Zhao, H., Lu, W., & Liu, G. (2025). Backdoor attacks and countermeasures in natural language processing models: A comprehensive security review. IEEE Transactions on Neural Networks and Learning Systems.
 
 **DOI:**  
 https://arxiv.org/abs/2309.06055
@@ -174,10 +174,10 @@ A3_papers_marked/paper4_BackdoorSurvey_marked.pdf
 
 ---
 
-## **Paper 5: NEXUS – Network Exploration for eXploiting Unsafe Sequences in Multi-Turn LLM Jailbreaks**
+## **Paper 5: NEXUS: Network Exploration for eXploiting Unsafe Sequences in Multi-Turn LLM Jailbreaks**
 
 **Reference:**  
-Asl, J. R., Narula, S., Ghasemigol, M., Blanco, E., & Takabi, D. (2025, November). *NEXUS: Network Exploration for eXploiting Unsafe Sequences in Multi-Turn LLM Jailbreaks.* In Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing (pp. 24278–24306).
+Asl, J. R., Narula, S., Ghasemigol, M., Blanco, E., & Takabi, D. (2025, November). NEXUS: Network Exploration for eXploiting Unsafe Sequences in Multi-Turn LLM Jailbreaks. In Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing (pp. 24278-24306).
 
 **DOI:**  
 https://arxiv.org/abs/2510.03417
