@@ -24,6 +24,8 @@
 
 
 ## Paper 1 — MCP-SafetyBench
+#### MCP Safety Bench
+![MCP Safety Bench](./3/Screenshots/MCP-Safetybench.png)
 
 ### Reference
 Zong, X., Shen, Z., Wang, L., Lan, Y. and Yang, C., 2025. MCP-SafetyBench:
@@ -107,12 +109,13 @@ and user-level guardrails.
 
 **Technical Framework**: Formalizes challenges like managing non-deterministic TCBs and defining harmful vs. useful instructions.
 **Exploit Taxonomy**: Details 11 major attacks (e.g., ChatGPT "SpAIware," Devin AI exposed ports) and their specific failures.
-
-**State-of-the-Field Review**: Compares 28 current safety systems, such as FIDES,
+**State-of-the-Field Review**: Compares 28 current safety systems,
+such as FIDES,
 ACE, and Progent.
+
 **Future Roadmap**: Sets a research agenda for instruction-data separation,
 least-privilege control, and information-flow arithmetic.
----
+
 
 
 ## Paper 3 -- MCP-Universe: Benchmarking Large Language Models with Real-World Model Context Protocol Servers
