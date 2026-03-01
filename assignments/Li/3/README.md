@@ -158,4 +158,4 @@ PDF: [FTAlign](pdfs/Wen%20et%20al.%20-%202020%20-%20Topology-independent%20and%2
 ![screenshot_5](images/screenshot_5.png)
 
 ## YouTube Video Link
-[]()
+[https://youtu.be/mNKNz9JnlAo](https://youtu.be/mNKNz9JnlAo)
