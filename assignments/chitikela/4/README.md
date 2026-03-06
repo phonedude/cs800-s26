@@ -49,7 +49,7 @@ These are the same papers used in Assignment 3.
 A walkthrough of the Overleaf compilation, PDF download, and review of each
 paper summary is available at:
 
-**Video Link:** (to be added)
+**Video Link:** (https://youtu.be/yOb0iT-Gh5s)
 
 The video covers:
 - Compiling `litreview.tex` in Overleaf and downloading the PDF
