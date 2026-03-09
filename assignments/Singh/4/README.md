@@ -29,7 +29,7 @@ assignments/
             ├── references.bib
             └── figures/      # Optional: images or diagrams used in the review
 
-
+```
 **review.pdf** – Final compiled PDF of the literature review.
 
 **review.tex** – LaTeX source used to generate the PDF.
@@ -50,4 +50,5 @@ Downloading the final PDF
 Scrolling through the literature review and briefly describing each paper
 
 Link: [PASTE_YOUR_YOUTUBE_LINK_HERE]
+
 
