@@ -56,7 +56,7 @@ PDF: [AlphaFold3](pdfs/Abramson%20et%20al.%20-%202024%20-%20Accurate%20structure
 Chen, Ji et al. Protein model building for intermediate-resolution cryo-EM maps by integrating evolutionary and experimental information. Structure 2025, 34(2), 375–384.e5. [https://doi.org/10.1016/j.str.2025.11.004](https://doi.org/10.1016/j.str.2025.11.004)
 ```bibtex
 @article{Chen2025CryoEM,
-  author  = {Chen, Ji and others},
+  author  = {Chen, Ji and Li, Tao and He, Jiahua and Huang, Sheng-You},
   title   = {Protein model building for intermediate-resolution {cryo-EM} maps by integrating evolutionary and experimental information},
   journal   = {Structure},
   year      = {2025},
