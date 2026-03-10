@@ -26,12 +26,14 @@ Below are the five papers on which **Keshav’s 1st Pass** has been performed.
 ### Paper 1: scBERT as a large-scale pretrained deep language model for cell type annotation of single-cell RNA-seq data
 
 
-**Refrence:** Yang, F., Wang, W., Wang, F., et al.: scbert as a large-scale pretrained deep language model for cell type annotation of single-cell rna-seq data. Nature Machine Intelligence 4(10), 852–866 (2022) https://doi.org/10.1038/s42256-022-00534-z
+**Refrence:** F. Yang, W. Wang, F. Wang, Y. Fang, D. Tang, J. Huang, H. Lu, and J. Yao, “scBERT as a
+large-scale pretrained deep language model for cell type annotation of single-cell RNA-seq
+data,” Nature Machine Intelligence, vol. 4, no. 10, pp. 852–866, 2022.
 
 ```bibtex
 @article{yang2022scbert,
-  title={scBERT as a large-scale pretrained deep language model for cell type annotation of single-cell RNA-seq data},
-  author={Yang, Fan and Wang, Wenchuan and Wang, Fang and others},
+  title={{scBERT} as a large-scale pretrained deep language model for cell type annotation of single-cell {RNA}-seq data},
+  author={Yang, Fan and Wang, Wenchuan and Wang, Fang and Fang, Yuan and Tang, Duyu and Huang, Junzgou and Lu, Hui and Yao, Jianhua},
   journal={Nature Machine Intelligence},
   volume={4},
   number={10},
@@ -62,12 +64,14 @@ Below are the five papers on which **Keshav’s 1st Pass** has been performed.
 
 ### Paper 2: Transfer learning enables predictions in network biology
 
-**Refrence:** Theodoris, C.V., Xiao, L., Chopra, A., et al.: Transfer learning enables predictions in network biology. Nature 618(7965), 616–624 (2023) https://doi.org/10.1038/s41586-023-06139-9
+**Refrence:** C. V. Theodoris, L. Xiao, A. Chopra, M. D. Chaffin, Z. R. Al Sayed, M. C. Hill, H. Mantineo,
+E. M. Brydon, Z. Zeng, X. S. Liu, and P. T. Ellinor, “Transfer learning enables predictions in
+network biology,” Nature, vol. 618, no. 7965, pp. 616–624, 2023.
 
 ```bibtex
 @article{theodoris2023transfer,
   title={Transfer learning enables predictions in network biology},
-  author={Theodoris, Christina V and Xiao, Ling and Chopra, Anant and others},
+  author={Theodoris, Christina V and Xiao, Ling and Chopra, Anant and Chaffin, Mark D. and Al Sayed, Zeina R. and Hill, Matthew C. and Mantineo, Helene and Brydon, Elizabeth M. and Zeng, Zexian and Liu, X. Shirley and Ellinor, Patrick T.},
   journal={Nature},
   volume={618},
   number={7965},
@@ -99,12 +103,13 @@ Below are the five papers on which **Keshav’s 1st Pass** has been performed.
 
 ### Paper 3: scGPT: toward building a foundation model for single-cell multi-omics using generative AI
 
-**Refrence:** Cui, H., Wang, C., Maan, H., et al.: scgpt: toward building a foundation modelfor single-cell multi-omics using generative ai. Nature Methods 21(8), 1470–1480 (2024) https://doi.org/10.1038/s41592-024-02201-0
+**Refrence:** H. Cui, C. Wang, H. Maan, K. Pang, F. Luo, N. Duan, and B. Wang, “scGPT: toward building
+a foundation model for single-cell multi-omics using generative AI,” Nature Methods, vol. 21, no. 8, pp. 1470–1480, 2024.
 
 ```bibtex
 @article{cui2024scgpt,
-  title={scGPT: toward building a foundation model for single-cell multi-omics using generative AI},
-  author={Cui, Haotian and Wang, Chloe and Maan, Hassaan and others},
+  title={{scGPT}: toward building a foundation model for single-cell multi-omics using generative {AI}},
+  author={Cui, Haotian and Wang, Chloe and Maan, Hassaan and Pang, Kuan and Luo, Fengning and Duan, Nan and Wang, Bo},
   journal={Nature Methods},
   volume={21},
   number={8},
@@ -135,12 +140,14 @@ Below are the five papers on which **Keshav’s 1st Pass** has been performed.
 
 ### Paper 4: Deciphering driver regulators of cell fate decisions from single-cell transcriptomics data with CEFCON
 
-**Refrence:** Wang, P., Wen, X., Li, H., et al.: Deciphering driver regulators of cell fate decisions from single-cell transcriptomics data with cefcon. Nature Communications 14(1), 8459 (2023) https://doi.org/10.1038/s41467-023-44103-3
+**Refrence:** P. Wang, X. Wen, H. Li, P. Lang, S. Li, Y. Lei, H. Shu, L. Gao, D. Zhao, and J. Zeng, “De-
+ciphering driver regulators of cell fate decisions from single-cell transcriptomics data with
+CEFCON,” Nature Communications, vol. 14, no. 1, p. 8459, 2023.
 
 ```bibtex
 @article{wang2023deciphering,
-  title={Deciphering driver regulators of cell fate decisions from single-cell transcriptomics data with CEFCON},
-  author={Wang, Peizhuo and Wen, Xiao and Li, Han and others},
+  title={Deciphering driver regulators of cell fate decisions from single-cell transcriptomics data with {CEFCON}},
+  author={Wang, Peizhuo and Wen, Xiao and Li, Han and Lang, Peng and Li, Shuya and Lei, Yipin and Shu, Hantao and Gao, Lin and Zhao, Dan and Zeng, Jianyang},
   journal={Nature Communications},
   volume={14},
   number={1},
@@ -171,14 +178,19 @@ Below are the five papers on which **Keshav’s 1st Pass** has been performed.
 
 ### Paper 5: scMamba: A Pre-Trained Model for Single-Nucleus RNA Sequencing Analysis in Neurodegenerative Disorders
 
-**Refrence:** Oh, G., Choi, B., Jin, S., Jung, I., Ye, J.C.: scmamba: A pre-trained model for single-nucleus rna sequencing analysis in neurodegenerative disorders. arXiv preprint arXiv:2502.19429 (2025) https://doi.org/10.48550/arXiv.2502.19429
+**Refrence:** G. Oh, B. Choi, S. Jin, I. Jung, and J. C. Ye, “scMamba: A Pre-Trained Model for
+Single-Nucleus RNA Sequencing Analysis in Neurodegenerative Disorders,” Tech. Rep.
+arXiv:2502.19429, 2025.
 
 ```bibtex
-@article{oh2025scmamba,
-  title={scMamba: A Pre-Trained Model for Single-Nucleus RNA Sequencing Analysis in Neurodegenerative Disorders},
+@techreport{oh2025scmamba,
+  title={{scMamba}: A {Pre-Trained} {Model} for {Single-Nucleus} {RNA} {Sequencing} {Analysis} in {Neurodegenerative} {Disorders}},
   author={Oh, Gyutaek and Choi, Baekgyu and Jin, Seyoung and Jung, Inkyung and Ye, Jong Chul},
-  journal={arXiv preprint arXiv:2502.19429},
   year={2025},
+  eprint={2502.19429},
+  archivePrefix={arXiv},
+  primaryClass={q-bio.GN},
+  number = {arXiv:2502.19429},
   doi="10.48550/arXiv.2502.19429"
 }
 ```
