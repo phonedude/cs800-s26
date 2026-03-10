@@ -1,6 +1,7 @@
-# Assignment 3
-
-This is my submission for Assignment 3.
+# Assignment 3: Reading Papers
+## CS 800 Research Methods, Spring 2026
+### Name: Pasindu Thenahandi
+### UIN: 01307992
 
 ## Description
 
@@ -11,7 +12,7 @@ This assignment involves finding five papers related to my research area (eye-tr
 ```
 3/
 ├── README.md       # This file - assignment documentation
-├── Papers/         # Directory containing marked-up PDFs of all 5 papers
+├── papers/         # Directory containing marked-up PDFs of all 5 papers
 └── images/         # Directory containing screenshots of page 1 of each paper
 ```
 
@@ -29,12 +30,13 @@ Mahanama, B., Ashok, V., & Jayarathna, S. (2024, August). Multi-eyes: A framewor
 ### BibTeX
 ```bibtex
 @inproceedings{mahanama2024multi,
-  title={Multi-eyes: A framework for multi-user eye-tracking using webcameras},
+  title={{Multi-Eyes}: A framework for multi-user eye-tracking using webcameras},
   author={Mahanama, Bhanuka and Ashok, Vikas and Jayarathna, Sampath},
   booktitle={2024 IEEE International Conference on Information Reuse and Integration for Data Science (IRI)},
   pages={308--313},
   year={2024},
-  organization={IEEE}
+  organization={IEEE},
+  doi={10.1109/IRI62200.2024.00069}
 }
 ```
 
@@ -69,7 +71,8 @@ Mahanama, B., Ashok, V., & Jayarathna, S. (2025, August). Unsupervised Domain Ad
   booktitle={2025 IEEE International Conference on Information Reuse and Integration and Data Science (IRI)},
   pages={343--348},
   year={2025},
-  organization={IEEE}
+  organization={IEEE},
+  doi={10.1109/IRI66576.2025.00070}
 }
 ```
 
@@ -103,7 +106,9 @@ Wisiecka, K., Krejtz, K., Krejtz, I., Sromek, D., Cellary, A., Lewandowska, B., 
   author={Wisiecka, Katarzyna and Krejtz, Krzysztof and Krejtz, Izabela and Sromek, Damian and Cellary, Adam and Lewandowska, Beata and Duchowski, Andrew},
   booktitle={2022 Symposium on eye tracking research and applications},
   pages={1--7},
-  year={2022}
+  year={2022},
+  organization={ACM},
+  doi={10.1145/3517031.3529615}
 }
 ```
 
@@ -133,11 +138,13 @@ Papoutsaki, A., Laskey, J., & Huang, J. (2017, March). Searchgazer: Webcam eye t
 ### BibTeX
 ```bibtex
 @inproceedings{papoutsaki2017searchgazer,
-  title={Searchgazer: Webcam eye tracking for remote studies of web search},
+  title={{SearchGazer}: Webcam eye tracking for remote studies of web search},
   author={Papoutsaki, Alexandra and Laskey, James and Huang, Jeff},
   booktitle={Proceedings of the 2017 conference on conference human information interaction and retrieval},
   pages={17--26},
-  year={2017}
+  year={2017},
+  organization={ACM},
+  doi={10.1145/3020165.3020170}
 }
 ```
 
@@ -169,8 +176,12 @@ Zhang, H., Wu, S., Chen, W., Gao, Z., & Wan, Z. (2023). Self-calibrating gaze es
   title={Self-calibrating gaze estimation with optical axes projection for head-mounted eye tracking},
   author={Zhang, Hanyuan and Wu, Shiqian and Chen, Wenbin and Gao, Zheng and Wan, Zhonghua},
   journal={IEEE Transactions on Industrial Informatics},
+  volume={20},
+  number={2},
   pages={1397--1407},
-  year={2023}
+  year={2023},
+  doi={10.1109/TII.2023.3276322},
+  publisher={IEEE}
 }
 ```
 

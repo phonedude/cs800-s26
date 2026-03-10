@@ -1,6 +1,7 @@
-# Assignment 1
-
-This is my submission for Assignment 1.
+# Assignment 1: Course Setup
+## CS 800 Research Methods, Spring 2026
+### Name: Pasindu Thenahandi
+### UIN: 01307992
 
 ## Description
 

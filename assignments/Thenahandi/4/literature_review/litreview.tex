@@ -1,0 +1,78 @@
+\documentclass[12pt]{article}
+\usepackage{times} 			% use Times New Roman font
+
+\usepackage[margin=1in]{geometry}   % sets 1 inch margins on all sides
+\usepackage[hidelinks]{hyperref}               % for URL formatting
+\usepackage[pdftex]{graphicx}       % So includegraphics will work
+
+% for fancy page headings
+\usepackage{fancyhdr}
+\setlength{\headheight}{13.6pt} % to remove fancyhdr warning
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{\small \thepage}
+\lhead{\small CS 800, Spring 2026 - HW4 - Thenahandi}
+
+% more packages and settings 
+\usepackage{datetime}
+\usepackage{indentfirst}  % always indent first paragraph in a section
+\usepackage[sort&compress, square, comma, numbers]{natbib}
+\usepackage[small, bf]{caption}
+\setlength{\parskip}{0.5em}
+
+%-------------------------------------------------------------------------
+\begin{document}
+
+\begin{centering}
+{\large\textbf{HW4 - Literature Review}}\\
+\vspace{3mm} % add vertical space
+Pasindu Thenahandi\\
+CS 800, Spring 2026\\
+\end{centering}
+
+%-------------------------------------------------------------------------
+
+% INSERT LIT REVIEW HERE
+
+\vspace{5mm}
+\noindent\textbf{Topic:} Eye Tracking Using Commodity Web Cameras
+
+\section{Introduction}
+% one paragraph describing the topic you will be reviewing and how the papers were selected for inclusion
+
+
+Eye tracking is widely used in fields such as human-computer interaction, psychology, neuroscience, and virtual reality to study visual attention and user behavior. Traditional eye-tracking systems typically rely on specialized hardware, which can be expensive and restrict experiments to controlled laboratory environments. Recent advances in computer vision and machine learning have made it possible to estimate gaze using standard webcams, enabling a more accessible and scalable alternative. Webcam-based eye tracking allows researchers to collect gaze data remotely and at a significantly lower cost, making it attractive for large-scale studies conducted in natural environments. However, questions remain regarding the accuracy, precision, and reliability of gaze estimates obtained from commodity cameras compared with dedicated eye-tracking devices. Several recent studies have explored this issue by evaluating webcam-based systems against commercial eye trackers and investigating their potential applications in assistive technologies and gaze-based interaction.
+
+\section{Summaries}
+% one paragraph for each of the papers that summarizes the main ideas
+
+% This line is here to demonstrate including references \cite{hao-vizsec13}. It must be removed before you submit your assignment.
+
+WebGazer is a browser-based eye-tracking system that estimates gaze direction using standard webcams without requiring specialized hardware \cite{papoutsaki2016webgazer}. The system uses user interactions, such as mouse clicks, as implicit calibration signals to train a regression model that maps facial features to screen coordinates. This approach enables gaze tracking directly within a web browser, allowing researchers to conduct large-scale online experiments. The authors evaluated the system in real-world browsing scenarios and demonstrated that it can achieve reasonable gaze estimation accuracy despite relying on low-cost hardware. Their work shows that webcam-based eye tracking can be integrated into everyday web applications and provides a scalable method for collecting gaze data from many users remotely.
+
+Researchers have also explored the feasibility of collecting eye-tracking data through webcams in large crowdsourced studies. One such study introduced a platform that records webcam images while participants perform visual tasks and combines these recordings with calibration data to estimate gaze positions \cite{krafka2016eye}. Using this framework, the researchers collected a large dataset of eye images and gaze points from thousands of participants. The study demonstrated that although webcam eye tracking is less precise than specialized hardware trackers, it can still be sufficiently accurate for many research applications. Additionally, the authors showed that large-scale data collection can compensate for reduced precision, enabling researchers to conduct studies that would otherwise require expensive laboratory equipment.
+
+SearchGazer is a system designed to enable webcam-based eye tracking for studying how users interact with search engine result pages \cite{papoutsaki2017searchgazer}. The system extends the WebGazer framework and uses a standard webcam to estimate gaze positions while users interact with web pages. It operates directly within the browser and uses user interactions to continuously improve calibration and prediction accuracy. One of the main contributions of this work is its ability to identify which areas of interest on a search results page a user is viewing in real time. Because the system runs entirely on the client side, no video data needs to be transmitted to external servers, which helps preserve user privacy. This work demonstrates that webcam-based eye tracking can be used to conduct large-scale remote studies of search behavior without requiring specialized laboratory equipment.
+
+Recent research has also explored the use of deep learning techniques to improve webcam-based gaze estimation in online experiments. One study evaluated appearance-based deep learning models for gaze and blink detection using webcam recordings collected during remote experiments \cite{saxena2024deep}. In this study, participants completed a series of eye movement tasks including fixation, smooth pursuit, free viewing, and blink detection while their webcam video was recorded. The collected recordings were analyzed using several neural network models trained for gaze estimation. The results showed that deep learning approaches can significantly improve webcam gaze tracking accuracy, achieving approximately 2.4° gaze estimation accuracy and higher precision than earlier methods. These findings suggest that deep learning models can reduce the performance gap between webcam-based tracking and laboratory eye-tracking systems.
+
+Another recent study evaluated whether webcam eye tracking can approach the performance of laboratory-grade eye trackers by comparing a new webcam-based tracking system with the EyeLink 1000 eye tracker \cite{kaduk2024webcam}. The researchers integrated a deep-learning-based gaze estimation model into an online behavioral experiment platform and conducted a systematic evaluation across several experimental tasks. The evaluation focused on key performance measures such as accuracy, precision, and data loss during eye-tracking experiments. The results showed that the webcam-based system achieved improved accuracy compared with earlier webcam methods and could approach the quality required for certain behavioral experiments. However, the study also highlighted limitations related to participant movement, environmental conditions, and privacy concerns when using webcams for gaze tracking. These findings suggest that although webcam eye tracking still cannot fully replace high-end laboratory systems, it is becoming increasingly reliable for many types of online behavioral research.
+
+\section{Synthesis}
+% a description of how the papers fit together and their relationship to the overall body of work in your topic, can be multiple paragraphs
+
+The reviewed papers collectively illustrate the rapid development of webcam-based eye tracking from early feasibility studies to more advanced systems capable of supporting large-scale online research. A central theme across these works is the goal of making eye-tracking technology more accessible by reducing the dependence on specialized hardware. Traditional eye trackers provide high accuracy but are costly and typically restricted to laboratory environments. Webcam-based approaches attempt to address this limitation by enabling gaze estimation using commodity cameras that are widely available on personal computers.
+
+Early work in this area focused on demonstrating the feasibility of webcam-based gaze tracking in web environments. The WebGazer system \cite{papoutsaki2016webgazer} showed that gaze estimation could be performed directly within a web browser using user interactions such as mouse clicks as implicit calibration signals . This approach demonstrated that large-scale eye-tracking experiments could potentially be conducted online without requiring specialized equipment. Similarly, the large-scale data collection framework introduced by Krafka et al. \cite{krafka2016eye} highlighted the importance of collecting large datasets for training gaze estimation models and improving the performance of webcam-based systems. These studies established the foundation for scalable webcam eye tracking by combining commodity hardware with machine learning techniques.
+
+Building on these ideas, later work explored how webcam eye tracking could be applied to specific research domains and online behavioral studies. For example, the SearchGazer system \cite{papoutsaki2017searchgazer} extended the WebGazer framework \cite{papoutsaki2016webgazer} to investigate how users interact with search engine results pages. By enabling gaze tracking directly during web search tasks, this work demonstrated that webcam-based eye tracking could support remote studies of user behavior at scale. Such approaches allow researchers to analyze attention patterns in real-world browsing environments, which are difficult to replicate in controlled laboratory settings.
+
+More recent work has focused on improving gaze estimation accuracy using deep learning and validating webcam systems against established laboratory eye trackers. Saxena et al. \cite{saxena2024deep} demonstrated that appearance-based deep learning models can significantly improve gaze prediction and blink detection in remote experiments. Building on these advances, Kaduk et al. \cite{kaduk2024webcam} compared a new webcam-based eye-tracking system integrated into the Labvanced experimental platform with the EyeLink 1000 eye tracker. Their evaluation showed that the new system achieved accuracy and precision close to laboratory standards while also demonstrating substantial improvements over earlier webcam-based approaches such as SearchGazer \cite{papoutsaki2017searchgazer}. This comparison highlights the rapid progress in webcam eye tracking, showing that modern systems can achieve performance levels suitable for many behavioral experiments.
+
+Overall, these studies show a clear progression in the field. Early work established the feasibility of webcam gaze tracking and enabled large-scale data collection, while later research focused on improving accuracy and validating performance against traditional eye trackers. Together, these contributions indicate that webcam-based eye tracking is becoming an increasingly practical tool for remote experimentation and large-scale studies in human–computer interaction and behavioral research.
+
+%-------------------------------------------------------------------------
+\bibliographystyle{ieeetr} 		% use IEEE bibliography style
+\bibliography{litreview}
+
+\end{document}

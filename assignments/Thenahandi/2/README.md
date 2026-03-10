@@ -1,6 +1,7 @@
-# Assignment 2
-
-This is my submission for Assignment 2.
+# Assignment 2: Presence, Tools, RCR
+## CS 800 Research Methods, Spring 2026
+### Name: Pasindu Thenahandi
+### UIN: 01307992
 
 ## Description
 
