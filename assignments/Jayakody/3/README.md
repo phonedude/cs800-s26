@@ -64,7 +64,7 @@ This submission contains five papers from my research area (differential microsc
   journal={Science advances},
   volume={7},
   number={28},
-  pages={eaay5496},
+  eid={eaay5496},
   year={2021},
   doi={10.1126/sciadv.aay5496}
 }
@@ -91,12 +91,12 @@ This submission contains five papers from my research area (differential microsc
 
 ```bibtex
 @article{wijethilake2023deep,
-  title={DEEP-squared: deep learning powered de-scattering with excitation patterning},
+  title={{DEEP}-squared: deep learning powered de-scattering with excitation patterning},
   author={Wijethilake, Navodini and Anandakumar, Mithunjha and Zheng, Cheng and So, Peter TC and Yildirim, Murat and Wadduwage, Dushan N},
-  journal={Light: Science \& Applications},
+  journal={Light: Science and Applications},
   volume={12},
   number={1},
-  pages={228},
+  eid={228},
   year={2023},
   doi={10.1038/s41377-023-01248-6}
 }
@@ -159,7 +159,7 @@ This submission contains five papers from my research area (differential microsc
 
 ```bibtex
 @article{kariyawasam2026quaton,
-  title={QuATON: quantization aware training of optical neurons},
+  title={{QuATON}: quantization aware training of optical neurons},
   author={Kariyawasam, Hasindu and Hettiarachchi, Ramith and Yang, Quansan and Matlock, Alex and Nambara, Takahiro and Kusaka, Hiroyuki and Kunai, Yuichiro and So, Peter TC and Boyden, Edward S and Wadduwage, Dushan N},
   journal={Optics Express},
   volume={34},
