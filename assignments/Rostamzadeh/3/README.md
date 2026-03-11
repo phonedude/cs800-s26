@@ -56,13 +56,13 @@ https://doi.org/10.48550/arXiv.2512.15163
 ### BibTex Entry 
 
 ```
-@article{zong2025mcpsafetybench,
-  author={Zong, X. and Shen, Z. and Wang, L. and Lan, Y. and Yang, C.},
-  title={{MCP-SafetyBench: A Benchmark for Safety Evaluation of Large Language Models with Real-World MCP Servers}},
-  journal={arXiv preprint arXiv:2512.15163},
-  year={2025},
-  url={https://arxiv.org/abs/2512.15163}
+@misc{zong2025mcp,
+  author  = {Zong, Xuanjun and Shen, Zhiqi and Wang, Lei and Lan, Yunshi and Yang, Chao},
+  title   = {{MCP-SafetyBench}: A Benchmark for Safety Evaluation of Large Language Models with Real-World {MCP} Servers},
+  journal = {arXiv preprint arXiv:2512.15163},
+  year    = {2025}
 }
+
 ```
 
 
@@ -99,14 +99,12 @@ https://doi.org/10.48550/arXiv.2512.01295
 
 ### BibTex
 ```
-@article{christodorescu2025systems,
-  author={Christodorescu, Mihai and Fernandes, Earlence and Hooda, Ashish and Jha, Somesh and Rehberger, Johann and Shams, Kayhan},
-  journal={arXiv preprint arXiv:2512.01295}, 
-  title={Systems Security Foundations for {Agentic Computing}}, 
-  year={2025},
-  eprint={2512.01295},
-  archivePrefix={arXiv},
-  primaryClass={cs.CR}
+@misc{christodorescu2025systems,
+  author  = {Christodorescu, Mihai and Fernandes, Earlence and Hooda, Ashish and Jha, Somesh and Rehberger, Johann and Shams, Kayhan},
+  title   = {Systems Security Foundations for Agentic Computing},
+  journal = {arXiv preprint arXiv:2512.01295},
+  year    = {2025},
+  url     = {https://arxiv.org/abs/2512.01295}
 }
 
 ```
@@ -159,14 +157,12 @@ https://doi.org/10.48550/arXiv.2508.14704
 
 ### BibTex
 ```
-@article{luo2025mcp,
-  author={Luo, Ziyu and Shen, Zehui and Yang, Wenhao and Zhao, Zheng and Jwalapuram, Prathyusha and Saha, Ankit and Sahoo, Doyen and Savarese, Silvio and Xiong, Caiming and Li, Juan},
-  journal={arXiv preprint arXiv:2508.14704}, 
-  title={{MCP-Universe}: Benchmarking Large Language Models with Real-World {Model Context Protocol} Servers}, 
-  year={2025},
-  eprint={2508.14704},
-  archivePrefix={arXiv},
-  primaryClass={cs.AI}
+@misc{luo2025mcp,
+  author  = {Luo, Ziyu and Shen, Zehui and Yang, Wenhao and Zhao, Zheng and Jwalapuram, Prathyusha and Saha, Ankit and Sahoo, Doyen and Savarese, Silvio and Xiong, Caiming and Li, Juan},
+  title   = {{MCP-Universe}: Benchmarking Large Language Models with Real-World Model Context Protocol Servers},
+  journal = {arXiv preprint arXiv:2508.14704},
+  year    = {2025},
+  url     = {https://arxiv.org/abs/2508.14704}
 }
 ```
 
@@ -210,12 +206,13 @@ https://doi.org/10.48550/arXiv.2210.03629
 ## BibTex 
 ```
 @inproceedings{yao2022react,
-  author={Yao, S. and Zhao, J. and Yu, D. and Du, N. and Shafran, I. and Narasimhan, K.R. and Cao, Y.},
-  title={{REACT: Synergizing Reasoning and Acting in Language Models}},
-  booktitle={The Eleventh International Conference on Learning Representations (ICLR)},
-  month={Oct.},
-  year={2022},
-  url={https://arxiv.org/pdf/2210.03629 }
+  author    = {Yao, S. and Zhao, J. and Yu, D. and Du, N. and Shafran, I. and Narasimhan, K. R. and Cao, Y.},
+  title     = {{REACT}: Synergizing Reasoning and Acting in Language Models},
+  booktitle = {Proceedings of the Eleventh International Conference on Learning Representations (ICLR)},
+  month     = oct,
+  year      = {2022},
+  url       = {https://arxiv.org/abs/2210.03629}
+}
 ```
 
 
@@ -247,12 +244,12 @@ https://doi.org/10.48550/arXiv.2508.14925
 
 ### BibTex entry
 ```
-@article{wang2025mcptox,
-  author={Wang, Z. and Gao, Y. and Wang, Y. and Liu, S. and Sun, H. and Cheng, H. and Shi, G. and Du, H. and Li, X.},
-  title={{MCPTox: A Benchmark for Tool Poisoning Attack on Real-World MCP Servers}},
-  journal={arXiv preprint arXiv:2508.14925},
-  year={2025},
-  url={https://arxiv.org/abs/2508.14925}
+@misc{wang2025mcptox,
+  author  = {Wang, Z. and Gao, Y. and Wang, Y. and Liu, S. and Sun, H. and Cheng, H. and Shi, G. and Du, H. and Li, X.},
+  title   = {{MCPTox}: A Benchmark for Tool Poisoning Attack on Real-World {MCP} Servers},
+  journal = {arXiv preprint arXiv:2508.14925},
+  year    = {2025},
+  url     = {https://arxiv.org/abs/2508.14925}
 }
 ```
 
