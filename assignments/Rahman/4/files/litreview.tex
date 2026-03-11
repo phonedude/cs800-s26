@@ -1,0 +1,71 @@
+\documentclass[12pt]{article}
+\usepackage{times}
+
+\usepackage[margin=1in]{geometry}   % sets 1 inch margins on all sides
+\usepackage[hidelinks]{hyperref}               % for URL formatting
+\usepackage[pdftex]{graphicx}       % So includegraphics will work
+
+% for fancy page headings
+\usepackage{fancyhdr}
+\setlength{\headheight}{13.6pt} % to remove fancyhdr warning
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{\small \thepage}
+\lhead{\small CS 800, Spring 2026- HW4 - Rahman}
+
+% more packages and settings 
+\usepackage{datetime}
+\usepackage{indentfirst}  % always indent first paragraph in a section
+\usepackage[sort&compress, square, comma, numbers]{natbib}
+\usepackage[small, bf]{caption}
+\setlength{\parskip}{0.5em}
+\setlength{\parindent}{0.5in}
+
+%-------------------------------------------------------------------------
+\begin{document}
+
+\begin{centering}
+{\large\textbf{HW4 - Literature Review}}\\
+\vspace{3mm} % add vertical space
+Md Habibur Rahman \\
+CS 800, Spring 2026 \\
+\end{centering}
+
+%-------------------------------------------------------------------------
+
+% INSERT LIT REVIEW HERE
+
+\section{Introduction}
+% one paragraph describing the topic you will be reviewing and how the papers were selected for inclusion
+
+The topic I am focusing on is using agentic AI for offensive cybersecurity starting from designing the tool, evaluation, vulnerability, and benchmarking. The paper I have selected there are two papers for background study and real world attacking scenarios, two paper on specific field which are penetration testing and prompt injection, and one paper on the framework for building the system. 
+ 
+
+\section{Summaries}
+% one paragraph for each of the papers that summarizes the main ideas
+The Automation Advantage in AI Red Teaming \cite{mulla2025automation} addresses whether automated or manual approaches are effective in attacking LLM systems. They solved the session classification problem by combining rule based heuristics, supervised machine learning, and LLM judges to differentiate between automated and manual sessions. They used Crucible platform to analyze 214,271 attempts of attack on 30 different LLM security challenges. They achieved a success rate of 69.5\% on automated approach which focus on systematic exploration and whereas manual approach provide 47.6\% and suggests the most effective strategy was combining human creativity for reasoning and automation for systematic execution.
+
+In Cibersecurity AI:Evaluating Agentic Cybersecurity in Attack/Defense CTFs \cite{balassone2025cybersecurity} focuses whether AI system is efficient in attack or defense. This is an empirical study of autonomous AI agents simultaneously competing offensive and defensive roles in 23 Hack The Box attack or defense CTF battlegroud where there will be one central system and multiple attacker and defender agents. Using Claude Sonnet 4 defensive agents achieved 54.3\% unconstrained CAI framework vs 28.3\% offensive initial access. The result showed defensive advantage but for service availabilty or preventing intrusions, no statistically significant difference exists. 
+
+However, a more specific field of using agents in cybersecurity is penetration testing which showed in PENTESTGPT: Evaluating and Harnessing Large Language Models for Automated Penetration Testing.\cite{299699} They built penetration testing benchmark on HackTheBox and VulnHub targets (13 machines, 182 sub tasks) and used GPT 3.5, GPT 4, and Bard. These models handels specific sub tasks like prot scanning and code analysis effectively, but struggles on long term context and focus more on recent task. To mitigate this issue authors proposed three different module to handle the tasks, i) reasoning module for tracking testing state through pentesting task tree (PTT), ii) generation module for details procedure for specific task like commands, and iii) parsing module for tool outputs, source codes and HTTP web pages. In summary complex penetration testing tasks by bridging high level strategies with precise execution and intelligent data interpretation, maintaining coherent and effective testing process. It achieved 228.6\% improvement in sub task completion on GPT 3.5 and ranked 24th out of 248 teams in a real CTF competition.
+
+Another sub field of cybersecurity is using input to override the intended instructions of an AI system which explained in Cybersecurity AI: Hacking the AI Hackers via Prompt Injection. \cite{mayoral2025cybersecurity} Focusing on agents use untrusted data from external systems and can not differentiate between instructions and data, the authors found 14 proof of concept attack variant on 7 different categories and got 91.4\% overall exploitation success rate against unprotected systems. According to that they proposed and validated with a four layered architecture to defend staged as i) Initial Reconnaissance for HTTP Headers, ii) Content Retrieval for finding hidden instructions, iii) Payload Decoding for extracting the commands, and iv) Exploitation for System access with 0\% attack success rate. Also they argued with fundamental architectural limitation of transformer based in context learning systems.
+
+Finally, D-CIPHER: Dynamic Collaborative Intelligent Multi-Agent System with Planner and Heterogeneous Executors for Offensive Security \cite{udeshi2025d} solved the single agent system problems like hard coded prompting, one reasoning action loop, and lack of context management. They proposed a multi agent framework with auto prompter to generate context aware prompts, and multiple heterogeneous executor agents to focus on individual task. They evaluated this collaborative task execution framework with 290 CTFs and seven LLMs and achieved 22\% on NYU CTF bench, 22.5\% on Cybench, and 44\% on HackTheBox. Additionally, on MITRE ATTACK techniques it solved 65\% problems which showed stronger offensive cybersecurity capability. 
+
+
+
+\section{Synthesis}
+% a description of how the papers fit  together and their relationship to the overall body of work in your topic, can be multiple paragraphs
+
+
+Starting with paper \cite{mulla2025automation} \& \cite{balassone2025cybersecurity} together establish the background landscape and helps to understand how automated \& manual red teaming strategies are different in practice. While \cite{balassone2025cybersecurity} used controlled comparison in between offensive and defensive AI agents under operational constraints. These two papers helped me to understand current agentic AI capability. Moving to more specific domain of web penetration testing, paper \cite{299699} introduces reasoning architecture that used LLM driven penetration testing in real world targets, while the prompt injection \cite{mayoral2025cybersecurity} identifies architectural flaws when agents intract with the web servers. Finally, a framework contribution \cite{udeshi2025d} and collaboration of multiple agent to understand how to add collaborative distribution of task for efficiently completing a task in agentic AI scenario. 
+
+
+Paper \cite{balassone2025cybersecurity} helps to understand how the attackers and defenders success will be measured under realistic operational condition. This paper helps to differentiate between attack scenarios. Paper \cite{udeshi2025d} establishes core limitation of LLms in penetration testing such as context loss, and hallucination \& \cite{299699}  uses same philosophy of doing the task in structured manner in CTF problems through a planner executor system. This also uses prior work of \cite{299699} extending its evaluation framework by mapping agent performance to MITRE ATT\&CK techniques and both were good in planning component.Paper \cite{mayoral2025cybersecurity} shifts the question from how well AI attacks to how AI attack compares to AI defense on similar condition face to face that means deploying both red and blue agent concurrently. Finally, these papers are in the field of using agents to solve specific cybersecurity task and related to one another and fits well for my area.
+
+%-------------------------------------------------------------------------
+\bibliographystyle{ieeetr} 		% use IEEE bibliography style
+\bibliography{litreview}
+
+\end{document}
