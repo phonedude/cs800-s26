@@ -10,29 +10,29 @@ Spring 2026
 
 # Assignment Description
 
-This assignment requires writing a literature review of at least five research papers related to the student's research area. The review includes the following sections:
+This assignment requires writing a literature review of at least five research papers related to the student's research area. The literature review includes the following sections:
 
-- **Introduction** – A one-paragraph overview of the research area and the motivation behind the selected papers.
-- **Summaries** – One paragraph for each paper describing its main contributions.
-- **Synthesis** – A discussion explaining how the selected papers relate to each other and to the broader research area.
-- **References** – A BibTeX-generated reference list with appropriate in-text citations.
+- **Introduction** – A one-paragraph overview of the research area and motivation behind the selected papers.
+- **Summaries** – One paragraph for each paper explaining its key ideas and contributions.
+- **Synthesis** – A discussion explaining how the papers relate to each other and how they contribute to the broader research area.
+- **References** – A BibTeX-generated reference list for all cited papers.
 
-The document was written in **LaTeX using the provided course template** and compiled as a PDF.
+The document was written using **LaTeX with the provided course template** and compiled into a PDF.
 
 ---
 
 # Quick Access
 
 📄 **Final Literature Review PDF**  
-[CS_800__A4_Das.pdf](LaTex%20Files/CS_800__A4_Das.pdf)
+[Open PDF](LaTex%20Files/CS_800__A4_Das.pdf)
 
-🧾 **Main LaTeX Source File**  
+🧾 **Main LaTeX File**  
 [main.tex](LaTex%20Files/main.tex)
 
-📚 **BibTeX References File**  
+📚 **BibTeX References**  
 [litreview.bib](LaTex%20Files/litreview.bib)
 
-📑 **Research Papers Used in the Review**  
+📑 **Research Papers Used**  
 [A4_papers](A4_papers)
 
 ---
@@ -60,8 +60,8 @@ The document was written in **LaTeX using the provided course template** and com
 | File | Description |
 |-----|-------------|
 | `LaTex Files/CS_800__A4_Das.pdf` | Final compiled PDF of the literature review |
-| `LaTex Files/main.tex` | Main LaTeX source file containing Introduction, Summaries, and Synthesis |
-| `LaTex Files/litreview.bib` | BibTeX bibliography file with references for all cited papers |
+| `LaTex Files/main.tex` | Main LaTeX source file containing the Introduction, Summaries, and Synthesis sections |
+| `LaTex Files/litreview.bib` | BibTeX bibliography file containing references |
 | `A4_papers/` | Folder containing the five research papers used in the literature review |
 
 ---
@@ -70,7 +70,7 @@ The document was written in **LaTeX using the provided course template** and com
 
 My research area focuses on **security of large language models (LLMs)**.
 
-This literature review examines recent research addressing several important security challenges in modern LLM systems, including:
+This literature review analyzes recent research addressing important security challenges in LLM systems, including:
 
 - adversarial jailbreak attacks
 - privacy leakage during third-party inference
@@ -78,7 +78,7 @@ This literature review examines recent research addressing several important sec
 - backdoor attacks in natural language processing models
 - guardrail frameworks for improving LLM agent safety
 
-These papers collectively explore both **attack mechanisms and defensive strategies** aimed at improving the safety and reliability of LLM-based systems.
+These works collectively examine both **attack mechanisms and defense strategies** aimed at improving the reliability and security of modern LLM-based systems.
 
 ---
 
@@ -103,15 +103,17 @@ These papers collectively explore both **attack mechanisms and defensive strateg
 
 # Literature Review Preview
 
-Open the compiled paper here:
+You can read the compiled literature review directly in GitHub's PDF viewer:
 
-[CS_800__A4_Das.pdf](LaTex%20Files/CS_800__A4_Das.pdf)
+➡️ **[View Literature Review PDF](LaTex%20Files/CS_800__A4_Das.pdf)**
+
+This opens the document directly in GitHub without downloading it.
 
 ---
 
 # YouTube Video
 
-**Overleaf walkthrough and literature review overview**
+**Overleaf compilation walkthrough and literature review overview**
 
 Video Link: **INSERT_YOUTUBE_LINK_HERE**
 
@@ -121,4 +123,4 @@ The video demonstrates:
 - Compiling the LaTeX document
 - Downloading the final PDF
 - Scrolling through the literature review
-- Brief explanation of each research paper included in the review
+- Brief explanation of each included research paper
