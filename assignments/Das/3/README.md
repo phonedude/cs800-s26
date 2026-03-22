@@ -31,14 +31,12 @@ DOI:
 https://arxiv.org/abs/2406.09187
 
 BibTeX:
-</> bibtex
 @inproceedings{xiang2025guardagent,
 title={Guardagent: safeguard LLM agents via knowledge-enabled reasoning},
 author={Xiang, Zhen and Zheng, Linzhi and Li, Yanjie and Hong, Junyuan and Li, Qinbin and Xie, Han and Zhang, Jiawei and Xiong, Zidi and Xie, Chulin and Bastian, Nathaniel D and others},
 booktitle={ICML 2025 workshop on computer use agents},
 year={2025}
 }
-
 1st pass (Keshav):
 
 Problem:
@@ -68,7 +66,6 @@ DOI:
 https://openreview.net/forum?id=QfD9P9IIoz
 
 BibTeX:
-</> bibtex
 @inproceedings{pal2025hidden,
 title={Hidden no more: attacking and defending private third-party LLM inference},
 author={Pal, Arka and Thomas, Rahul Krishna and Zahran, Louai and Choi, Erica and Potti, Akilesh and Goldblum, Micah},
@@ -105,7 +102,6 @@ DOI:
 https://arxiv.org/abs/2601.07084
 
 BibTeX:
-</> bibtex
 @article{tessa2026secure,
 title={How Secure is Secure Code Generation? Adversarial Prompts Put LLM Defenses to the Test},
 author={Tessa, Melissa and Olatunji, Iyiola E and War, Aicha and Klein, Jacques and Bissyand{\'e}, Tegawend{\'e} F},
@@ -141,7 +137,6 @@ DOI:
 https://arxiv.org/abs/2309.06055
 
 BibTeX:
-</> bibtex
 @article{cheng2025backdoor,
 title={Backdoor attacks and countermeasures in natural language processing models: A comprehensive security review},
 author={Cheng, Pengzhou and Wu, Zongru and Du, Wei and Zhao, Haodong and Lu, Wei and Liu, Gongshen},
@@ -178,7 +173,6 @@ DOI:
 https://arxiv.org/abs/2510.03417
 
 BibTeX:
-</> bibtex
 @inproceedings{asl2025nexus,
 title={NEXUS: Network Exploration for eXploiting Unsafe Sequences in Multi-Turn LLM Jailbreaks},
 author={Asl, Javad Rafiei and Narula, Sidhant and Ghasemigol, Mohammad and Blanco, Eduardo and Takabi, Daniel},
