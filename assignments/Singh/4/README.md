@@ -25,10 +25,8 @@ assignments/
         ├── README.md
         ├── lit_review.pdf
         └── papers      
-        └── LateX/
-            ├── litreview.tex  
-            ├── litreview.bib
-            
+        └──litreview.tex
+        └──litreview.bib            
 
 ```
 - **lit_review.pdf** – Final compiled PDF of the literature review.
@@ -45,8 +43,7 @@ A video demonstrating:
 - Downloading the final PDF
 - Scrolling through the literature review and briefly describing each paper
 #### Link :
-
-Link: [PASTE_YOUR_YOUTUBE_LINK_HERE]
+https://www.youtube.com/watch?v=JXsnciKaq0k
 
 
 
