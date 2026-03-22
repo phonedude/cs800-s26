@@ -50,7 +50,7 @@ The presentation covers:
 
 ### 2. DEEP-squared (Paper 2)
 
-**Title:** DEEPsquared: Deep Learning Powered De-scattering with Excitation Patterning  
+**Title:** DEEP-squared: Deep Learning Powered De-scattering with Excitation Patterning  
 **Authors:** Wijethilake et al.  
 **Venue:** *Light: Science & Applications*, 2023  
 
