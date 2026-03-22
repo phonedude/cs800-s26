@@ -44,7 +44,7 @@ A video demonstrating:
 - Scrolling through the literature review and briefly describing each paper
 #### Link :
 
-Link: [PASTE_YOUR_YOUTUBE_LINK_HERE]
+Link: https://www.youtube.com/watch?v=JXsnciKaq0k
 
 
 
