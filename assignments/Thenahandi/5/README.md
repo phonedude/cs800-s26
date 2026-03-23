@@ -17,8 +17,8 @@ This directory contains:
 
 ```text
 5/
+├── README.md               # This file - assignment documentation
 └── papers/
-  ├── README.md             # This file - assignment documentation
   ├── WebGazer.pdf          # Base paper
   └── SearchGazer.pdf       # Citing paper
 ```
