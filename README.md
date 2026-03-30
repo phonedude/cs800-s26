@@ -32,14 +32,22 @@ CRN 32738
     * Entry types, https://www.bibtex.com/e/entry-types/ 
     * Example document at Overleaf using BibTeX, https://www.overleaf.com/project/5e4bfe2d474903000194980d 
   * [Class slides](https://docs.google.com/presentation/d/1e5ny5Ar2u4q6edq3HfcbXDgX-jEvEPN8NbPf6Yk1bMk/edit)
-* Week 03:	Feb 9	Reading Academic Papers  
-* Week 04: Feb 16 Academic Publishing and Reviewing 
-* Week 05:	Feb 23 Academic Communication - Writing  
-* Week 06: Mar 2	Academic Communication - Presenting 
-* Week 07:	Mar 9	Visualization Basics, Intro to R  
+* Week 03:	Feb 9	Post-PhD Careers, Reading Academic Papers  
+  * [Class notes](https://docs.google.com/document/d/1ZIlCog36OoNKymgWZkJ5D8142JQ19WGjbaqW34ymd_8/edit)
+  * [Class slides](https://docs.google.com/presentation/d/1Sj1vgQ_8m0WVEi45PX7fexI0hjmLlGUVVpJIvCk1hg8/edit)
+* Week 04: Feb 16 Related Work and Ethics
+  * [Class slides](https://docs.google.com/presentation/d/1iplY-NFOtmETeDL0HUKEdZptg72iRb62J4P6q55sEds/edit)
+* Week 05:	Feb 23 Academic Communication - Presenting
+  * [Class slides](https://docs.google.com/presentation/d/1NjMX8GJvPWLJng7IHXr-sB9nA2PcKFZrbxh585pq0b0/edit)
+* Week 06: Mar 2 A Vision for Trustworthy Web Archiving
+  * [Slides](https://docs.google.com/presentation/d/1UBpGkgQWNVQCe0zvh77ZyEMSibUSDkeRnf5zDxyrrIM/edit)
+  * [Video](https://virginiatech.zoom.us/rec/share/jM_lI1my3ydGVGoVIjoNSNfoao7ZxRkYwQHLB5sdxIknH5x3W5D0AIo5GTIQeOU.C6W-6sTQFAfhP0eB)
+* Week 07:	Mar 9	Writing and Reviewing
+  * [Class slides](https://docs.google.com/presentation/d/1uiMukqQHugvHpUwyUTz3Vjx2zsLnyoVTXqGYmzzJkZo/edit)
 * Week 08:	Mar 16	**NO CLASS - Spring Break**  
-* Week 09:	Mar 23	ODU-CS Faculty Presentations  
-* Week 10: Mar 30  ODU-CS Faculty Presentations 
+* Week 09:	Mar 23	Students Presentations (1/2) and Proposal Writing
+  * [Class slides](https://docs.google.com/presentation/d/1H7ulYtB3h200firEshT_PxdKGzYFxKWWBHFf8kjJsYc/edit)
+* Week 10: Mar 30  Students Presentations (2/2)
 * Week 11: Apr 6	TBA  
 * Week 12: Apr 13	Student Dissertation Presentations  
 * Week 13: Apr 20	Student Dissertation Presentations  
@@ -54,3 +62,9 @@ CRN 32738
    * [Due: Feb 2](/assignments/assignment-01.md)
 * Assignment 2: Academic Presence, RCR
    * [Due: Feb 9](/assignments/assignment-02.md)
+* Assignment 3: Reading Papers
+   * [Due: Feb 23](/assignments/assignment-03.md)
+* Assignment 4: Literature Review
+   * [Due: Mar 9](/assignments/assignment-04.md)
+* Assignment 5: Literature Review, Part 2
+   * [Due: Mar 23](/assignments/assignment-05.md)

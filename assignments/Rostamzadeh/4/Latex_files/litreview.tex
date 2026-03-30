@@ -1,0 +1,57 @@
+\documentclass[12pt]{article}
+\usepackage{times} 			% use Times New Roman font
+
+\usepackage[margin=1in]{geometry}   % sets 1 inch margins on all sides
+\usepackage[hidelinks]{hyperref}               % for URL formatting
+\usepackage[pdftex]{graphicx}       % So includegraphics will work
+
+% for fancy page headings
+\usepackage{fancyhdr}
+\setlength{\headheight}{13.6pt} % to remove fancyhdr warning
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{\small \thepage}
+\lhead{\small CS 800, Spring 2026 - HW4 - Rostamzadeh}
+
+% more packages and settings 
+\usepackage{datetime}
+\usepackage{indentfirst}  % always indent first paragraph in a section
+\usepackage[sort&compress, square, comma, numbers]{natbib}
+\usepackage[small, bf]{caption}
+\setlength{\parskip}{0.5em}
+
+%-------------------------------------------------------------------------
+\begin{document}
+
+\begin{centering}
+{\large\textbf{HW4 - Literature Review}}\\
+\vspace{3mm} % add vertical space
+Mehrdad Rostamzadeh\\
+CS 800, Spring 2026\\
+\end{centering}
+
+%-------------------------------------------------------------------------
+
+% INSERT LIT REVIEW HERE
+
+\section{Introduction}
+% one paragraph describing the topic you will be reviewing and how the papers were selected for inclusion
+
+\input{components/introduction}
+
+\section{Summaries}
+% one paragraph for each of the papers that summarizes the main ideas
+
+% This line is here to demonstrate including references \cite{hao-vizsec13}. It must be removed before you submit your assignment.
+
+
+\input{components/summaries}
+
+\section{Synthesis}
+\input{components/synthesis}
+
+
+\bibliographystyle{ieeetr} 		% use IEEE bibliography style
+\bibliography{litreview}
+
+\end{document}

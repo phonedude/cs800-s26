@@ -1,0 +1,54 @@
+\documentclass[12pt]{article}
+\usepackage{times}
+\usepackage[margin=1in]{geometry}
+\usepackage[hidelinks]{hyperref}
+\usepackage[pdftex]{graphicx}
+\usepackage{fancyhdr}
+\setlength{\headheight}{13.6pt}
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{\small \thepage}
+\lhead{\small CS 800, Spring 2026 -- HW4 -- Elhaimeur}
+\usepackage{datetime}
+\usepackage{indentfirst}
+\usepackage[sort&compress, square, comma, numbers]{natbib}
+\usepackage[small, bf]{caption}
+\setlength{\parskip}{0.5em}
+
+\begin{document}
+\begin{centering}
+{\large\textbf{HW4 -- Literature Review}}\\
+\vspace{3mm}
+Iizalaarab Elhaimeur\\
+CS 800, Spring 2026\\
+\end{centering}
+
+\section{Introduction}
+
+The AI wave, and more specifically the LLM wave, has fundamentally changed the ed-tech landscape, creating new openings for how artificial intelligence can support human learning. This literature review examines five papers that address orthogonal pieces of this problem. Three focus on generative AI in education~\cite{bastani2024generative, giannakos2024promise, wang2025genmentor}, one on the architectural principles underlying truly intelligent agents~\cite{lecun2022path}, and one on the evolving skill demands that educational systems must address as new technology industries emerge~\cite{hughes2022assessing}. Together, they represent the current state of the art at the intersection of AI, learning science, and workforce development. LeCun provides a theoretical basis for understanding how intelligent tutoring systems might eventually develop world models and genuine reasoning capabilities, while the empirical and design-oriented papers ground the discussion in real-world deployments. The quantum workforce paper by Hughes et al.\ illustrates how rapidly shifting technological landscapes open up new skill gaps, underscoring the urgency of developing effective AI-powered educational systems.
+
+\section{Summaries}
+
+LeCun's position paper argues that current AI systems, including LLMs, are fundamentally limited by their lack of understanding of dynamics, also known as an internal world model: a representation of how the world works that enables prediction, reasoning, and planning, all of which are important skills for teaching~\cite{lecun2022path}. The paper proposes both a new north star and new architectures that combine world models trained via self-supervised learning with multiple other components to mimic the human brain as a system of systems. It also distinguishes between Mode-1 reactive behavior and Mode-2 deliberate planning, analogous to Kahneman's System 1 and System 2. LeCun argues this architecture would allow agents to acquire a sense of dynamics within their world, imbuing them with common-sense knowledge via observation rather than labeled datasets, a capability with direct implications for tutoring systems that must reason about instruction in real time.
+
+Giannakos et al.\ present a multi-author commentary on research directions for generative AI in education, drawing on nine senior researchers across five countries~\cite{giannakos2024promise}. The paper covers self-regulated learning, metacognition, computer science education, and automated feedback generation. The central tension is a balancing act between the powerful capabilities of LLMs and the dangerous degradation of academic skills and academic integrity. The authors argue that GenAI tools must be grounded in established learning theory, and that AI-driven personalization should support rather than replace learner agency.
+
+\newpage
+
+Bastani et al.\ present a randomized controlled trial examining how GPT-4-based tutoring tools affect learning in high school mathematics~\cite{bastani2024generative}. Nearly one thousand students were assigned to a control group, a ``GPT Base'' condition mimicking standard ChatGPT, or a ``GPT Tutor'' condition with teacher-designed guardrails. The real meat here is straightforward but empirically powerful: GPT Base improved practice scores by 48\% but caused a 17\% drop on the subsequent unassisted exam, because students just used it to copy answers. GPT Tutor achieved a 127\% practice improvement with no measurable harm to exam performance. The guardrails, which prompted hints rather than direct answers, made all the difference. Perhaps most striking is that students in the GPT Base condition thought they had learned more than they actually had, a dangerous gap between perceived and actual learning.
+
+Wang et al.\ introduce GenMentor, an LLM-powered multi-agent framework for goal-oriented learning in intelligent tutoring systems~\cite{wang2025genmentor}. The core insight is that existing systems are too reactive: they wait for a student to ask something rather than proactively steering them toward a goal. GenMentor flips that by distributing work across three specialized agents: one that maps a learner's stated goal to the skills they actually need, one that tracks their progress and preferences over time, and one that dynamically builds and adjusts their learning path. The skill identifier is fine-tuned on real job posting data, which gives it a grounded sense of what competencies matter in practice. Results show GenMentor outperforms baseline ITS approaches on skill coverage and content quality, and it is especially well-suited to professional contexts where learners have a specific outcome in mind.
+
+Hughes et al.\ surveyed 57 quantum industry companies to find out what jobs, skills, and degrees the emerging quantum workforce actually needs~\cite{hughes2022assessing}. The headline finding is that most quantum jobs do not require quantum-specific skills at all; programming, statistics, and lab experience dominate across the board. Only the most specialized roles, like error correction scientist, truly demand deep quantum knowledge and a PhD. The practical upshot for educators is clear: do not build narrow quantum-only programs. Instead, develop one or two broad introductory quantum courses layered on top of solid STEM fundamentals. The paper is a useful grounding check for anyone building AI-powered learning systems, because it shows that the skill targets these systems must hit are much wider and more general than the headline technology would suggest.
+
+\section{Synthesis}
+
+The connecting factor across all five papers is that the right design of an AI tutoring system is not obvious, and getting it wrong has real costs. Bastani et al.\ give the clearest proof of this: a tool that looks helpful during practice can quietly hollow out actual learning~\cite{bastani2024generative}. Giannakos et al.\ and Wang et al.\ both respond to exactly that risk, one by calling for SRL-grounded theory to guide design, and the other by building guardrails and goal-orientation directly into the system architecture~\cite{giannakos2024promise, wang2025genmentor}. The shared conclusion across all three is that the right measure of a tutoring tool is not how students perform with it, but how they perform without it.
+
+\newpage
+
+LeCun sits underneath all of this as a reminder of how far the underlying technology still has to go~\cite{lecun2022path}. Current LLMs are powerful pattern matchers, but they do not understand dynamics, they cannot reason about cause and effect, and they have no internal model of the world they are trying to teach. Hughes et al.\ add one more layer of pressure: the skills that matter are a moving target, and educational systems, AI-powered or not, have to be built to track them~\cite{hughes2022assessing}. GenMentor's goal-to-skill mapping is a step in that direction, but the full vision requires the kind of world-model-driven reasoning LeCun describes.
+
+\bibliographystyle{ieeetr}
+\bibliography{litreview}
+\end{document}
