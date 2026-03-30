@@ -142,22 +142,20 @@ First Page
 
 <img src="screenshots/Paper_4.png" alt="Paper 4" width="400" />
 Reference
+
 ```bibtex
 @misc{vaswani2017attention,
-title={Attention Is All You Need},
-author={Vaswani , Ashish and Shazeer , Noam and Parmar , Niki and Uszkoreit ,
-Jakob and Jones , Llion and Gomez , Aidan N . and Kaiser , {\ L } ukasz and
-Polosukhin , Illia },
-1
-year ={2017},
-eprint={1706.03762},
-archivePrefix={{arXiv}},
-primaryClass={cs.LG},
-doi={10.48550/ arXiv .1706.03762}
+  title={Attention Is All You Need},
+  author={Vaswani, Ashish and Shazeer, Noam and Parmar, Niki and Uszkoreit, Jakob and Jones, Llion and Gomez, Aidan N. and Kaiser, {\L}ukasz and Polosukhin, Illia},
+  year={2017},
+  eprint={1706.03762},
+  archivePrefix={arXiv},
+  primaryClass={cs.LG},
+  doi={10.48550/arXiv.1706.03762}
 }
 ```
-DOI
 
+DOI
 https://doi.org/10.48550/arXiv.1706.03762
 
 
@@ -190,16 +188,16 @@ Reference
 ```bibtex
 @article{manshausen2025generative,
 title={Generative Data Assimilation of Sparse Weather Station Observations
-at Kilometer Scales },
+at Kilometer Scales},
 author={Manshausen, Peter and Cohen , Yair and Harrington , Peter and Pathak ,
 Jaideep and Pritchard , Mike S . and Garg , Piyush and Mardani , Morteza and
 Kashinath , Karthik and Byrne , Simon and Brenowitz , Noah D .} ,
 journal={Journal of Advances in Modeling Earth Systems},
 volume={17},
 number={10},
-pages={e2024MS004505 },
+pages={e2024MS004505},
 year={2025},
-doi={10.1029/2024 MS004505 }
+doi={10.1029/2024 MS004505}
 }
 ```
 
