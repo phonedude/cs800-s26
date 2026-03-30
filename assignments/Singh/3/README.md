@@ -24,13 +24,12 @@ My research focuses on Honeypots, honeynets, and deception-based defense mechani
 **DOI:** 10.48550/arXiv.2512.07180
 
 ```bibtex
-@misc{evan2025implementationhoneynethoneypotnetwork,
+      @techreport{evan2025implementation,
       title={Implementation of Honeynet and Honeypot in Network Infrastructure in Production Network}, 
-      author={Nawshad Ahmed Evan and Md Raihan Uddin},
+      author={Evan, Nawshad Ahmed and Uddin, Md Raihan },
+      institution={arXiv},
       year={2025},
-      eprint={2512.07180},
-      archivePrefix={arXiv},
-      primaryClass={cs.NI},
+      number={arXiv:2512.07180},
       url={https://arxiv.org/abs/2512.07180}, 
 }
 ```
@@ -78,12 +77,13 @@ My research focuses on Honeypots, honeynets, and deception-based defense mechani
 ```bibtex
 @article{javadpour2024comprehensive,
   title={A comprehensive survey on cyber deception techniques to improve honeypot performance},
-  author={Javadpour, Amir and Ja'fari, Forough and Taleb, Tarik and Shojafar, Mohammad and Benza{\"\i}d, Chafika},
+  author={Javadpour, Amir and {Ja'fari}, Forough and Taleb, Tarik and Shojafar, Mohammad and Benza{\"\i}d, Chafika},
   journal={Computers \& Security},
   volume={140},
   pages={103792},
   year={2024},
   publisher={Elsevier}
+  doi={10.1016/j.cose.2024.103792}
 }
 ```
 
@@ -128,22 +128,16 @@ The survey adopts a systematic approach to address these challenges:
 **DOI:** 10.1145/1233341.1233399
 
 ```bibtex
-@inproceedings{10.1145/1233341.1233399,
-author = {Mokube, Iyatiti and Adams, Michele},
-title = {Honeypots: concepts, approaches, and challenges},
-year = {2007},
-isbn = {9781595936295},
-publisher = {Association for Computing Machinery},
-address = {New York, NY, USA},
-url = {https://doi.org/10.1145/1233341.1233399},
-doi = {10.1145/1233341.1233399},
-abstract = {Information security is a growing concern today for organizations and individuals alike. This has led to growing interest in more aggressive forms of defense to supplement the existing methods. One of these methods involves the use of honeypots. A honeypot is a security resource whose value lies in being probed, attacked or compromised. In this paper we present an overview of honeypots and provide a starting point for persons who are interested in this technology. We examine different kinds of honeypots, honeypot concepts, and approaches to their implementation.},
-booktitle = {Proceedings of the 45th Annual ACM Southeast Conference},
-pages = {321–326},
-numpages = {6},
-keywords = {honeypots, legal issues, types of honeypots},
-location = {Winston-Salem, North Carolina},
-series = {ACMSE '07}
+@inproceedings{mokube2007honeypots,
+  author = {Mokube, Iyatiti and Adams, Michele},
+  title = {Honeypots: Concepts, Approaches, and Challenges},
+  booktitle = {Proceedings of the 45th Annual ACM Southeast Conference},
+  year = {2007},
+  pages = {321--326},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  doi = {10.1145/1233341.1233399},
+  url = {https://doi.org/10.1145/1233341.1233399}
 }
 ```
 
@@ -177,17 +171,14 @@ The authors explore the concept of honeypots as a flexible security tool that ca
 **DOI:** 10.1109/ASIANCON66527.2025.11280733
 
 ```bibtex
-@INPROCEEDINGS{11280733,
-  author={Patil, Sonali and Pattewar, Nikhil and Bhadale, Swarnim and Shaikh, Ramiz and Mule, Bhargav},
-  booktitle={2025 5th Asian Conference on Innovation in Technology (ASIANCON)}, 
-  title={DDoS Protection Using a Honeynet Implementation with Offensive Capabilities}, 
-  year={2025},
-  volume={},
-  number={},
-  pages={1-8},
-  keywords={Adaptation models;Technological innovation;Prevention and mitigation;Denial-of-service attack;Vectors;Servers;Security;Computer crime;Protection;Load modeling;DDoS attacks;honeynet;DDoS protection;threat intelligence;offensive capabilities;attacker behavior;malicious activity;defense strategies},
-  doi={10.1109/ASIANCON66527.2025.11280733}}
-
+@inproceedings{patil2025ddos,
+  author = {Patil, Sonali and Pattewar, Nikhil and Bhadale, Swarnim and Shaikh, Ramiz and Mule, Bhargav},
+  title = {{DDoS} Protection Using a Honeynet Implementation with Offensive Capabilities},
+  booktitle = {2025 5th Asian Conference on Innovation in Technology (ASIANCON)},
+  year = {2025},
+  pages = {1--8},
+  doi = {10.1109/ASIANCON66527.2025.11280733}
+}
 ```
 
 # 1st Pass (Keshav)
@@ -229,16 +220,14 @@ The paper provides several significant contributions to the field of cybersecuri
 **DOI:** 10.1109/ICCBD56965.2022.10080304
 
 ```bibtex
-@INPROCEEDINGS{10080304,
-  author={Minjiao, Zheng and Yufeng, Ma and Bo, Wu and Zhang, Qian},
-  booktitle={2022 5th International Conference on Computing and Big Data (ICCBD)}, 
-  title={A Dynamic Deceptive Honeynet System with A Hybrid of Virtual and Real Devices}, 
-  year={2022},
-  volume={},
-  number={},
-  pages={113-117},
-  keywords={Network topology;Computational modeling;Prototypes;Systems architecture;Containers;Big Data;Hybrid power systems;SDN;Docker;traffic migration;honeynet generation;Multi-type Honeypot},
-  doi={10.1109/ICCBD56965.2022.10080304}}
+@inproceedings{zheng2022honeynet,
+  author = {Zheng, Minjiao and Ma, Yufeng and Wu, Bo and Zhang, Qian},
+  title = {A Dynamic Deceptive Honeynet System with a Hybrid of Virtual and Real Devices},
+  booktitle = {2022 5th International Conference on Computing and Big Data (ICCBD)},
+  year = {2022},
+  pages = {113--117},
+  doi = {10.1109/ICCBD56965.2022.10080304}
+}
 
 ```
 
