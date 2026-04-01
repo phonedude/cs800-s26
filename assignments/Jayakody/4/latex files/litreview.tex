@@ -1,0 +1,95 @@
+\documentclass[12pt]{article}
+\usepackage{times} 			% use Times New Roman font
+
+\usepackage[margin=1in]{geometry}   % sets 1 inch margins on all sides
+\usepackage[hidelinks]{hyperref}               % for URL formatting
+\usepackage[pdftex]{graphicx}       % So includegraphics will work
+
+% for fancy page headings
+\usepackage{fancyhdr}
+\setlength{\headheight}{13.6pt} % to remove fancyhdr warning
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{\small \thepage}
+\lhead{\small CS 800, Spring 2026 - HW4 - Jayakody}
+
+% more packages and settings 
+\usepackage{datetime}
+\usepackage{indentfirst}  % always indent first paragraph in a section
+\usepackage[sort&compress, square, comma, numbers]{natbib}
+\usepackage[small, bf]{caption}
+\setlength{\parskip}{0.5em}
+
+%-------------------------------------------------------------------------
+\begin{document}
+
+\begin{centering}
+{\large\textbf{HW4 - Literature Review}}\\
+\vspace{3mm} % add vertical space
+Dineth Jayakody\\
+CS 800, Spring 2026\\
+\end{centering}
+
+%-------------------------------------------------------------------------
+
+% INSERT LIT REVIEW HERE
+
+\section{Introduction}
+The domain of diffractive optics and diffractive deep neural networks (D²NNs) continues to evolve rapidly, providing innovative platforms for all-optical computation in areas such as laser beam shaping, computational imaging, optical signal processing, and wavefront control. These systems exploit the natural propagation and interference of light through engineered multi-layer phase or amplitude structures, giving exceptional advantages in terms of processing speed, energy efficiency, and physical compactness relative to conventional electronic approaches. Despite these strengths, a persistent and critical obstacle to widespread practical adoption is the pronounced drop in performance observed when moving from idealized computational models to fabricated physical devices. This simulation-to-reality gap stems largely from manufacturing-induced deviations, including finite lateral resolution of fabrication equipment, enforced discrete phase steps arising from etching, lithography, or additive manufacturing processes, unintended surface roughness, material refractive index variations, and mechanical misalignments during assembly. In response, much of recent research has shifted toward fabrication-aware training and optimization strategies that deliberately integrate realistic manufacturing constraints into the design pipeline. By explicitly accounting for effects such as phase quantization, spatial low-pass filtering to model resolution limits, stochastic noise to represent roughness, or perturbation of layer alignments, these methods aim to generate diffractive elements that retain high performance after physical realization. The five papers selected for detailed review in this section represent influential and contemporary contributions (primarily from 2019 to 2025) that emphasize fabrication-aware optimization in diffractive systems. These works are chosen because they focus specifically on embedding manufacturing or physical constraints directly within the training or optimization procedure. They utilize pixel-level phase control, low-dimensional polynomial expansions, or filtered phase operators, consistently prioritizing compatibility with real fabrication processes and robustness against hardware imperfections.
+
+\section{Summaries}
+Buske et al.~\cite{buske2025diffractive} propose a diffractive neural network framework for high-precision laser beam shaping. The phase profiles of diffractive optical elements are parameterized using low-dimensional polynomial bases such as Zernike or Legendre polynomials, enabling compact representations that support both continuous and quasi-continuous phase designs. This formulation allows the generation of complex output patterns including flat-top beams, rings, and other structured distributions across near-infrared and visible wavelengths. Fabrication-aware constraints are incorporated directly into the gradient-based optimization process, modeling quasi-continuous phase discretization and reflective material properties. Experimental fabrication and testing demonstrate improved diffraction efficiency and reduced fabrication complexity compared with designs that ignore manufacturing constraints.
+
+Wu~\cite{wu2024phase} investigates common issues in diffractive deep neural network training which are the emergence of highly irregular phase masks with sharp discontinuities and excessive high-frequency components. Such phase patterns make the network sensitive to the choice of propagation model and often lead to discrepancies between simulations and experimental results due to fabrication and hardware limitations. To address this problem, Wu proposes a two-stage training strategy. The first stage performs conventional optimization to obtain an initial phase design, while the second stage introduces spatial regularization using techniques such as total variation loss or low-pass filtering. By encouraging smoother phase profiles that better reflect fabrication constraints, the approach reduces simulation-to-reality mismatch and improves the robustness and reliability of diffractive optical systems.
+
+Shi et al.~\cite{shi2021robust} present a compact all-optical neural network designed for robust beam shaping in the terahertz frequency band. The system uses cascaded phase-modulating layers optimized with diffractive neural network principles and angular spectrum propagation modeling to transform aberrated inputs into high-quality output intensity profiles such as flat-top beams, multi-spot arrays, and annular patterns. Their optimization approach outperforms classical methods like the Gerchberg–Saxton algorithm in both convergence speed and reconstruction fidelity. To enable practical fabrication, the phase values are constrained to discrete levels compatible with silicon etching processes. Experimental validation with fabricated silicon phase plates and a terahertz laser source confirms strong robustness to input aberrations and high diffraction efficiency.
+
+Wang and Zhou~\cite{wang2025misalignment} propose a phase-filtered diffractive deep neural network (PF-D²NN) that improves robustness to layer misalignment, a common issue in multi-layer diffractive systems. Their method applies a learnable low-pass or Gaussian filtering operation to phase maps during both training and inference, suppressing high-frequency phase variations that are sensitive to alignment errors. A differentiable backpropagation strategy is introduced to compute gradients through the filtering stage. Simulation results show that the network maintains high reconstruction accuracy even under significant inter-layer shifts, where conventional diffractive networks fail. Experiments with 3D-printed prototypes further confirm improved tolerance to fabrication and alignment imperfections.
+
+Ponomarenko et al.~\cite{ponomarenko2019phase} investigate the design of multilevel phase masks for broadband diffractive imaging. Their method combines Fresnel lens profiles optimized for multiple wavelengths and optionally incorporates cubic phase components to extend depth of focus and reduce chromatic aberrations. Phase values are quantized to a limited number of discrete levels to match realistic fabrication constraints. To account for manufacturing imperfections such as surface roughness and etching errors, Gaussian phase noise is injected during optimization. This strategy produces phase masks that are more tolerant to fabrication errors and achieve better broadband imaging performance than conventional designs.
+
+\section{Synthesis}
+
+Overall, the reviewed papers illustrate a coherent and maturing research trajectory in diffractive optics toward designs that treat fabrication constraints not as secondary verification steps but as fundamental elements of the optimization objective itself. A unifying thread is the strategic modeling of manufacturing realities within the forward simulation or loss function: discrete phase quantization to replicate etching or printing limitations is a core mechanism in Shi et al.~\cite{shi2021robust} and Ponomarenko et al.~\cite{ponomarenko2019phase}, whereas explicit smoothing and filtering operations to counteract resolution-limited roughness and high-frequency artifacts are central to Wu~\cite{wu2024phase} and Wang and Zhou~\cite{wang2025misalignment}. Buske et al.~\cite{buske2025diffractive} extend this paradigm by showing that low-dimensional polynomial representations can be fruitfully combined with quasi-continuous level constraints and material-specific modeling to yield high-performance beam-shaping elements that are inherently more fabricable.
+
+These complementary strategies collectively tackle distinct aspects of the fabrication challenge. Quantization and discrete-level optimization ensure seamless translation to subtractive or additive manufacturing workflows, while smoothing and filtering mechanisms systematically suppress artifacts that arise from finite tool resolution and surface finish quality. Perturbation-based training, whether through added noise or misalignment modeling, further strengthens resilience against stochastic and systematic fabrication deviations. 
+
+However, each approach necessarily involves trade-offs. The polynomial parameterization in Buske et al.~\cite{buske2025diffractive} dramatically reduces the number of trainable parameters, yielding faster optimization and greater robustness to noise, yet at the cost of lower expressivity; very high-spatial-frequency or highly localized/non-symmetric patterns may lie beyond the span of low-order Zernike or Legendre bases. Wu's post-hoc smoothing regularization~\cite{wu2024phase} is computationally lightweight and easy to apply broadly, but because smoothing occurs after the main optimization, gradients do not flow through it during the primary learning phase, meaning the method can only partially correct for high-frequency over-fitting rather than prevent it natively. Shi et al.~\cite{shi2021robust} achieve excellent hardware compatibility by enforcing discrete phase levels from the start, but this hard constraint inherently limits diffraction efficiency and pattern fidelity relative to continuous-phase designs. Wang and Zhou's learnable phase filtering~\cite{wang2025misalignment} delivers strong misalignment tolerance that is directly practical for assembled multi-layer systems, yet the imposed low-pass characteristic can blur desired high-frequency features critical for sharp focusing or intricate interference. Finally, the noise-perturbation strategy of Ponomarenko et al.~\cite{ponomarenko2019phase} markedly improves statistical robustness to roughness, but the reliance on traditional deterministic optimization limits scalability to very large-scale or deep multi-layer problems compared to modern gradient-based diffractive neural networks.
+
+By integrating these considerations at the earliest stages of design, the selected methods achieve substantial reductions in the performance disparity between simulation and hardware, thereby minimizing the need for expensive post-fabrication iteration, calibration, or redesign. These papers show that the field is moving toward fabrication-aware diffractive designs, where accurate wave-optical modeling is increasingly augmented by realistic process-aware simulation. Although the current studies largely concentrate on thin or discretely stepped phase elements, the underlying principles provide a robust foundation for future extensions to volumetric diffractive structures, multi-material implementations, and more complex additive manufacturing paradigms.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+%-------------------------------------------------------------------------
+\bibliographystyle{ieeetr} 		% use IEEE bibliography style
+\bibliography{litreview}
+
+\end{document}
