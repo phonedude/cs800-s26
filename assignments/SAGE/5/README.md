@@ -8,18 +8,21 @@
 ## BibTeX
 
 ```
-@article{huang2024diffda,
-  title={Diffda: a diffusion model for weather-scale data assimilation},
-  author={Huang, Langwen and Gianinazzi, Lukas and Yu, Yuejiang and Dueben, Peter D and Hoefler, Torsten},
-  journal={{arXiv} preprint arXiv:2401.05932},
-  year={2024}
+@inproceedings{huang2024diffda,
+  author={Huang, Langwen and Gianinazzi, Lukas and Yu, Yuejiang and Dueben, Peter D. and Hoefler, Torsten},
+  title={{DiffDA}: A Diffusion Model for Weather-Scale Data Assimilation},
+  booktitle={Proceedings of the 41st International Conference on Machine Learning},
+  series={{ICML} 2024},
+  year={2024},
+  publisher={{JMLR}.org},
+  location={Vienna, Austria}
 }
 ```
 ```
 @inproceedings{qu2024deep,
-  title={Deep generative data assimilation in multimodal setting},
+  title={Deep Generative Data Assimilation in Multimodal Setting},
   author={Qu, Yongquan and Nathaniel, Juan and Li, Shuolin and Gentine, Pierre},
-  booktitle={Proceedings of the {IEEE/CVF} conference on computer vision and pattern recognition},
+  booktitle={Proceedings of the {IEEE/CVF} Conference on Computer Vision and Pattern Recognition},
   pages={449--459},
   year={2024}
 }
