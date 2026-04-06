@@ -66,13 +66,12 @@ Reference
 
 ```bibtex
 @misc{huang2024diffda,
-title={{DiffDA}: A Diffusion Model for Weather - scale Data Assimilation } ,
-author={Huang , Langwen and Gianinazzi , Lukas and Yu , Yuejiang and D {\" u } ben ,
-Peter D . and Hoefler , Torsten },
+title={{DiffDA}: A Diffusion Model for Weather Scale Data Assimilation} ,
+author={Huang, Langwen and Gianinazzi , Lukas and Yu , Yuejiang and D {\" u } ben, Peter D. and Hoefler, Torsten },
 year={2024},
 eprint={2401.05932},
 archivePrefix={{arXiv}},
-primaryClass ={cs . LG },
+primaryClass ={cs.LG},
 doi ={10.48550/ arXiv .2401.05932}
 }
 
