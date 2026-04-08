@@ -16,17 +16,17 @@ This submission contains five papers from my research area (applied cryptography
 
 ### Paper 1: PSMT: Private Segmented Membership Test for Distributed Record Linkage
 
-**Reference:** N. Koirala, J. Takeshita, J. Stevens, S. Martin, and T. Jung, “PSMT: Private Segmented Membership Test for Distributed Record Linkage,” tech. rep., Cryptology ePrint Archive, 2025. Report 2025/072.
+**Reference:** N. Koirala, J. Takeshita, J. Stevens, S. Martin, and T. Jung, “PSMT: Private segmented membership test for distributed record linkage,” Tech. Rep. 2025/072, Cryptology ePrint Archive, 2025.
 
 **DOI:** This paper is a minor revision on this one: [https://doi.org/10.56553/popets-2024-0114](https://doi.org/10.56553/popets-2024-0114)
 
 ```bibtex
 @techreport{koirala2025psmt,
-    title={{PSMT: Private Segmented Membership Test for Distributed Record Linkage}},
+    title={{PSMT}: Private Segmented Membership Test for Distributed Record Linkage},
     author={Koirala, Nirajan and Takeshita, Jonathan and Stevens, Jeremy and Martin, Sam and Jung, Taeho},
     institution={Cryptology ePrint Archive},
     year={2025},
-    note={Report 2025/072}
+    number={2025/072}
 }
 ```
 
@@ -49,14 +49,14 @@ This submission contains five papers from my research area (applied cryptography
 
 ### Paper 2: Select-Then-Compute: Encrypted Label Selection and Analytics over Distributed Datasets using FHE
 
-**Reference:** N. Koirala, S. Paik, S. Martin, H. Berens, T. Januszewicz, J. Takeshita, J. H. Seo, and T. Jung, “Select-Then-Compute: Encrypted Label Selection and Analytics over Distributed Datasets using FHE,” in Proceedings of the Symposium on Network and Distributed System Security, 2026.
+**Reference:** N. Koirala, S. Paik, S. Martin, H. Berens, T. Januszewicz, J. Takeshita, J. H. Seo, and T. Jung, “Select-then-compute: Encrypted label selection and analytics over distributed datasets using FHE,” in Proceedings of the Symposium on Network and Distributed System Security, 2026.
 
 **DOI:** [https://dx.doi.org/10.14722/ndss.2026.240207](https://dx.doi.org/10.14722/ndss.2026.240207)
 
 ```bibtex
 @inproceedings{koirala2025select,
     author = {Koirala, Nirajan and Paik, Seunghun and Martin, Sam and Berens, Helena and Januszewicz, Tasha and Takeshita, Jonathan and Seo, Jae Hong and Jung, Taeho},
-    title = {{Select-Then-Compute: Encrypted Label Selection and Analytics over Distributed Datasets using FHE}},
+    title = {Select-Then-Compute: Encrypted Label Selection and Analytics over Distributed Datasets using {FHE}},
     year = {2026},
     isbn = {9798991927680},
     url = {https://dx.doi.org/10.14722/ndss.2026.240207},
@@ -121,13 +121,13 @@ This submission contains five papers from my research area (applied cryptography
 
 ### Paper 4: Scalable Private Set Intersection over Distributed Encrypted Data
 
-**Reference:** S. Paik, N. Koirala, J. Nero, H. Son, Y. Kim, J. H. Seo, and T. Jung, “Scalable Private Set Intersection over Distributed Encrypted Data,” in Proceedings of the 2026 ACM Asia Conference on Computer and Communications Security, 2026.
+**Reference:** S. Paik, N. Koirala, J. Nero, H. Son, Y. Kim, J. H. Seo, and T. Jung, “Scalable private set intersection over distributed encrypted data,” in Proceedings of the 2026 ACM Asia Conference on Computer and Communications Security, 2026.
 
 **DOI:** [https://doi.org/10.1145/3779208.3785272](https://doi.org/10.1145/3779208.3785272)
 
 ```bibtex
 @inproceedings{paik2025scalable,
-    title={{Scalable Private Set Intersection over Distributed Encrypted Data}},
+    title={Scalable Private Set Intersection over Distributed Encrypted Data},
     author={Paik, Seunghun and Koirala, Nirajan and Nero, Jack and Son, Hyunjung and Kim, Yunki and Seo, Jae Hong and Jung, Taeho},
     booktitle={Proceedings of the 2026 ACM Asia Conference on Computer and Communications Security},
     year={2026},
@@ -155,14 +155,14 @@ This submission contains five papers from my research area (applied cryptography
 
 ### Paper 5: General Functional Bootstrapping using CKKS
 
-**Reference:** A. Alexandru, A. Kim, and Y. Polyakov, “General Functional Bootstrapping Using CKKS,” in Advances in Cryptology – CRYPTO 2025, p. 304–337, 2025.
+**Reference:** A. Alexandru, A. Kim, and Y. Polyakov, “General functional bootstrapping using CKKS,” in Advances in Cryptology – CRYPTO 2025, p. 304–337, 2025.
 
 **DOI:** [https://doi.org/10.1007/978-3-032-01881-6_10](https://doi.org/10.1007/978-3-032-01881-6_10)
 
 ```bibtex
 @inproceedings{fun2025Bootstrapping,
     author = {Alexandru, Andreea and Kim, Andrey and Polyakov, Yuriy},
-    title = {{General Functional Bootstrapping Using CKKS}},
+    title = {General Functional Bootstrapping using {CKKS}},
     year = {2025},
     isbn = {9783032018809},
     url = {https://doi.org/10.1007/978-3-032-01881-6_10},
