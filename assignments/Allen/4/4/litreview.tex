@@ -1,0 +1,75 @@
+\documentclass[12pt]{article}
+\usepackage{times} 			% use Times New Roman font
+
+\usepackage[margin=1in]{geometry}   % sets 1 inch margins on all sides
+\usepackage[hidelinks]{hyperref}               % for URL formatting
+\usepackage[pdftex]{graphicx}       % So includegraphics will work
+
+% for fancy page headings
+\usepackage{fancyhdr}
+\setlength{\headheight}{13.6pt} % to remove fancyhdr warning
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{\small \thepage}
+\lhead{\small CS 800, Spring 2022 - HW4 - Insert Your Last Name Here}
+
+% more packages and settings 
+\usepackage{datetime}
+\usepackage{indentfirst}  % always indent first paragraph in a section
+\usepackage[sort&compress, square, comma, numbers]{natbib}
+\usepackage[small, bf]{caption}
+\setlength{\parskip}{0.5em}
+
+%-------------------------------------------------------------------------
+\begin{document}
+
+\begin{centering}
+{\large\textbf{HW4 - Literature Review}}\\
+\vspace{3mm} % add vertical space
+Lulu Allen\\
+CS 800, Spring 2022\\
+\end{centering} 
+
+%-------------------------------------------------------------------------
+
+% INSERT LIT REVIEW HERE
+
+\section{Introduction}
+Medical research and genomic data have been an unprecedented and ongoing violation on marginalized populations which researchers rationalized as a necessary sacrifice for scientific advancement regardless of violating the protection of individual rights. As healthcare systems integrate Internet of Things (IoT) technologies, artificial intelligence, and additional genomic databases into clinical and research practice which has exposed patient information to misuse, unauthorized access, and systemic exploitation. My research and papers examine how existing legal, ethical, technical, and institutional frameworks can be strengthened to preserve health information privacy and prevent ethical violations in medical research. The five essays reviewed were selected because they collectively represent the extensiveness of moral fundamentals of AI ethics and the historical roots of medical exploitation. This includes details and examples of a systemic pattern of exploitation within the technical architecture of secure healthcare networks, vulnerabilities of genomic databases, and the current federal guidance on protecting genomic data. Mutually, my five research essays situate the problem of health information privacy within both its historical context, and its current dimensions point towards the frameworks needed to ensure that the exploitation of the past is not replicated in the data systems of the present. Establishing the central argument that the protection of health information and the prevention of ethical violations in medical research are not new problems demanding new solutions, but old injustices demanding long-overdue accountability and heightening security application.
+% one paragraph describing the topic you will be reviewing and how the papers were selected for inclusion
+
+\section{Summaries}
+S. Arshad, J. Arshad, M. M. Khan, and S. Parkinson (2021) — Analysis of Security and Privacy Challenges for DNA-Genomics Applications and Databases
+
+My first peer-reviewed study by Arshad and colleagues published in the Journal of Biomedical Informatics offers the most comprehensive technical mapping of genomic data vulnerabilities. The authors systematically analyze threats across the full genomic data lifecycle from initial sample collection and sequencing through storage, access, analysis, and cross-institutional sharing. Moreover, limiting assess of data will hinder the capability of current protective measures including encryption, anonymization, differential privacy, and access control managements (Arshad, 2021). Their findings reveal that genomic data introduces a fundamentally different type of privacy threat because genetic information is undisputable, uniquely identifying, and biologically shared among relatives. One data breach can permanently compromise the privacy of an individual and their extended family in ways that conventional health records do not. The paper identifies critical gaps in existing security architectures and calls for a more rigorous, system lifecycle approach to genomic data protection. This review is vital because it defines with technical precision the specific vulnerabilities that health information privacy frameworks must address in the genomic context. Furthermore, protecting genomic data requires not only stronger technical controls but a fundamental reconceptualization of what privacy means when the data in question is biological and heritable.
+
+A.	Aftab, C. Chrysostomou, H. K. Qureshi, and S. Rehman  (2022) — Holo-Block Chain: A Hybrid Approach for Secured IoT Healthcare Ecosystem
+
+My second article addresses the ongoing engineering challenge of securing real-time patient data in resource-limited IoT healthcare networks without compromising system performance. Their proposed Holo-Block Chain framework combines Blockchain's vigorous authentication with Holochain's computationally efficient data management which overcomes the limitations within technology when applied in isolation. The authors demonstrate through observed performance analysis that this hybrid model achieves superior security outcomes relative to either standalone approach. According to Aftab et al. (2022), the Holo-Blockchain framework exemplifies privacy-by-design, embedding security and confidentiality from the start rather than adding them later. As a result, it’s a feasible configuration for environments where medical devices must transmit sensitive data continuously and reliably. The significance of this work extends illustrates that effective health information privacy requires integrating ethical commitments into system design. 
+
+M. Cataleta (2020) — Humane Artificial Intelligence: The Fragility of Human Rights Facing AI
+
+Continuing to my third report, legal scholar Maria Stefania Cataleta tackles a critical argument about the structural vulnerability of human rights in an era of increasingly autonomous artificial intelligence. Cataleta contends that because AI systems operate without intrinsic moral reasoning, their deployment in sensitive domains including healthcare must be governed by ethical principles that are not only articulated but computationally embedded into the design of those systems (Cataleta, 2020). Through her work, it warns that without safeguards AI modeled on affective computing to encode human values can facilitate widespread privacy violations, discrimination, and the destruction of patient sovereignty. Protecting health information needs more than just technical solutions; it requires an ethical framework that predicts and limits how data systems might harm people. This approach provides a foundation for the governance structures recommended for privacy perseveration within medical research.
+
+R. Pulivarti, N. Martin, F. Byers, J. Wagner, J. Zook (2023) — Cybersecurity of Genomic Data (NIST IR 8432)
+
+My fourth report represents the most up-to-date and official guidance from the government on keeping genomic data safe in the US. Pulivarti and colleagues map the genomic data ecosystem comprehensively and explain how hackers could target different vulnerabilities in their collection, processing, and sharing of the system leading to suggestions to prevent breaches. The report proposes a security control framework aligned with established NIST standards, regulations, and operational truths of genomic environments. Its scope extends beyond technical safeguards to address governance, workforce training, incident response, and the responsibilities of data management within bioinformatics pipelines; clinical and research databases; and interinstitutional data-sharing networks; and cybersecurity (Pulivarti, 2023). The NIST report validates the urgency of the research problem by emphasizing federal agencies' prioritization of genomic data security, providing a model for implementing ethical and technical guidelines into enforceable institutional policies.
+
+E. Pratt (2020–2021) — The Medical Ethics of HeLa Cells
+
+Lastly, Pratt's research provides a historically grounded analysis of the ethically significant case of Henrietta Lacks's non-consensual cell harvesting and commercialization in 1951. This article argues that the HeLa case is not simply a historical variance but a typical illustration of the ways in which medical institutions have systematically subordinated patient autonomy, informed consent, and dignity within marginalized communities to the necessities of scientific progress and economic gain. Pratt traces how the absence of meaningful consent mechanisms allowed Lacks's biological material to be reproduced, distributed, and profited from without any acknowledgment of, or compensation to, her or her family, and surveys the legal and bioethical debates her case has continued to motivate. Such an article demonstrates that the violation of health information privacy is not an abstract or future risk but a historical reality with documented human consequences. The HeLa case ethical failures’ underscore the moral urgency of the technical and policy frameworks discussed herein and serve as a cautionary example in genomic data security where biological information is increasingly collected, stored, and repurposed beyond existing consent frameworks.
+
+% one paragraph for each of the papers that summarizes the main ideas
+
+This line is here to demonstrate including references \cite{hao-vizsec13}. It must be removed before you submit your assignment.
+
+\section{Synthesis}
+The five works reviewed into an interconnected body of arguments addressing a singular, urgent issue such as the systemic failure of systems responsible for collecting, storing, and utilizing health and genomic data to adequately protect individuals. This failure is both historical and ongoing, ethical and technical, affecting individuals and institutions identically. It is illustrated through the HeLa case that the exploitation of biological material without consent is a documented; and structural pattern rooted in the subordination of patient rights to institutional and commercial interests exists. With the expansion of artificial intelligence, AI and data-driven systems can embed ethical principles like replicating this pattern at a higher scale and speed. Together, these works reveal that privacy violations are not accidental failures, but predictable outcomes of systems fundamentally designed without prioritizing patient autonomy, reframing the privacy issue as an ethical failure rather than merely a technical deficiency. Establishing a diagnostic framework identifying vulnerabilities in genomic data systems and demonstrating innovative architectural solutions, such as the hybrid Holo-Blockchain model can significantly enhance security even under current constraints. Effective health data privacy depends on ongoing application between vulnerability assessment and engineering solutions guided by ethical provisions. Its alignment with established standards and collaborative development represents cross-sector accountability. Collectively, these works define the blueprint and highlight that protecting health privacy and preventing ethical breaches require ongoing, integrated ethical, technical, and institutional efforts which are goals this dissertation aims to promote.
+% a description of how the papers fit together and their relationship to the overall body of work in your topic, can be multiple paragraphs
+
+%-------------------------------------------------------------------------
+
+\bibliographystyle{ieeetr} 		% use IEEE bibliography style
+\bibliography{litreview}
+
+\end{document}

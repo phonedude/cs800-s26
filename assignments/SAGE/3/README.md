@@ -1,19 +1,14 @@
-# Papers
+Papers
 --------
 [Elucidated Rolling Diffusion Model](papers/Elucidated_Rolling_diffusion_models.pdf)
-
 [diffda](papers/diffda.pdf)
-
 [aerosol ocean retrieval](papers/areosol_ocean_retrieval.pdf)
-
 [Transformers](papers/transformer_paper)
-
 [Generative data assimiliation](papers/NVIDIA_Paper)
-
 [BibTeX References](references/bibtec.pdf)
 
 ------
-## Paper 1 Elucidated Rolling Diffusion Models
+Paper 1 Elucidated Rolling Diffusion Models
 
 First Page
 
@@ -56,7 +51,7 @@ Improves stability and performance of diffusion-based forecasting methods.
 Demonstrates strong results on complex dynamical systems and long-horizon predictions.
 
 -------
-## Paper 2 DiffDA
+Paper 2 DiffDA
 
 First Page
 
@@ -98,7 +93,7 @@ Demonstrates the ability to handle weather scale systems efficiently.
 Shows improved reconstruction of atmospheric states from sparse observations.
 
 ----
-## Paper 3 Deep Learning Based Aerosol and Ocean Data Retrieval
+Paper 3 Deep Learning Based Aerosol and Ocean Data Retrieval
 
 First Page
 
@@ -136,7 +131,7 @@ Improves accuracy and efficiency compared to traditional retrieval methods.
 Demonstrates the feasibility of AI driven remote sensing data analysis.
 
 ----
-## Paper 4 Attention Is All You Need
+Paper 4 Attention Is All You Need
 
 First Page
 
@@ -173,7 +168,7 @@ Introduces self-attention as the core mechanism for sequence modeling.
 Significantly improves performance and training efficiency in machine translation and other NLP tasks.
 
 -----
-## Paper 5 Generative Data Assimilation of Sparse Weather Station Observations
+Paper 5 Generative Data Assimilation of Sparse Weather Station Observations
 
 First Page
 
@@ -181,21 +176,10 @@ First Page
 
 Reference
 
-```bibtex
-@article{manshausen2025generative,
-title={Generative Data Assimilation of Sparse Weather Station Observations
-at Kilometer Scales},
-author={Manshausen, Peter and Cohen , Yair and Harrington , Peter and Pathak ,
-Jaideep and Pritchard , Mike S . and Garg , Piyush and Mardani , Morteza and
-Kashinath , Karthik and Byrne , Simon and Brenowitz , Noah D .} ,
-journal={Journal of Advances in Modeling Earth Systems},
-volume={17},
-number={10},
-pages={e2024MS004505},
-year={2025},
-doi={10.1029/2024 MS004505}
-}
-```
+Peter Manshausen, Yair Cohen, Peter Harrington, Jaideep Pathak, Mike S. Pritchard,
+Piyush Garg, Morteza Mardani, Karthik Kashinath, Simon Byrne, and Noah D. Brenowitz.
+Generative data assimilation of sparse weather station observations at kilometer scales.
+Journal of Advances in Modeling Earth Systems, 17(10):e2024MS004505, 2025
 
 DOI
 

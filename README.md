@@ -48,7 +48,9 @@ CRN 32738
 * Week 09:	Mar 23	Students Presentations (1/2) and Proposal Writing
   * [Class slides](https://docs.google.com/presentation/d/1H7ulYtB3h200firEshT_PxdKGzYFxKWWBHFf8kjJsYc/edit)
 * Week 10: Mar 30  Students Presentations (2/2)
-* Week 11: Apr 6	TBA  
+* Week 11: Apr 6 Publications and Citations
+  * [Class slides (formal version)](https://docs.google.com/presentation/d/1XrdCSsp86iH6FEcan8asFJRiH7LqGMYk92M-aNvU8gU/edit)
+  * [Class slides (fun version)](https://docs.google.com/presentation/d/1jxKLbQT0u8xvnESTxii8BCmBddWhchRMByc6u8ahq1A/edit)
 * Week 12: Apr 13	Student Dissertation Presentations  
 * Week 13: Apr 20	Student Dissertation Presentations  
 * Week 14: Apr 27	Student Dissertation Presentations  
@@ -68,3 +70,5 @@ CRN 32738
    * [Due: Mar 9](/assignments/assignment-04.md)
 * Assignment 5: Literature Review, Part 2
    * [Due: Mar 23](/assignments/assignment-05.md)
+* Assignment 6: Student Dissertation Presentations
+   * [Due: Apr 13--May 4](/assignments/assignment-06.md)

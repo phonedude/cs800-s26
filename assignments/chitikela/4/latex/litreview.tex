@@ -1,0 +1,196 @@
+\documentclass[12pt]{article}
+\usepackage{times} 			% use Times New Roman font
+
+\usepackage[margin=1in]{geometry}   % sets 1 inch margins on all sides
+\usepackage[hidelinks]{hyperref}               % for URL formatting
+\usepackage[pdftex]{graphicx}       % So includegraphics will work
+
+% for fancy page headings
+\usepackage{fancyhdr}
+\setlength{\headheight}{13.6pt} % to remove fancyhdr warning
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{\small \thepage}
+\lhead{\small CS 800, Spring 2026 - A4 - Chitikela}
+
+% more packages and settings
+\usepackage{datetime}
+\usepackage{indentfirst}  % always indent first paragraph in a section
+\usepackage[sort&compress, square, comma, numbers]{natbib}
+\usepackage[small, bf]{caption}
+\setlength{\parskip}{0.5em}
+
+%-------------------------------------------------------------------------
+\begin{document}
+
+\begin{centering}
+{\large\textbf{A4 - Literature Review}}\\
+\vspace{3mm}
+Yamini Chitikela\\
+CS 800, Spring 2026\\
+\end{centering}
+
+%-------------------------------------------------------------------------
+
+\section{Introduction}
+
+Graph neural networks (GNNs) have emerged as the dominant paradigm for machine
+learning on graph-structured data, with applications spanning molecular property
+prediction, drug discovery, and social network analysis. Two theoretical
+properties lie at the heart of their study: \textit{expressiveness}, the ability
+to distinguish structurally non-isomorphic graphs, and \textit{generalization},
+the capacity to perform well on unseen graph distributions. This literature review
+examines five papers that address both properties through the unifying
+mathematical framework of graph homomorphism---edge-preserving mappings between
+graphs---which has proven to be a natural and precise language for characterizing
+the structural information that GNNs can encode. Barcel\'{o} et al.~\cite{barcelo2021graph}
+established both the practical efficiency and theoretical grounding of augmenting
+GNNs with homomorphism counts of small graph patterns. Zhang et al.~\cite{zhang2024beyond}
+provided a complete quantitative theory of GNN expressiveness by identifying
+exactly which graph patterns each architecture can count under homomorphism.
+Li et al.~\cite{li2024generalization} connected this structural lens to GNN generalization
+through information-theoretic bounds derived from homomorphism entropy.
+Li et al.~\cite{li2025towards} directly examined the relationship between expressivity and
+generalization, challenging a widely held theoretical assumption. Finally,
+Zhang et al.~\cite{zhang2026reinterpreting} extended the homomorphism framework to hypergraph
+kernels. These papers were selected because they form a coherent, foundational
+body of work that spans from landmark theoretical contributions to the current
+research frontier, establishing graph homomorphism as the central analytical tool
+for understanding and improving graph learning methods.
+
+\section{Summaries}
+
+Barcel\'{o} et al.~\cite{barcelo2021graph} address the fundamental limitation that
+message-passing neural networks (MPNNs) are bounded in expressive power by the
+one-dimensional Weisfeiler-Lehman (1-WL) graph isomorphism test, preventing
+them from detecting substructures such as triangles or cycles. Their proposed
+solution is the $\mathcal{F}$-MPNN framework, which extends any MPNN by
+prepending a single preprocessing step that computes homomorphism counts of small
+rooted graph patterns from a set $\mathcal{F}$ and appends these counts to each
+vertex's initial feature vector. This augmentation maintains the $\mathcal{O}(n)$
+per-iteration memory cost of the underlying MPNN. The authors precisely
+characterize the expressive power of $\mathcal{F}$-MPNNs through a generalized
+algorithm called $\mathcal{F}$-WL: two vertices are indistinguishable by any
+$\mathcal{F}$-MPNN if and only if their homomorphism counts from all
+$\mathcal{F}$-pattern trees coincide, placing $\mathcal{F}$-MPNNs strictly
+between 1-WL and 2-WL in expressiveness. Theoretical results further identify
+conditions under which a pattern in $\mathcal{F}$ is redundant given others,
+providing practical guidance for pattern selection. Empirical evaluations across
+multiple benchmark datasets confirm that augmenting existing GNN architectures
+with homomorphism counts consistently yields performance improvements with
+negligible computational overhead.
+
+Zhang et al.~\cite{zhang2024beyond} argue that the Weisfeiler-Lehman hierarchy, while
+widely used, provides only a coarse and qualitative assessment of GNN
+expressiveness that fails to characterize the practical capabilities of modern
+architectures. They introduce \textit{homomorphism expressivity} as a complete,
+quantitative alternative: for any GNN model $M$, the family $\mathcal{F}^M$
+consists of all graph patterns that $M$ can count under graph homomorphism, and
+this family uniquely determines the representations that $M$ computes on any
+graph. Two GNN models compute identical representations on all graphs if and only
+if their homomorphism expressivities coincide, making $\mathcal{F}^M$ a true
+fingerprint for each model. Using novel extensions of the nested ear decomposition
+(NED) concept from graph theory, the authors derive exact characterizations for
+four major GNN families: MPNNs capture forests, Subgraph GNNs capture graphs with
+endpoint-shared NED, Local 2-GNNs capture graphs with strong NED, and 2-FGNNs
+capture graphs with any NED. These results enable direct quantitative comparison
+of architectures, settle several previously open questions, and are empirically
+validated by demonstrating that homomorphism expressivity correlates well with
+practical model performance.
+
+Li et al.~\cite{li2024generalization} observe that existing generalization bounds for
+GNNs typically rely on coarse graph statistics such as maximum degree and tend to
+be vacuous for real-world datasets, failing to reflect the structural complexity
+of actual graph distributions. Their approach connects GNN generalization to the
+\textit{entropy of graph homomorphism}: an information-theoretic quantity that
+measures the diversity of homomorphism count vectors across graphs drawn from a
+given distribution for a pattern set $\mathcal{F}$. Datasets whose graphs exhibit
+low-entropy homomorphism count distributions contain repetitive structural
+patterns, which support tighter generalization bounds. The authors derive
+non-vacuous generalization bounds for both graph-level and node-level
+classification tasks within the $\mathcal{F}$-MPNN framework, covering 1-WL
+GNNs, $k$-WL GNNs, Homomorphism-Injected GNNs, and Subgraph-Injected GNNs under
+a unified theoretical lens. Empirical comparisons on both real-world benchmark and
+synthetic datasets show that the proposed bounds closely track observed
+generalization gaps, establishing homomorphism entropy as a practically
+meaningful and data-dependent measure of GNN generalization capacity.
+
+Li et al.~\cite{li2025towards} challenge the common theoretical belief that highly
+expressive GNNs tend to overfit graph structures and therefore generalize poorly
+compared to simpler models. They demonstrate empirically that expressive models
+frequently achieve strong generalization performance, and develop a theoretical
+framework that reconciles this observation with statistical learning theory. Their
+central contribution is a $k$-variance margin-based generalization bound in which
+a GNN's generalization gap is linked to the variance in graph structure that the
+model captures, as measured relative to a more expressive reference encoder. A key
+consequence is that the generalization bound of any GNN can be upper-bounded using
+a more expressive encoder, allowing structural complexity to be analyzed through
+simpler combinatorial descriptors including homomorphism counts. Their analysis is
+architecture-agnostic. They further identify two geometric properties of learned
+embedding spaces that govern generalization quality: intra-class concentration,
+which measures how tightly same-class graph embeddings cluster, and inter-class
+separation in the Wasserstein metric. Experiments on the PROTEINS benchmark
+confirm that more expressive models produce embedding distributions exhibiting
+both properties simultaneously, supporting the theoretical conclusions.
+
+Zhang et al.~\cite{zhang2026reinterpreting} extend the homomorphism-based expressiveness
+framework from ordinary graphs to hypergraph kernels, where hyperedges may
+connect any number of vertices to capture higher-order relationships in
+bioinformatics and network analysis. They propose a general comparison framework
+grounded in hypergraph homomorphism: the expressive power of any hypergraph
+kernel is fully characterized by its \textit{pattern space}, the family of
+hypergraph substructures whose homomorphism counts the kernel implicitly encodes.
+Two kernels are equally expressive if and only if their pattern spaces coincide,
+enabling direct comparison without case-by-case analysis. Applying this
+framework, the authors characterize the pattern space of the Hypergraph
+Weisfeiler-Lehman (HG WL) kernel---the set of all hypergraph subtrees---and
+analyze the Hypergraph Rooted kernel, deriving exact conditions under which each
+fails to distinguish non-isomorphic hypergraphs. To address these limitations,
+they introduce the \textit{Hypergraph Subtree-Cycle Kernel} (HG SCKernel), which
+augments tree-based structural features with cycle-based homomorphism count
+patterns, yielding two variants of increasing expressiveness. Experiments across
+fifteen classification benchmarks confirm the superiority of the proposed kernels
+over classical hypergraph kernel methods.
+
+\section{Synthesis}
+
+The five papers reviewed here form a coherent research arc in which graph
+homomorphism emerges as the central theoretical tool for analyzing graph learning
+methods across two dimensions: expressiveness and generalization.
+Barcel\'{o} et al.~\cite{barcelo2021graph} initiated this line of work by showing that homomorphism
+counts of small graph patterns can practically and efficiently enhance GNN
+expressiveness, establishing the $\mathcal{F}$-MPNN framework as both a
+deployable architecture and a theoretical model. This posed the natural question
+of exactly what different architectures can compute---a question answered
+rigorously and completely by Zhang et al.~\cite{zhang2024beyond}, who proved that the family
+of patterns a GNN can count under homomorphism uniquely determines its output
+representations. The nested ear decomposition characterizations derived in that
+work transformed the study of GNN expressiveness from a qualitative ordering into
+a precise, quantitative science: rather than asking whether one model is more
+expressive than another, researchers can now identify which specific substructures
+separate two architectures in terms of their distinguishing capability.
+
+The subsequent papers extend this expressiveness-oriented framework to
+generalization, engaging with the full scope of the learning problem.
+Li et al.~\cite{li2024generalization} establish that the information-theoretic entropy of
+homomorphism count distributions provides non-vacuous and data-dependent
+generalization bounds, directly linking the structural diversity of a graph
+dataset to the expected test performance of a GNN. This reframes generalization
+analysis from a worst-case exercise dependent on crude graph statistics to a
+structurally meaningful one. Li et al.~\cite{li2025towards} complement this by refuting
+the assumed expressivity--generalization trade-off, showing theoretically and
+empirically that expressive models tend to produce well-concentrated and
+well-separated embedding distributions---precisely the geometric properties that
+support generalization under margin-based analysis. Finally,
+Zhang et al.~\cite{zhang2026reinterpreting} demonstrate that the pattern-space
+characterization of expressiveness transfers naturally to hypergraph kernels,
+confirming the broad applicability of homomorphism-based analysis beyond standard
+GNN architectures. Taken together, these five works establish that structural
+information---measured, compared, and designed through the lens of graph
+homomorphism---is the fundamental currency of graph learning theory and practice.
+
+%-------------------------------------------------------------------------
+\bibliographystyle{ieeetr}
+\bibliography{litreview}
+
+\end{document}
