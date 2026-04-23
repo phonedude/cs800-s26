@@ -33,6 +33,15 @@ Here is the Literature Review
 [Literature Review](lit_review/Literature_Review.pdf)
 
 
+## .bib and .tex
+
+Here are the .bib and .tex files from the literature review
+
+[.tex File](tex_and_bib/main.tex)
+
+[.bib File](tex_and_bib/litreview.bib)
+
+
 ## Youtube Link
 
 https://youtu.be/IHPVPctUTG8

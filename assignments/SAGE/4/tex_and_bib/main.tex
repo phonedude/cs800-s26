@@ -1,0 +1,71 @@
+\documentclass[12pt]{article}
+\usepackage{times} 			% use Times New Roman font
+
+\usepackage[margin=1in]{geometry}   % sets 1 inch margins on all sides
+\usepackage[hidelinks]{hyperref}               % for URL formatting
+\usepackage[pdftex]{graphicx}       % So includegraphics will work
+
+% for fancy page headings
+\usepackage{fancyhdr}
+\setlength{\headheight}{13.6pt} % to remove fancyhdr warning
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{\small \thepage}
+\lhead{\small CS 800, Spring 2026 - HW4 - Nathan Sage}
+
+% more packages and settings 
+\usepackage{datetime}
+\usepackage{indentfirst}  % always indent first paragraph in a section
+\usepackage[sort&compress, square, comma, numbers]{natbib}
+\usepackage[small, bf]{caption}
+\setlength{\parskip}{0.5em}
+
+%-------------------------------------------------------------------------
+\begin{document}
+
+\begin{centering}
+{\large\textbf{HW4 - Literature Review}}\\
+\vspace{3mm} % add vertical space
+Nathan Sage\\
+CS 800, Spring 2026\\
+\end{centering}
+
+%-------------------------------------------------------------------------
+
+% INSERT LIT REVIEW HERE
+
+\section{Introduction}
+For my literature review, I decided to look into how AI models can be used for weather systems.  Predicting the weather is an infamously difficult topic.  Tiny initial changes lead to large, divergent changes over time. Temperature, pressure, wind, and moisture vary widely and are almost impossible to measure across the entire planet, leading to significant volatility in weather models.  The work I am doing with my professor and the papers I have decided to review are aimed at finding ways AI can solve these problems.  The first paper I decided to review was Elucidated Rolling Diffusion Models for Probabilistic Forecasting of Complex Dynamics \cite{cachay2025elucidated}. I chose this paper because it uses two different diffusion models, an elucidated diffusion model and a rolling diffusion model, to predict weather over time. The second paper I decided to review was Deep Learning-Based Aerosol and Ocean Data Retrieval from Satellite Polarimeter Measurements \cite{wang2025deeplearning}.  I chose this paper because it combines traditional mathematical ways of calculating aerosol particles in the atmosphere with a deep learning model to replace time-consuming calculations and maintain its accuracy. The third paper I decided to review was Generative Data Assimilation of Sparse Weather Station Observations at Kilometer Scales \cite{manshausen2025generative}. This paper decides to use a score-based data assimilation model to generate initial weather conditions.  This allows the model to generate plausible weather structures that can be used in other models.  The fourth paper I decided to review was DiffDA: a diffusion model for weather-scale data assimilation \cite{huang2024diffda}.  This paper is about using a diffusion model to generate the initial data for weather models, something that has a huge impact on the weather models, but can be very expensive to obtain, with large amounts of missing data due to lack of coverage or inaccurate sensors.  The final paper I decided to review was Foundations of Diffusion Models in General State Spaces: A Self-Contained Introduction \cite{pauline2025foundations}. This is a great summary paper that goes over the foundations for diffusion models, especially the mathematics behind these diffusion models. Together, these papers do a lot in informing me about the current use of AI for weather forecasting.
+
+\section{Summaries}
+
+The first paper I reviewed was Elucidated Rolling Diffusion Models for Probabilistic Forecasting of Complex Dynamics \cite{cachay2025elucidated}. This paper relies on a generative framework for probabilistic weather forecasting, using diffusion models to create weather maps. Diffusion models are well-suited for forecasting because they generate samples from complex probability distributions, enabling ensemble prediction. However, prior diffusion-based forecasting approaches typically predict each timestep independently, failing to forecast the future. So to address this, the paper combines a rolling forecast structure with Elucidated Diffusion Models to improve training stability and data quality. To do this, the model increases noise for the forecast lead time and applies diffusion-based denoising to generate atmospheric states. The experiments in the paper show that the elucidated rolling diffusion model produces better forecasts and more realistic uncertainty estimates than existing methods.
+
+The second paper I reviewed was Deep Learning-Based Aerosol and Ocean Data Retrieval from Satellite Polarimeter Measurements \cite{wang2025deeplearning}. This paper proposes a deep learning framework to accelerate aerosol retrieval from satellite measurements. Traditional retrieval methods rely on vector radiative transfer (VRT) calculations within the MAPP algorithm, which are very computationally expensive. So the paper uses a neural network to approximate the VRT calculations using a forward model and a dataset of two million simulated input/output pairs generated from the MAPP framework. The paper tries three architectures: feedforward neural networks, convolutional neural networks, and recurrent neural networks with LSTM units. The paper finds that the RNN model achieves the highest accuracy, reducing prediction error by over 90\% compared to CNN models. Compared to just the VRT algorithm, this also reduces retrieval time from approximately 60 minutes to under one second, demonstrating the potential of this paper.
+
+The third paper I reviewed was Data Assimilation of Sparse Weather Station Observations at Kilometer Scales \cite{manshausen2025generative}. This paper proposes a generative data assimilation framework based on score-based diffusion models for reconstructing atmospheric states at a 3 km resolution from only a small amount of observed data. The model is trained on high-resolution atmospheric data from the High-Resolution Rapid Refresh (HRRR) dataset to learn the realistic weather states. Using the score-based data assimilation, the model can incorporate sparse data points and generate the full atmospheric fields such as precipitation and surface winds. The paper showed that the approach produces physically realistic structures and achieves lower reconstruction error than a baseline HRRR approach when evaluated on withheld stations. It also shows that diffusion models can provide an efficient alternative to traditional numerical data assimilation systems.
+
+The fourth paper I reviewed was DiffDA: a diffusion model for weather-scale data assimilation \cite{huang2024diffda}. This paper introduces a diffusion-based machine learning framework for atmospheric data assimilation. Traditional data assimilation methods rely on expensive optimization techniques to combine observations with numerical forecasts. DiffDA reformulates the assimilation problem as conditional sampling using a denoising diffusion model. The system leverages the GraphCast neural weather forecasting model as the backbone of the diffusion architecture and generates atmospheric states that are consistent with both its forecasting data. The paper used ERA5 reanalysis data to show that DiffDA can reconstruct global atmospheric fields within 0.25° of resolution even though fewer than 1\% of grid cells contain observations. Forecasts initialized with DiffDA states exhibit only minor degradation compared to operational assimilation systems, demonstrating the potential of diffusion models for a more scalable machine learning based weather data system.
+
+The Fifth paper I reviewed was Foundations of Diffusion Models in General State Spaces: A Self-Contained Introduction \cite{pauline2025foundations}. This paper provides a comprehensive introduction to diffusion models that work across both continuous and discrete data types, which is something most existing papers don’t do. It aims to serve as both an accessible primer and a theoretical synthesis for researchers working on different kinds of diffusion-based generative models.  It is a foundational paper that I can use to expand my knowledge base in mathematics behind diffusion models, so I can understand what the other papers are doing. 
+
+\section{Synthesis}
+% a description of how the papers fit together and their relationship to the overall body of work in your topic, can be multiple paragraphs
+
+Together, these papers show a diffusion-based machine learning framework to address the core challenges in weather forecasting, particularly those involving uncertainty quantification, spatiotemporal dynamics, and scalability. The paper Foundations of Diffusion Models in General State Spaces: A Self-Contained Introduction \cite{pauline2025foundations}, is a great tutorial on learning the mathematics behind diffusion models.  This is necessary since many of the approaches use a diffusion model, and I can extend what I learned to weather systems.
+
+Building on this, DiffDA \cite{huang2024diffda} recognizes that initial conditions are crucial for forecasting. So the authors adapt a denoising diffusion approach with a pretrained GraphCast model to assimilate sparse atmospheric data. Their model achieves high-resolution assimilated fields that are consistent with observations while reducing the loss in forecast lead time compared to conventional data assimilation, demonstrating that diffusion models can meaningfully contribute to preprocessing tasks.
+
+Elucidated Rolling Diffusion Models can be used for forecasting \cite{cachay2025elucidated}.  This paper highlights a key limitation of previous forecasting models.  The inability of those models to track uncertainty growth over time.  The paper solves this by integrating a rolling forecast structure with high fidelity diffusion components.  They do this by improving the forecast quality on both simulated and real atmospheric data.
+
+Complementing this, the paper Data Assimilation of Sparse Weather Station Observations at Kilometer Scales \cite{manshausen2025generative}, shows how the probabilistic framing of diffusion models for time series weather forecasts can be used even when data is sparse.  This model is tuned specifically to capture the uncertainty and temporal dependencies inherent in the complexities of weather data.
+
+Finally Deep Learning-Based Aerosol and Ocean Data Retrieval from Satellite Polarimeter Measurements \cite{wang2025deeplearning} shows how traditional deep learning models can be used in place of traditional algorithms, drastically increasing forecasting time.
+
+Taken together, these works suggest a trajectory in the field from a mathematical foundations to an assimilation and probabilistic forecasting frameworks.  With diffusion models being used as a powerful tool to model uncertainty,
+
+\bibliographystyle{ieeetr} 		% use IEEE bibliography style
+\bibliography{litreview}
+
+\end{document}
+
