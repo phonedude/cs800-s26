@@ -21,7 +21,7 @@ This folder contains materials for **CS 800 – Research Methods (Assignment 6)*
 
 **Title:** Privacy-Preserving Deep Learning Framework for IoT Malware Detection 
 
-**Author:** Sabbir Ahmed Khan 
+**Author:** Sabbir Ahmed Khan  
 **Institution:** Old Dominion University  
 **Department / degree:** Computer Science; Doctor of Philosophy (PhD)  
 **Document type:** Dissertation  
