@@ -7,9 +7,9 @@ Course: CS800 - Research methods, Spring 2026
 This repository contains the deliverables for Assignment 6. The project involves a 20-minute synthesis and presentation of a doctoral dissertation relevant to computational structural biology. The focus is on research motivations, technical methodologies for cryo-EM map modeling, and evaluation results.
 
 ### Dissertation Information
-**Title:** Protein Structural Modeling Using Electron  Microscopy Maps
-**Author:** Eman Alnabati
-**Advisor:** Dr. Daisuke Kihara
+**Title:** Protein Structural Modeling Using Electron  Microscopy Maps\
+**Author:** Eman Alnabati\
+**Advisor:** Dr. Daisuke Kihara\
 **University:** Purdue University
 
 ### Pickup Explain
