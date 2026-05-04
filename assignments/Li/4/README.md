@@ -5,7 +5,7 @@ Course: CS800 - Research methods, Spring 2026
 
 ## Overview
 
-A literature review of **five papers** on cryo-EM map–guided protein model building (alignment, automated pipelines, diffusion-based fitting, iterative evolutionary + experimental integration) and AlphaFold 3 as a prediction baseline.
+A literature review of **five papers** on cryo-EM map–guided protein model building (alignment, automated pipelines, diffusion-based fitting, iterative evolutionary + experimental integration) and AlphaFold 3 as a prediction baseline. Latex format is being used and the pdf file should no longer than 4 pages including 2 pages of introduction and summery, one-half to full page of synthesis, and references at the end.
 
 ## Directories and files
 
@@ -28,4 +28,4 @@ A literature review of **five papers** on cryo-EM map–guided protein model bui
 
 ## YouTube Video Link
 
-URL: (add later)`https://youtu.be/...`*
+[https://youtu.be/WyVRIUwiiSY](https://youtu.be/WyVRIUwiiSY)
