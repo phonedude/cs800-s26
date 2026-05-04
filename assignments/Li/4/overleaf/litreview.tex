@@ -1,0 +1,81 @@
+\documentclass[12pt]{article}
+\usepackage{times} 			% use Times New Roman font
+
+
+\usepackage[margin=1in]{geometry}   % sets 1 inch margins on all sides
+\usepackage[hidelinks]{hyperref}               % for URL formatting
+% \usepackage{hyperref}               % for URL formatting
+\usepackage[pdftex]{graphicx}       % So includegraphics will work
+
+\usepackage{doi}
+\usepackage{url}
+
+% for fancy page headings
+\usepackage{fancyhdr}
+\setlength{\headheight}{13.6pt} % to remove fancyhdr warning
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{\small \thepage}
+\lhead{\small CS 800, Spring 2026 - HW4 - Li}
+
+% more packages and settings 
+\usepackage{datetime}
+\usepackage{indentfirst}  % always indent first paragraph in a section
+\usepackage[sort&compress, square, comma, numbers]{natbib}
+\usepackage[small, bf]{caption}
+\setlength{\parskip}{0.5em}
+
+%-------------------------------------------------------------------------
+\begin{document}
+
+\begin{centering}
+{\large\textbf{HW4 - Literature Review}}\\
+\vspace{3mm} % add vertical space
+Changrui Li\\
+CS 800, Spring 2026\\
+\end{centering}
+
+%-------------------------------------------------------------------------
+
+% INSERT LIT REVIEW HERE
+
+\section{Introduction}
+% one paragraph describing the topic you will be reviewing and how the papers were selected for inclusion
+
+Recent progress in cryo-electron microscopy (cryo-EM) and deep learning has made high-quality structural modeling possible for increasingly complex biomolecular systems. However, a major challenge remains in the intermediate-resolution range, where cryo-EM maps preserve global structural information but often lack sufficient local detail for direct atomic model construction. At the same time, sequence-based predictors such as AlphaFold can generate strong initial models, but these models may still disagree with experimental maps in domain orientation, conformational state, or multichain assembly. This literature review focuses on methods that bridge this gap by combining predicted structures with map-guided correction and refinement. The selected papers were chosen because they represent a coherent methodological progression from map alignment to automated model building and iterative integration of evolutionary and experimental information \cite{han2021vesper,he2022embuild,wang2024diffmodeler,chen2026cryoevobuild,abramson2024alphafold3}.
+
+
+\section{Summaries}
+% one paragraph for each of the papers that summarizes the main ideas
+
+Han et al. introduced VESPER, a method for global and local cryo-EM map alignment that represents each map with local density vectors \cite{han2021vesper}. Traditional cross-correlation can be dominated by bulky regions and weak elongated density while under-weighting finer local directional structure; VESPER mitigates this by summarizing voxel neighborhoods with directional ``main vectors'' computed from inertia tensors of local density gradients, then scoring alignment through inner products between paired vectors rather than voxel intensity overlap alone. The framework supports pairwise map comparisons and map retrieval, searches exhaustively over translations efficiently with Fourier correlation, refines rotational degrees of freedom locally, and can be paired with iterative local optimization for fine alignment. Across benchmarks spanning similar maps, map-to-model docking, local patch matching, and map database queries, they report clearer discrimination of correct placements and retrieval hits relative to overlap-centric tools such as gmfit or fitmap. Because almost every downstream map-guided refinement step begins with plausible superposition, accurate alignment engines like VESPER are foundational for fitting AlphaFold-derived coordinates into noisy intermediate-resolution densities.
+
+
+He et al. proposed EMBuild, a fully automated way to assemble multichain protein complexes inside intermediate-resolution cryo-EM maps \cite{he2022embuild}. Their main idea is to stop fitting AlphaFold structures directly against the blurry experimental density. Instead, a deep neural network learns a ``main-chain probability map'' that highlights where backbone atoms likely sit, so rigid placement is more reliable before any flexible adjustment happens. Starting from AlphaFold2 models for individual chains, EMBuild conducts a rigid global fit to that learned map using He et al.'s published fast docking search over translations and rotations, then allows each rigid domain piece to tilt and shift independently so hinged regions can hug the blurred density without rerunning costly full dynamical simulations. When many chains must pack together inside one map, the software ranks candidate placements, rejects combinations that bury atoms inside one another, and repeats assembly passes until practically every chain settles into place. The authors evaluate EMBuild broadly on deposited single-particle maps and averaged cryo-ET maps, demonstrating near-manual PDB quality versus prior automatic competitors for many challenging assemblies.
+
+
+Wang et al. presented DiffModeler, which scales automated modeling toward larger complexes by learning a sharper, backbone-centric map surrogate before docking predicted chains \cite{wang2024diffmodeler}. A conditional diffusion module takes the voxel grid as conditioning input and progressively denoises toward a latent representation emphasizing continuous main-chain tubular signal, analogous to sharpening noisy reconstructions while suppressing unstructured background fluctuations. Predicted AlphaFold2 monomers are then placed into either the conditioned map or the original map depending on regime, aided by FFT-accelerated VESPER-style alignment and rotational refinement before a greedy multicopy assembly merges candidates under overlap and geometric constraints. Relative to pipelines that dock directly against raw densities, emphasizing backbone tubular structure before rigid-body search reduces sensitivity to blurry peripheral density and heterogeneous resolution falloff typical of large specimens. Consequently, DiffModeler extends the applicability of combined AlphaFold2 and VESPER-style fitting to sizable assemblies whose maps would previously frustrate greedy placement purely on unprocessed grids.
+
+Chen et al. proposed CryoEvoBuild as a refinement loop that alternates empirical map modeling with evolutionary sequence guidance \cite{chen2026cryoevobuild}. Each cycle carries out domain partitioning, docking of AlphaFold-derived domains into intermediate-resolution grids, restrained optimization, asymmetric unit assembly guided by oligomer symmetry when known, iterative rebuilding analogous to docking-and-rebuilding strategies used in crystallographic refinement, clash removal, completion of missing residues, and brief molecular dynamics polishing; the assembled coordinates are fed back into AlphaFold-multimer workflows as tertiary templates alongside co-evolutionary coupling signals so that mismatched regions inherit map-specific constraints rather than collapsing to incompatible prediction priors alone. Recycling multiple rounds lets the predictor reinterpret ambiguous loops or interfaces once cryo-EM density disambiguates their register. On benchmarks covering diverse targets at scale, CryoEvoBuild reports improved backbone trace accuracy and clash-free assemblies relative to prior automated builders including EMBuild and Phenix dock-and-rebuild pipelines while remaining fully automatic. Conceptually it reframes iterative cryo-EM refinement as alternating between homology-informed re-prediction and experimentally tethered docking, aligning tightly with workflows that coerce predicted coordinates until they satisfy both evolutionary contact priors and local EM evidence.
+
+
+Abramson et al. introduced AlphaFold 3, which replaces iterative coordinate recycling with single-pass generative modeling over tokenized polymers and small-molecule entities \cite{abramson2024alphafold3}. Inputs include sequences, ions, cofactors, post-translational modifications, nucleic acids, and ligands; a trunk network processes polymer token pairs jointly with pairwise distance and bonding priors before a latent diffusion decoder samples plausible all-atom coordinates consistent with multimolecular biochemistry beyond proteins alone. The reported gains span protein-ligand, protein-nucleic-acid, and modified-residue benchmarks at accuracy approaching specialized docking pipelines trained on structure databases. Nonetheless, diffusion outputs remain draws from predictive distributions rather than a single specimen-specific free-energy minimum, so rare motions, heterogeneous ligand protonation states, or conformations stabilized only in particular cryo-EM averages may diverge from any single AlphaFold 3 hypothesis. Accordingly, EM-guided pipelines remain essential for reconciling models with experimental density when the map remains the authoritative observation of molecular geometry for a sample, with AlphaFold 3 functioning as richer initialization or comparative hypothesis generation.
+
+\section{Synthesis}
+
+These papers collectively define a clear technical trajectory for cryo-EM-guided structure improvement. VESPER provides an accurate alignment foundation. EMBuild builds on this foundation by combining prediction, fitting, and assembly into a fully automated pipeline. DiffModeler further improves robustness by denoising and emphasizing backbone features with diffusion modeling before fitting. CryoEvoBuild closes the loop through iterative recycling, where map-informed models guide subsequent prediction rounds. AlphaFold 3, while not an EM-fitting method, provides the strongest current prediction baseline and highlights the need for experimentally guided correction when sequence-based models and map-derived conformations diverge.
+
+A shared theme across the four EM-focused papers is modular integration. Each successful method separates the problem into map representation, candidate pose generation, assembly optimization, and quality-driven refinement. This modularity is practical because each stage addresses a different failure mode: noisy maps, local misalignment, chain clash, and overconfident but incorrect predictions. Another common idea is domain-aware flexibility. Instead of treating a protein as a rigid body, these methods recognize that domain rearrangements are often the key obstacle in intermediate-resolution model building.
+
+For my research goal of improving predicted structures using EM data, the literature suggests a strong direction: start from high-quality sequence-based predictions (AF2/AF3), detect map-model mismatch regions, and apply iterative EM-constrained correction with domain-level flexibility and confidence-aware model selection. In other words, the problem is no longer simply fitting a fixed model into a map; it is co-optimizing evolutionary priors and experimental evidence to produce a biologically interpretable, map-consistent final structure.
+
+
+%-------------------------------------------------------------------------
+\bibliographystyle{ieeetr} 		% use IEEE bibliography style
+\bibliography{litreview}
+
+% \bibliographystyle{plain}
+% \bibliography{reference}
+% \section{Reference}
+
+\end{document}
