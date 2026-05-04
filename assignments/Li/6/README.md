@@ -1,6 +1,6 @@
 # Assignment 6: Student Dissertation Presentation
 
-Name: Changrui Li
+Name: Changrui Li\
 Course: CS800 - Research methods, Spring 2026
 
 ### Description
