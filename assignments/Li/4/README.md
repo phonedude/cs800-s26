@@ -1,6 +1,6 @@
 # Assignment 4: Literature Review
 
-Name: Changrui Li
+Name: Changrui Li\
 Course: CS800 - Research methods, Spring 2026
 
 ## Overview
