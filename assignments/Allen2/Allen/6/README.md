@@ -32,4 +32,4 @@ Hybrid Scenario Synthesis merges static and adaptive techniques to generate inte
 **ORCID:** 0009-0004-6189-7656
 
 **Google Slides Presentation**
-(https://docs.google.com/presentation/d/1LkRxUSLs6q9kgPQiuxbPMjeZ62aAldEXluMHSk94yzE/edit?slide=id.p#slide=id.p)
+(https://docs.google.com/presentation/d/1LkRxUSLs6q9KgPQiuxbPMjeZ62aAIdEXluMHSk94yzE/edit?usp=sharing)

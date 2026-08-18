@@ -44,4 +44,4 @@ month = "Dec",
 Analysis of Security and Genomic Data both highlights the security and privacy vulnerability landscape across the genomic lifecycle. One serves as a baseline while the other report extends every major vulnerability category into the domain of artificial intelligence and quantum computing.
 
 **Google Slides Presentation**
-(https://docs.google.com/presentation/d/1_gYCay2bzhO-QU4B5XkDt_nj2vYbzel/edit?slide=id.p1#slide=id.p1)
+(https://docs.google.com/presentation/d/1_gYCay2bzhO-QU4BQ5XkDt_nj2vYbzeI/edit?usp=sharing&ouid=100724433662074612078&rtpof=true&sd=true)
